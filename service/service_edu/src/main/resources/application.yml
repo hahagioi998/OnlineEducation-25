@@ -12,8 +12,8 @@ spring:
 
 mybatis-plus:
   type-aliases-package: com.yzz.service_edu.edu.entity
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   mapper-locations: /mapper/*.xml
   global-config:
     db-config:

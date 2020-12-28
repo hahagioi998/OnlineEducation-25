@@ -12,6 +12,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import io.swagger.models.auth.In;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -26,6 +27,7 @@ import java.util.List;
  * @author yky
  * @since 2020-12-25
  */
+@Slf4j
 @Api(description = "讲师管理")
 @RestController
 @RequestMapping("/edu/teacher")
@@ -37,13 +39,9 @@ public class TeacherController {
 	@ApiOperation(value = "所有讲师列表")
 	@GetMapping("/findAllTeach")
 	public ResultData findAllTeach(){
-		List<Teacher> list = null;
-		try{
-			list = teacherService.list(new QueryWrapper<>());
-		}catch (Exception e){
-			e.printStackTrace();
-			return ResultData.failed();
-		}
+		log.info("所有讲师列表...");
+		log.debug("所有讲师列表...");
+		List<Teacher> list = list = teacherService.list(new QueryWrapper<>());
 		return ResultData.sucess().data("data", list);
 	}
 	
@@ -51,14 +49,7 @@ public class TeacherController {
 	@DeleteMapping("/deleteById/{id}")
 	public ResultData deleteById(@ApiParam(value = "讲师ID") @PathVariable("id")String id){
 		
-		boolean flag = false;
-		try {
-			flag = teacherService.removeById(id);
-		}catch (Exception e){
-			e.printStackTrace();
-			return ResultData.failed();
-		}
-	
+		boolean flag = teacherService.removeById(id);
 		return ResultData.sucess().data("data", flag);
 	
 	}
@@ -68,14 +59,7 @@ public class TeacherController {
 	public ResultData selectTPage(@ApiParam(value = "当前页") @PathVariable("currentPage")Integer currentPage ,
 	                              @ApiParam(value = "页大小") @PathVariable("pageSize")Integer pageSize){
 		
-		HashMap<String, Object> hashMap = null;
-		try {
-			hashMap = teacherService.selectTPage(currentPage, pageSize);
-		}catch (Exception e){
-			e.printStackTrace();
-			return ResultData.failed();
-		}
-		
+		HashMap<String, Object> hashMap = teacherService.selectTPage(currentPage, pageSize);
 		return ResultData.sucess().data(hashMap);
 		
 	}
@@ -86,14 +70,7 @@ public class TeacherController {
 	                                   @ApiParam(value = "页大小") @PathVariable("pageSize")Integer pageSize,
 	                                   @ApiParam(value = "teacher条件") @RequestBody(required = false) TeacherQuery teacherQuery){
 		
-		HashMap<String, Object> hashMap = null;
-		try {
-			hashMap = teacherService.selectTPageParam(currentPage, pageSize, teacherQuery);
-		}catch (Exception e){
-			e.printStackTrace();
-			return ResultData.failed();
-		}
-		
+		HashMap<String, Object> hashMap = teacherService.selectTPageParam(currentPage, pageSize, teacherQuery);
 		return ResultData.sucess().data(hashMap);
 		
 	}
@@ -102,14 +79,7 @@ public class TeacherController {
 	@PostMapping("/insertT")
 	public ResultData insertT(@ApiParam(value = "新增tearcher") @RequestBody(required = false) Teacher teacher){
 		
-		HashMap<String, Object> hashMap = null;
-		try {
-			hashMap = teacherService.insertT(teacher);
-		}catch (Exception e){
-			e.printStackTrace();
-			return ResultData.failed();
-		}
-		
+		HashMap<String, Object> hashMap = hashMap = teacherService.insertT(teacher);
 		return ResultData.sucess().data(hashMap);
 		
 	}
@@ -118,14 +88,7 @@ public class TeacherController {
 	@GetMapping("/queryTById")
 	public ResultData queryTById(@ApiParam(value = "讲师ID") @RequestParam(required = true) String teacherId){
 		
-		HashMap<String, Object> hashMap = null;
-		try {
-			hashMap = teacherService.queryTById(teacherId);
-		}catch (Exception e){
-			e.printStackTrace();
-			return ResultData.failed();
-		}
-		
+		HashMap<String, Object> hashMap = hashMap = teacherService.queryTById(teacherId);
 		return ResultData.sucess().data(hashMap);
 		
 	}
@@ -134,17 +97,11 @@ public class TeacherController {
 	@PostMapping("/updateTearcher")
 	public ResultData updateTearcher(@ApiParam(value = "修改后的tearcher信息") @RequestBody(required = true) Teacher teacher){
 		
-		HashMap<String, Object> hashMap = null;
-		try {
-			hashMap = teacherService.updateTearcher(teacher);
-		}catch (Exception e){
-			e.printStackTrace();
-			return ResultData.failed();
-		}
-		
+		HashMap<String, Object> hashMap = teacherService.updateTearcher(teacher);
 		return ResultData.sucess().data(hashMap);
 		
 	}
+
 
 }
 

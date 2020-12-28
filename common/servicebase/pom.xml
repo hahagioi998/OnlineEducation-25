@@ -17,6 +17,13 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <scope>provided </scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.yzz</groupId>
+            <artifactId>common_utils</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
 
 

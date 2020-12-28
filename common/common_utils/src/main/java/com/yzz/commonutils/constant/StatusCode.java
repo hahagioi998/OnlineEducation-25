@@ -5,7 +5,7 @@ import lombok.Data;
 
 public enum StatusCode {
 	
-	Success(200), Failed(500);
+	Success(200), Failed(500), Error(201);
 	
 	private int code;
 	

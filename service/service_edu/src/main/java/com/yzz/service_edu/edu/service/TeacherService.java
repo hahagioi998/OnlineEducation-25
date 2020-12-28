@@ -23,4 +23,8 @@ public interface TeacherService extends IService<Teacher> {
 	HashMap<String, Object> selectTPageParam(int currentPage, int pageSize, TeacherQuery teacherQuery);
 
 	HashMap<String, Object> insertT(Teacher teacher);
+	
+	HashMap<String, Object> queryTById(String teacherId);
+	
+	HashMap<String, Object> updateTearcher(Teacher teacher);
 }

@@ -2,4 +2,90 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.yzz.service_edu.edu.mapper.TeacherMapper">
 
+    <update id="updateTearcher" parameterType="Teacher">
+        update edu_teacher
+        <set>
+            <if test="name != null">
+                name =#{name},
+            </if>
+            <if test="intro != null">
+                intro =#{intro},
+            </if>
+            <if test="career != null">
+                career =#{career},
+            </if>
+            <if test="level != null">
+                level =#{level},
+            </if>
+            <if test="avatar != null">
+                avatar =#{avatar},
+            </if>
+            <if test="sort != null">
+                sort =#{sort},
+            </if>
+            <if test="isDeleted != null">
+                isDeleted =#{isDeleted},
+            </if>
+
+                gmt_Modified =NOW()
+            where id = #{id};
+        </set>
+
+    </update>
+
+    <insert id="insertT" parameterType="Teacher" keyProperty="id" useGeneratedKeys="true">
+        insert edu_teacher
+            <trim prefix="(" suffix=")" suffixOverrides=",">
+                <if test="name != null">
+                    name,
+                </if>
+                <if test="intro != null">
+                    intro,
+                </if>
+                <if test="career != null">
+                    career,
+                </if>
+                <if test="level != null">
+                    level,
+                </if>
+                <if test="avatar != null">
+                    avatar,
+                </if>
+                <if test="sort != null">
+                    sort,
+                </if>
+                <if test="isDeleted != null">
+                    is_Deleted,
+                </if>
+                gmt_Create,
+                gmt_Modified
+            </trim>
+
+        <trim prefix=" values (" suffix=")" suffixOverrides=",">
+            <if test="name != null">
+                #{name},
+            </if>
+            <if test="intro != null">
+                #{intro},
+            </if>
+            <if test="career != null">
+                #{career},
+            </if>
+            <if test="level != null">
+                #{level},
+            </if>
+            <if test="avatar != null">
+                #{avatar},
+            </if>
+            <if test="sort != null">
+                #{sort},
+            </if>
+            <if test="isDeleted != null">
+                #{isDeleted},
+            </if>
+            now(),
+            now()
+        </trim>
+
+    </insert>
 </mapper>

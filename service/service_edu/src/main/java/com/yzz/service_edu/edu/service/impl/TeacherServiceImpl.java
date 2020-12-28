@@ -75,7 +75,25 @@ public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> impl
 	@Override
 	public HashMap<String, Object> insertT(Teacher teacher) {
 		HashMap<String, Object> hashMap = new HashMap<>();
-		int i = teacherMapper.insert(teacher);
+		int i = teacherMapper.insertT(teacher);
+		hashMap.put("result", i);
+		return hashMap;
+	}
+	
+	@Override
+	public HashMap<String, Object> queryTById(String teacherId) {
+		
+		HashMap<String, Object> hashMap = new HashMap<>();
+		Teacher t = teacherMapper.selectById(teacherId);
+		hashMap.put("result", t);
+		return hashMap;
+	}
+	
+	@Override
+	public HashMap<String, Object> updateTearcher(Teacher teacher) {
+		
+		HashMap<String, Object> hashMap = new HashMap<>();
+		Integer i = teacherMapper.updateTearcher(teacher);
 		hashMap.put("result", i);
 		return hashMap;
 	}

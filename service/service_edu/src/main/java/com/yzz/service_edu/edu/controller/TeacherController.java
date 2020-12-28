@@ -113,6 +113,38 @@ public class TeacherController {
 		return ResultData.sucess().data(hashMap);
 		
 	}
+	
+	@ApiOperation(value = "根据ID查询讲师")
+	@GetMapping("/queryTById")
+	public ResultData queryTById(@ApiParam(value = "讲师ID") @RequestParam(required = true) String teacherId){
+		
+		HashMap<String, Object> hashMap = null;
+		try {
+			hashMap = teacherService.queryTById(teacherId);
+		}catch (Exception e){
+			e.printStackTrace();
+			return ResultData.failed();
+		}
+		
+		return ResultData.sucess().data(hashMap);
+		
+	}
+	
+	@ApiOperation(value = "讲师信息更新")
+	@PostMapping("/updateTearcher")
+	public ResultData updateTearcher(@ApiParam(value = "修改后的tearcher信息") @RequestBody(required = true) Teacher teacher){
+		
+		HashMap<String, Object> hashMap = null;
+		try {
+			hashMap = teacherService.updateTearcher(teacher);
+		}catch (Exception e){
+			e.printStackTrace();
+			return ResultData.failed();
+		}
+		
+		return ResultData.sucess().data(hashMap);
+		
+	}
 
 }
 

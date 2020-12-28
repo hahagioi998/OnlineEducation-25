@@ -13,5 +13,8 @@ import org.apache.ibatis.annotations.Mapper;
  * @since 2020-12-25
  */
 public interface TeacherMapper extends BaseMapper<Teacher> {
-
+	
+	Integer updateTearcher(Teacher teacher);
+	
+	Integer insertT(Teacher teacher);
 }

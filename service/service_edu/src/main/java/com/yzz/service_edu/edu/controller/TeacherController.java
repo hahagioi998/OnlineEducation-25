@@ -31,6 +31,7 @@ import java.util.List;
 @Api(description = "讲师管理")
 @RestController
 @RequestMapping("/edu/teacher")
+@CrossOrigin
 public class TeacherController {
 	
 	@Resource
@@ -58,7 +59,7 @@ public class TeacherController {
 	@GetMapping("/selectTPage/{currentPage}/{pageSize}")
 	public ResultData selectTPage(@ApiParam(value = "当前页") @PathVariable("currentPage")Integer currentPage ,
 	                              @ApiParam(value = "页大小") @PathVariable("pageSize")Integer pageSize){
-		
+		log.info("访问接口：分页查询讲师");
 		HashMap<String, Object> hashMap = teacherService.selectTPage(currentPage, pageSize);
 		return ResultData.sucess().data(hashMap);
 		

@@ -1,19 +1,17 @@
-2020-12-28 22:50:14.861 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 17064 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2020-12-28 22:50:14.868 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2020-12-28 22:50:15.780 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2020-12-28 22:50:15.780 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2020-12-28 22:50:15.780 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2020-12-28 22:50:15.845 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2020-12-28 22:50:16.829 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-12-28 22:50:17.205 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2020-12-28 22:50:17.218 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2020-12-28 22:50:17.231 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2020-12-28 22:50:17.256 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2020-12-28 22:50:17.373 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 2.87 seconds (JVM running for 3.788)
-2020-12-28 22:50:39.860 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-28 22:50:39.876 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 所有讲师列表...
-2020-12-28 22:50:39.918 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2020-12-28 22:50:40.427 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2020-12-28 22:50:40.433 [http-nio-8001-exec-1] DEBUG com.yzz.service_edu.edu.mapper.TeacherMapper.selectList - ==>  Preparing: SELECT id,name,intro,career,level,avatar,sort,is_deleted,gmt_create,gmt_modified FROM edu_teacher WHERE is_deleted=0
-2020-12-28 22:50:40.449 [http-nio-8001-exec-1] DEBUG com.yzz.service_edu.edu.mapper.TeacherMapper.selectList - ==> Parameters: 
-2020-12-28 22:50:40.467 [http-nio-8001-exec-1] DEBUG com.yzz.service_edu.edu.mapper.TeacherMapper.selectList - <==      Total: 6
+2020-12-29 18:00:37.532 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 31488 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
+2020-12-29 18:00:37.543 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2020-12-29 18:00:39.020 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-12-29 18:00:39.021 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-29 18:00:39.021 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-29 18:00:39.117 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-29 18:00:40.320 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-29 18:00:40.927 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-12-29 18:00:40.947 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-29 18:00:40.965 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-29 18:00:41.003 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-29 18:00:41.178 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 4.247 seconds (JVM running for 5.8)
+2020-12-29 18:00:50.597 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 18:00:50.658 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
+2020-12-29 18:02:32.734 [http-nio-8001-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-29 18:02:33.185 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
+2020-12-29 18:02:33.875 [http-nio-8001-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

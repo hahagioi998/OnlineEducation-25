@@ -45,16 +45,26 @@ export const constantRouterMap = [
     meta: { title: '讲师管理', icon: 'example' },
     children: [
       {
-        path: 'table',
+        path: 'list',
         name: '讲师列表',
         component: () => import('@/views/edu/teacher/list'),
         meta: { title: '讲师列表', icon: 'table' }
       },
       {
-        path: 'tree',
+        path: 'saveOrUpdate',
         name: '添加讲师',
         component: () => import('@/views/edu/teacher/save'),
         meta: { title: '添加讲师', icon: 'tree' }
+      },
+      {
+        //这个地方相当于sql的where条件，进入这个路由的时候传递一个参数
+        path: 'edit/:id',   
+        name: 'EduTeacherEdit',
+        component: () => import('@/views/edu/teacher/save'),
+        meta: { title: '编辑讲师', noCache: true },
+        //表示隐藏在侧边栏，其实只是添加了一个路由，但是这个框架会让新加的路由增加在侧边连
+        //但是有不想显示在侧边栏，所以就用这个属性hidden
+        hidden: true
       }
     ]
   },

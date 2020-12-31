@@ -63,6 +63,8 @@ public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> impl
 			queryWrapper.le("gmt_create", end);
 		}
 		
+		queryWrapper.orderByDesc("gmt_create");
+		
 		List<Teacher> list = teacherMapper.selectList(queryWrapper);
 		PageInfo<Teacher> pageInfo = new PageInfo<>(list);
 		HashMap<String, Object> hashMap = new HashMap<>();

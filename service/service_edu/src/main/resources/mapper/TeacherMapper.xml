@@ -24,7 +24,7 @@
                 sort =#{sort},
             </if>
             <if test="isDeleted != null">
-                isDeleted =#{isDeleted},
+                is_Deleted =#{isDeleted},
             </if>
 
                 gmt_Modified =NOW()

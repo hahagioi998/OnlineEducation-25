@@ -1,47 +1,49 @@
 import request from '@/utils/request'
 
 //讲师列表分页查询
-export default {
+export function getTeacherListPage(current,pageSize,teacherQuery) {
     //1 讲师列表（条件查询分页）
     //current当前页 limit每页记录数 teacherQuery条件对象
-    getTeacherListPage(current,pageSize,teacherQuery) {
-        return request({
-            //url: '/eduservice/teacher/pageTeacherCondition/'+current+"/"+limit,
-            url: `/edu/teacher/selectTPageParam/${current}/${pageSize}`,
-            method: 'post',
-            //teacherQuery条件对象，后端使用RequestBody获取数据
-            //data表示把对象转换json进行传递到接口里面
-            data: teacherQuery
-          })
-    },
-    //删除讲师
-    deleteTeacherId(id) {
-        return request({
-            url: `/eduservice/teacher/${id}`,
-            method: 'delete'
-          })
-    },
-    //添加讲师
-    addTeacher(teacher) {
-        return request({
-            url: `/eduservice/teacher/addTeacher`,
-            method: 'post',
-            data: teacher
-          })
-    },
-    //根据id查询讲师
-    getTeacherInfo(id) {
-        return request({
-            url: `/eduservice/teacher/getTeacher/${id}`,
-            method: 'get'
-          })
-    },
-    //修改讲师
-    updateTeacherInfo(teacher) {
-        return request({
-            url: `/eduservice/teacher/updateTeacher`,
-            method: 'post',
-            data: teacher
-          })
-    }
+    return request({
+        //url: '/eduservice/teacher/pageTeacherCondition/'+current+"/"+limit,
+        url: `/edu/teacher/selectTPageParam/${current}/${pageSize}`,
+        method: 'post',
+        //teacherQuery条件对象，后端使用RequestBody获取数据
+        //data表示把对象转换json进行传递到接口里面
+        data: teacherQuery
+        })
+}
+
+//逻辑删除讲师
+export function deleteById(id){
+    return request({
+        url: `/edu/teacher/deleteById/${id}`,
+        method: 'delete'
+    })
+}
+
+//添加讲师
+export function insertT(teacher){
+    return request({
+        url: `/edu/teacher/insertT`,
+        method: 'post',
+        data: teacher
+    })
+}
+
+//根据id查询讲师
+export function queryTById(id){
+    return request({
+        url: `/edu/teacher/queryTById?teacherId=${id}`,
+        method: 'get'
+    })
+}
+
+//根据id更新讲师
+export function updateTearcher(teacher){
+    return request({
+        url: `/edu/teacher/updateTearcher`,
+        method: 'post',
+        data: teacher
+    })
 }

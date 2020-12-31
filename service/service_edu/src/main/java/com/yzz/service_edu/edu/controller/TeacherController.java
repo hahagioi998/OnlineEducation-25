@@ -8,6 +8,7 @@ import com.yzz.commonutils.vo.ResultData;
 import com.yzz.service_edu.edu.entity.Teacher;
 import com.yzz.service_edu.edu.service.TeacherService;
 import com.yzz.service_edu.edu.vo.TeacherQuery;
+import com.yzz.serviceoss.vo.AliOSS;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -40,8 +41,7 @@ public class TeacherController {
 	@ApiOperation(value = "所有讲师列表")
 	@GetMapping("/findAllTeach")
 	public ResultData findAllTeach(){
-		log.info("所有讲师列表...");
-		log.debug("所有讲师列表...");
+		log.info("访问接口：所有讲师列表");
 		List<Teacher> list = list = teacherService.list(new QueryWrapper<>());
 		return ResultData.sucess().data("data", list);
 	}
@@ -49,7 +49,7 @@ public class TeacherController {
 	@ApiOperation(value = "逻辑删除讲师")
 	@DeleteMapping("/deleteById/{id}")
 	public ResultData deleteById(@ApiParam(value = "讲师ID") @PathVariable("id")String id){
-		
+		log.info("访问接口：逻辑删除讲师");
 		boolean flag = teacherService.removeById(id);
 		return ResultData.sucess().data("data", flag);
 	
@@ -70,7 +70,7 @@ public class TeacherController {
 	public ResultData selectTPageParam(@ApiParam(value = "当前页") @PathVariable("currentPage")Integer currentPage ,
 	                                   @ApiParam(value = "页大小") @PathVariable("pageSize")Integer pageSize,
 	                                   @ApiParam(value = "teacher条件") @RequestBody(required = false) TeacherQuery teacherQuery){
-		
+		log.info("访问接口：条件分页查询");
 		HashMap<String, Object> hashMap = teacherService.selectTPageParam(currentPage, pageSize, teacherQuery);
 		return ResultData.sucess().data(hashMap);
 		
@@ -80,6 +80,7 @@ public class TeacherController {
 	@PostMapping("/insertT")
 	public ResultData insertT(@ApiParam(value = "新增tearcher") @RequestBody(required = false) Teacher teacher){
 		
+		log.info("访问接口：增加讲师");
 		HashMap<String, Object> hashMap = hashMap = teacherService.insertT(teacher);
 		return ResultData.sucess().data(hashMap);
 		
@@ -89,6 +90,7 @@ public class TeacherController {
 	@GetMapping("/queryTById")
 	public ResultData queryTById(@ApiParam(value = "讲师ID") @RequestParam(required = true) String teacherId){
 		
+		log.info("访问接口：根据ID查询讲师");
 		HashMap<String, Object> hashMap = hashMap = teacherService.queryTById(teacherId);
 		return ResultData.sucess().data(hashMap);
 		
@@ -98,6 +100,7 @@ public class TeacherController {
 	@PostMapping("/updateTearcher")
 	public ResultData updateTearcher(@ApiParam(value = "修改后的tearcher信息") @RequestBody(required = true) Teacher teacher){
 		
+		log.info("访问接口：讲师信息更新");
 		HashMap<String, Object> hashMap = teacherService.updateTearcher(teacher);
 		return ResultData.sucess().data(hashMap);
 		

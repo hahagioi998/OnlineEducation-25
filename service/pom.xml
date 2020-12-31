@@ -14,6 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>service_vod</module>
+        <module>service_oss</module>
     </modules>
 
     <dependencies>
@@ -21,6 +22,12 @@
         <dependency>
             <artifactId>common</artifactId>
             <groupId>com.yzz</groupId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yzz</groupId>
+            <artifactId>servicebase</artifactId>
             <version>1.0</version>
         </dependency>
 
@@ -143,6 +150,25 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
         </dependency>
+
+        <!--阿里云OSS-->
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+        </dependency>
+
+        <!--日期工具依赖-->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+
+        <!--test-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
     </dependencies>
 
 

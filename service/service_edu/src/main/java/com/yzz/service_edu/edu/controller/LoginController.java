@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 @Slf4j
 @Api(description = "登录controller")
 @RestController
-@RequestMapping("/loginservice")
+@RequestMapping("/loginService")
 @CrossOrigin
 public class LoginController {
 	

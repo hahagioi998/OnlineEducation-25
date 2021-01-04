@@ -62,7 +62,7 @@ export const constantRouterMap = [
         name: 'EduTeacherEdit',
         component: () => import('@/views/edu/teacher/save'),
         meta: { title: '编辑讲师', noCache: true },
-        //表示隐藏在侧边栏，其实只是添加了一个路由，但是这个框架会让新加的路由增加在侧边连
+        //表示隐藏在侧边栏，其实只是添加了一个路由，但是这个框架会让新加的路由增加在侧边栏
         //但是有不想显示在侧边栏，所以就用这个属性hidden
         hidden: true
       }

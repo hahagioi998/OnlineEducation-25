@@ -34,7 +34,7 @@ public class OssServiceImpl implements OssService {
 		String fileName = UUID.randomUUID().toString().replaceAll("-","");
 		//获取当前日期
 		String datePath = new DateTime().toString("yyyy/MM/dd");
-		fileName = fileName + datePath;
+		fileName = datePath+"/"+fileName;
 		
 		OSS ossClient = new OSSClientBuilder().build(endPoint, accessKeyId, accessKeySecret);
 		

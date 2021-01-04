@@ -1,7 +1,3 @@
-2020-12-31 11:20:20.968 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.serviceoss]' package. Please check your configuration.
-2020-12-31 15:00:50.650 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils]' package. Please check your configuration.
-2020-12-31 15:21:51.435 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase]' package. Please check your configuration.
-2020-12-31 15:32:51.817 [http-nio-8002-exec-7] WARN  com.aliyun.oss - [Client]Unable to execute HTTP request: UnknownHost
-2020-12-31 15:32:52.418 [http-nio-8002-exec-7] WARN  com.aliyun.oss - [Client]Unable to execute HTTP request: UnknownHost
-2020-12-31 15:32:53.620 [http-nio-8002-exec-7] WARN  com.aliyun.oss - [Client]Unable to execute HTTP request: UnknownHost
-2020-12-31 15:32:56.020 [http-nio-8002-exec-7] WARN  com.aliyun.oss - [Client]Unable to execute HTTP request: UnknownHost
+2021-01-04 14:54:49.341 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase]' package. Please check your configuration.
+2021-01-04 14:55:46.598 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase]' package. Please check your configuration.
+2021-01-04 15:18:08.801 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase]' package. Please check your configuration.

@@ -22,7 +22,7 @@ import javax.annotation.Resource;
 @Slf4j
 @Api(description = "Oss管理")
 @RestController
-@RequestMapping("/fileOss")
+@RequestMapping("/fileOssService")
 @CrossOrigin
 public class OssController {
 	

@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @Version 1.0
  */
 @ComponentScan("com.yzz")
-@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
+//@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 public class ServiceOssApplication {
 	
 	public static void main(String[] args) {

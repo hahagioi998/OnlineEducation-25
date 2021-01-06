@@ -5,11 +5,11 @@
     <!-- 表示这个查询在一行显示：inline -->
     <el-form :inline="true" class="demo-form-inline">
       <el-form-item>
-        <el-input v-model="teacherQuery.name" placeholder="讲师名"/>
+        <el-input v-model="teacherQueryVO.name" placeholder="讲师名"/>
       </el-form-item>
 
       <el-form-item>
-        <el-select v-model="teacherQuery.level" clearable placeholder="讲师头衔">
+        <el-select v-model="teacherQueryVO.level" clearable placeholder="讲师头衔">
           <el-option :value="1" label="高级讲师"/>
           <el-option :value="2" label="首席讲师"/>
         </el-select>
@@ -17,7 +17,7 @@
 
       <el-form-item label="添加时间">
         <el-date-picker
-          v-model="teacherQuery.begin"
+          v-model="teacherQueryVO.begin"
           type="datetime"
           placeholder="选择开始时间"
           value-format="yyyy-MM-dd HH:mm:ss"
@@ -26,7 +26,7 @@
       </el-form-item>
       <el-form-item>
         <el-date-picker
-          v-model="teacherQuery.end"
+          v-model="teacherQueryVO.end"
           type="datetime"
           placeholder="选择截止时间"
           value-format="yyyy-MM-dd HH:mm:ss"
@@ -108,7 +108,7 @@ export default {
             pageSize: 5,
             //现在这个自定义类型中是没有属性，当条件查询时，上方的v-model会自动添加属性到这个类型中
             //现在可以不定义
-            teacherQuery: {}//条件封装的对象
+            teacherQueryVO: {}//条件封装的对象
         }
     },
     created() {//页面渲染之前执行，一般调用methods定义的方法
@@ -120,7 +120,7 @@ export default {
         //参数page = 全局page
         getList(current = 1){
             this.current = current
-            teacherF.getTeacherListPage(this.current,this.pageSize,this.teacherQuery)
+            teacherF.getTeacherListPage(this.current,this.pageSize,this.teacherQueryVO)
                 .then(response => {
                     this.list = response.data.list
                     this.total = response.data.total
@@ -134,7 +134,7 @@ export default {
         resetData(){
             //因为之前已经用v-model双向绑定了所有属性和teacherQuery这个类型
             //所以只需要清空这个对象就可以了
-            this.teacherQuery = {}
+            this.teacherQueryVO = {}
             this.getList()
             vm.$forceUpdate();
         },

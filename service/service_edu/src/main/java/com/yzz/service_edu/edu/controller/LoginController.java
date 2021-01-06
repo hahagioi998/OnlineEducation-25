@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.*;
  * @Version 1.0
  */
 @Slf4j
-@Api(description = "登录controller")
+@Api(tags = "登录服务")
 @RestController
-@RequestMapping("/loginService")
+@RequestMapping("/edu/loginService")
 @CrossOrigin
 public class LoginController {
 	

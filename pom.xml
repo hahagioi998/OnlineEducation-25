@@ -55,6 +55,7 @@
         <spring-boot-starter-log4j2.version>2.2.2.RELEASE</spring-boot-starter-log4j2.version>
         <spring-boot-starter-test.version>2.3.7.RELEASE</spring-boot-starter-test.version>
         <easyexcel.version>2.2.7</easyexcel.version>
+        <hutool.version>5.5.6</hutool.version>
     </properties>
 
     <dependencyManagement>
@@ -147,7 +148,11 @@
                 <artifactId>poi</artifactId>
                 <version>${poi.version}</version>
             </dependency>
-            <!--xlsx-->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml-schemas</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
@@ -256,6 +261,13 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>easyexcel</artifactId>
                 <version>${easyexcel.version}</version>
+            </dependency>
+
+            <!--hutools -->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
             </dependency>
 
 

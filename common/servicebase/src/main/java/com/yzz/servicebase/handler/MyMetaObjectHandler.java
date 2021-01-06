@@ -1,6 +1,8 @@
 package com.yzz.servicebase.handler;
 
+import cn.hutool.core.date.DateUtil;
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.stereotype.Component;
 
@@ -13,16 +15,21 @@ import java.util.Date;
  * @Date 2020/12/25
  * @Version 1.0
  */
+@Slf4j
 @Component
 public class MyMetaObjectHandler implements MetaObjectHandler {
 	@Override
 	public void insertFill(MetaObject metaObject) {
-		this.strictInsertFill(metaObject, "gmtCreate", Date.class, Calendar.getInstance().getTime());
-		this.strictInsertFill(metaObject, "gmtModified", Date.class, Calendar.getInstance().getTime());
+		log.info("start autofill gmtCreate...");
+		this.strictInsertFill(metaObject, "gmtCreate", Date.class, DateUtil.date());
+		this.strictInsertFill(metaObject, "gmtModified", Date.class, DateUtil.date());
+		log.info("end autofill gmtCreate...");
 	}
 	
 	@Override
 	public void updateFill(MetaObject metaObject) {
-		this.strictUpdateFill(metaObject, "gmtModified", Date.class, Calendar.getInstance().getTime());
+		log.info("start autofill gmtModified...");
+		this.strictUpdateFill(metaObject, "gmtModified", Date.class, DateUtil.date());
+		log.info("end autofill gmtModified...");
 	}
 }

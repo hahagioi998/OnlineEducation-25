@@ -7,7 +7,7 @@ import com.yzz.service_edu.edu.entity.Teacher;
 import com.yzz.service_edu.edu.mapper.TeacherMapper;
 import com.yzz.service_edu.edu.service.TeacherService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yzz.service_edu.edu.vo.TeacherQuery;
+import com.yzz.service_edu.edu.vo.TeacherQueryVO;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
@@ -41,14 +41,14 @@ public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> impl
 	}
 	
 	@Override
-	public HashMap<String, Object> selectTPageParam(int currentPage, int pageSize, TeacherQuery teacherQuery) {
+	public HashMap<String, Object> selectTPageParam(int currentPage, int pageSize, TeacherQueryVO teacherQueryVO) {
 		
 		PageHelper.startPage(currentPage, pageSize);
 		QueryWrapper<Teacher> queryWrapper = new QueryWrapper<>();
-		String name = teacherQuery.getName();
-		Integer level = teacherQuery.getLevel();
-		String begin = teacherQuery.getBegin();
-		String end = teacherQuery.getEnd();
+		String name = teacherQueryVO.getName();
+		Integer level = teacherQueryVO.getLevel();
+		String begin = teacherQueryVO.getBegin();
+		String end = teacherQueryVO.getEnd();
 		
 		if(!StringUtils.isEmpty(name)){
 			queryWrapper.like("name", name);

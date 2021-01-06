@@ -48,7 +48,7 @@ export const constantRouterMap = [
         path: 'list',
         name: '讲师列表',
         component: () => import('@/views/edu/teacher/list'),
-        meta: { title: '讲师列表', icon: 'table' }
+        meta: { title: '讲师列表', icon: 'list' }
       },
       {
         path: 'saveOrUpdate',
@@ -70,94 +70,66 @@ export const constantRouterMap = [
   },
 
   {
-    path: '/example',
+    path: '/subject',
     component: Layout,
-    redirect: '/example/table',
-    name: 'Example',
-    meta: { title: 'Example', icon: 'example' },
+    redirect: '/subject/list',
+    name: '课程分类管理',
+    meta: { title: 'subject', icon: 'subject' },
     children: [
       {
-        path: 'table',
-        name: 'Table',
-        component: () => import('@/views/table/index'),
-        meta: { title: 'Table', icon: 'table' }
+        path: 'list',
+        name: '课程分类列表',
+        component: () => import('@/views/edu/subject/list'),
+        meta: { title: '课程分类列表', icon: 'list' }
       },
       {
-        path: 'tree',
-        name: 'Tree',
-        component: () => import('@/views/tree/index'),
-        meta: { title: 'Tree', icon: 'tree' }
+        path: 'insert',
+        name: '添加课程分类',
+        component: () => import('@/views/edu/subject/insert'),
+        meta: { title: '添加课程分类', icon: 'add' }
       }
     ]
   },
 
   {
-    path: '/form',
+    path: '/course',
     component: Layout,
+    redirect: '/course/list',
+    name: '课程管理',
+    meta: { title: 'course', icon: 'submanagement' },
     children: [
       {
-        path: 'index',
-        name: 'Form',
-        component: () => import('@/views/form/index'),
-        meta: { title: 'Form', icon: 'form' }
-      }
-    ]
-  },
-
-  {
-    path: '/nested',
-    component: Layout,
-    redirect: '/nested/menu1',
-    name: 'Nested',
-    meta: {
-      title: 'Nested',
-      icon: 'nested'
-    },
-    children: [
-      {
-        path: 'menu1',
-        component: () => import('@/views/nested/menu1/index'), // Parent router-view
-        name: 'Menu1',
-        meta: { title: 'Menu1' },
-        children: [
-          {
-            path: 'menu1-1',
-            component: () => import('@/views/nested/menu1/menu1-1'),
-            name: 'Menu1-1',
-            meta: { title: 'Menu1-1' }
-          },
-          {
-            path: 'menu1-2',
-            component: () => import('@/views/nested/menu1/menu1-2'),
-            name: 'Menu1-2',
-            meta: { title: 'Menu1-2' },
-            children: [
-              {
-                path: 'menu1-2-1',
-                component: () => import('@/views/nested/menu1/menu1-2/menu1-2-1'),
-                name: 'Menu1-2-1',
-                meta: { title: 'Menu1-2-1' }
-              },
-              {
-                path: 'menu1-2-2',
-                component: () => import('@/views/nested/menu1/menu1-2/menu1-2-2'),
-                name: 'Menu1-2-2',
-                meta: { title: 'Menu1-2-2' }
-              }
-            ]
-          },
-          {
-            path: 'menu1-3',
-            component: () => import('@/views/nested/menu1/menu1-3'),
-            name: 'Menu1-3',
-            meta: { title: 'Menu1-3' }
-          }
-        ]
+        path: 'list',
+        name: '课程列表',
+        component: () => import('@/views/edu/course/list'),
+        meta: { title: '课程列表', icon: 'list' }
       },
       {
-        path: 'menu2',
-        component: () => import('@/views/nested/menu2/index'),
-        meta: { title: 'menu2' }
+        path: 'info',
+        name: '添加课程',
+        component: () => import('@/views/edu/course/info'), 
+        meta: { title: '添加课程', icon: 'info' },
+      },
+      {
+        path: 'chapter',
+        name: '添加章节',
+        component: () => import('@/views/edu/course/chapter'), 
+        meta: { title: '添加章节', icon: 'info' },
+        hidden: true
+      },
+      {
+        path: 'publish',
+        name: '发布课程',
+        component: () => import('@/views/edu/course/publish'), 
+        meta: { title: '发布课程', icon: 'info' },
+        hidden: true
+      },
+      {
+        path: 'info',
+        name: '添加课程',
+        component: () => import('@/views/edu/course/info'), 
+        meta: { title: '添加课程', icon: 'info' },
+        hidden: true
       }
     ]
   },

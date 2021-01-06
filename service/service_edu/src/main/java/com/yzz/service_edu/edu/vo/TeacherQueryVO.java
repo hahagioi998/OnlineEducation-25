@@ -10,7 +10,7 @@ import lombok.Data;
  * @Version 1.0
  */
 @Data
-public class TeacherQuery {
+public class TeacherQueryVO {
 	
 	@ApiModelProperty(value = "教师名称,模糊查询")
 	private String name;

@@ -20,7 +20,7 @@ import javax.annotation.Resource;
  * @Version 1.0
  */
 @Slf4j
-@Api(description = "Oss管理")
+@Api(tags = "Oss管理")
 @RestController
 @RequestMapping("/fileOssService")
 @CrossOrigin
@@ -30,11 +30,11 @@ public class OssController {
 	private OssService service;
 	
 	@ApiOperation("上传头像方法")
-	@PostMapping
+	@PostMapping("/upImg")
 	public ResultData upLoadOss(MultipartFile file){
 		
 		log.info("访问上传头像接口...");
 		String returnUrl = service.upLoadAvatar(file);
-		return ResultData.sucess().data("result", returnUrl);
+		return ResultData.sucess().data("data", returnUrl);
 	}
 }

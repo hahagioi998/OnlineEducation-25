@@ -203,7 +203,7 @@ export default {
             //调用接口
             chapter.getChapter(chapterId)   
                 .then(response => {
-                    this.chapter = response.data.chapter
+                    this.chapter = response.data.data
                 })
         },
         //弹出添加章节页面

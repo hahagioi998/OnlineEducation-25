@@ -31,4 +31,31 @@ public class VideoServiceImpl extends ServiceImpl<VideoMapper, Video> implements
 		
 		return videoMapper.selectList(queryWrapper);
 	}
+
+	@Override
+	public void deleteByChapterId(String chapterId) {
+		QueryWrapper<Video> qw = new QueryWrapper<>();
+		qw.eq("chapter_id", chapterId);
+		videoMapper.delete(qw);
+	}
+
+	@Override
+	public int addVideo(Video video) {
+		return videoMapper.insert(video);
+	}
+
+	@Override
+	public int deleteVideo(String id) {
+		return videoMapper.deleteById(id);
+	}
+
+	@Override
+	public Video getVideoById(String id) {
+		return videoMapper.selectById(id);
+	}
+
+	@Override
+	public int updateVideo(Video video) {
+		return videoMapper.updateById(video);
+	}
 }

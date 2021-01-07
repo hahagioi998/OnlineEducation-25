@@ -9,33 +9,35 @@ export function getChapterList(courseId) {
 }
 
 //更新章节
-export function updateChapter(courseId) {
+export function updateChapter(chapter) {
     return request({
-        url: `/edu/chapterService/getChapterList?courseId=${courseId}`,
-        method: 'get'
+        url: `/edu/chapterService/updateChapter`,
+        method: 'post',
+        data: chapter
         })
 }
 
 //删除章节
-export function deleteChapter(courseId) {
+export function deleteChapter(chapterId) {
     return request({
-        url: `/edu/chapterService/getChapterList?courseId=${courseId}`,
-        method: 'get'
+        url: `/edu/chapterService/deleteChapter?chapterId=${chapterId}`,
+        method: 'delete'
         })
 }
 
 //添加章节
-export function addChapter(courseId) {
+export function addChapter(chapter) {
     return request({
-        url: `/edu/chapterService/getChapterList?courseId=${courseId}`,
-        method: 'get'
+        url: `/edu/chapterService/addChapter`,
+        method: 'post',
+        data: chapter
         })
 }
 
 //获取章节
-export function getChapter(courseId) {
+export function getChapter(chapterId) {
     return request({
-        url: `/edu/chapterService/getChapterList?courseId=${courseId}`,
+        url: `/edu/chapterService/getChapter?chapterId=${chapterId}`,
         method: 'get'
         })
 }

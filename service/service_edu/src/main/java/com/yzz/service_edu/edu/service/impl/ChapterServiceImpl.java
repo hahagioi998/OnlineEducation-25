@@ -1,6 +1,7 @@
 package com.yzz.service_edu.edu.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.yzz.commonutils.exception.YzzException;
 import com.yzz.service_edu.edu.entity.Chapter;
 import com.yzz.service_edu.edu.entity.Video;
 import com.yzz.service_edu.edu.mapper.ChapterMapper;
@@ -62,4 +63,41 @@ public class ChapterServiceImpl extends ServiceImpl<ChapterMapper, Chapter> impl
 		}
 		return result;
 	}
+
+	@Override
+	public int addChapter(Chapter chapter) {
+		int i = chapterMapper.insert(chapter);
+		if(i <= 0){
+			throw new YzzException(201, "新增章节失败");
+		}
+		return i;
+	}
+
+	@Override
+	public int updateChapter(Chapter chapter) {
+		int i = chapterMapper.updateById(chapter);
+		if(i <= 0){
+			throw new YzzException(201, "更新章节失败");
+		}
+		return i;
+	}
+
+	@Override
+	public int deleteChapter(String chapterId) {
+		int i = chapterMapper.deleteById(chapterId);
+		//删除章节对应的小节
+		videoService.deleteByChapterId(chapterId);
+
+		if(i <= 0){
+			throw new YzzException(201, "删除章节失败");
+		}
+		return i;
+	}
+
+	@Override
+	public Chapter getChapter(String chapterId) {
+		return chapterMapper.selectById(chapterId);
+	}
+
+
 }

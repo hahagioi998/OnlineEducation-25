@@ -21,4 +21,38 @@ public interface VideoService extends IService<Video> {
 	 * @return
 	 */
 	List<Video> getVideoList(String courseId);
+
+	/**
+	 * 根据章节id删除小节
+	 * @param chapterId
+	 */
+	void deleteByChapterId(String chapterId);
+
+	/**
+	 * 新增小节
+	 * @param video
+	 * @return
+	 */
+	int addVideo(Video video);
+
+	/**
+	 * 删除小节
+	 * @param id
+	 * @return
+	 */
+	int deleteVideo(String id);
+
+	/**
+	 * 根据id查询小节
+	 * @param id
+	 * @return
+	 */
+	Video getVideoById(String id);
+
+	/**
+	 * 更新小节
+	 * @param video
+	 * @return
+	 */
+	int updateVideo(Video video);
 }

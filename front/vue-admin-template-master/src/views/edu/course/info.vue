@@ -218,7 +218,6 @@ export default {
                             //获取所有的一级分类和二级分类
                             this.subjectOneList = response2.data.data
                             //遍历所有一级分类，获取当前courseinfo中的一级分类
-                            alert(this.courseInfo.subjectParentId)
                             for (let ele in this.subjectOneList) {
                                 var theone = this.subjectOneList[ele]
                                 if( theone.id == this.courseInfo.subjectParentId){

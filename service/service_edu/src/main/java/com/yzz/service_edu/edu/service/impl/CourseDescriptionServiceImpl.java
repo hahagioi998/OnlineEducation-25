@@ -1,5 +1,6 @@
 package com.yzz.service_edu.edu.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.yzz.commonutils.exception.YzzException;
 import com.yzz.service_edu.edu.entity.CourseDescription;
 import com.yzz.service_edu.edu.mapper.CourseDescriptionMapper;
@@ -22,6 +23,8 @@ public class CourseDescriptionServiceImpl extends ServiceImpl<CourseDescriptionM
 
 	@Resource
 	private CourseDescriptionMapper courseDescriptionMapper;
+	
+	
 	@Override
 	public int insertCourseDescription(CourseDescription courseDescription) {
 		int i = 0;
@@ -31,4 +34,20 @@ public class CourseDescriptionServiceImpl extends ServiceImpl<CourseDescriptionM
 		}
 		return i;
 	}
+	
+	@Override
+	public CourseDescription getCourseDesInfoById(String courseId) {
+		QueryWrapper<CourseDescription> qw = new QueryWrapper<>();
+		qw.eq("id", courseId);
+		return courseDescriptionMapper.selectOne(qw);
+	}
+	
+	@Override
+	public int updateCourseDesById(String courseId, String description) {
+		CourseDescription courseDescription = new CourseDescription();
+		courseDescription.setDescription(description);
+		courseDescription.setId(courseId);
+		return courseDescriptionMapper.updateById(courseDescription);
+	}
+
 }

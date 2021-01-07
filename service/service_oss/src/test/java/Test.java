@@ -18,7 +18,7 @@ import javax.ws.rs.core.Application;
 @RunWith(SpringRunner.class)
 public class Test {
 	
-	@Autowired
+	@Resource
 	AliOSS aliOSS;
 	
 	@org.junit.Test

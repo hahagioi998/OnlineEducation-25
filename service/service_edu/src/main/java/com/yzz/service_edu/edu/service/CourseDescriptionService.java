@@ -19,4 +19,19 @@ public interface CourseDescriptionService extends IService<CourseDescription> {
 	 * @return
 	 */
 	int insertCourseDescription(CourseDescription courseDescription);
+	
+	/**
+	 * 根据课程id获取课程描述
+	 * @param courseId
+	 * @return
+	 */
+	CourseDescription getCourseDesInfoById(String courseId);
+	
+	/**
+	 * 根据课程id更新课程描述
+	 * @param courseId
+	 * @param description
+	 * @return
+	 */
+	int updateCourseDesById(String courseId, String description);
 }

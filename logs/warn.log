@@ -175,3 +175,131 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 2021-01-05 21:44:45.953 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s356ms506µs200ns).
 2021-01-05 21:46:44.061 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s106ms447µs400ns).
 2021-01-05 21:48:51.729 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m27s491ms464µs600ns).
+2021-01-07 14:27:37.243 [http-nio-8001-exec-3] ERROR com.yzz.service_edu.edu.controller.CourseController - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve com.yzz.service_edu.edu.mapper.CourseMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_course  ( id, teacher_id, subject_id,  title, price, lesson_num, cover,      gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,  ?, ?, ?, ?,      ?, ? )
+### Cause: java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+; Field 'subject_parent_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+2021-01-07 14:27:37.243 [http-nio-8001-exec-3] ERROR com.yzz.service_edu.edu.controller.CourseController - org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve com.yzz.service_edu.edu.mapper.CourseMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_course  ( id, teacher_id, subject_id,  title, price, lesson_num, cover,      gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,  ?, ?, ?, ?,      ?, ? )
+### Cause: java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+; Field 'subject_parent_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+2021-01-07 17:32:52.759 [http-nio-8001-exec-8] ERROR com.yzz.service_edu.edu.controller.CourseController - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:32:52.760 [http-nio-8001-exec-8] ERROR com.yzz.service_edu.edu.controller.CourseController - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:33:01.731 [http-nio-8001-exec-1] ERROR com.yzz.service_edu.edu.controller.CourseController - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:33:01.732 [http-nio-8001-exec-1] ERROR com.yzz.service_edu.edu.controller.CourseController - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:34:16.415 [http-nio-8001-exec-3] ERROR com.yzz.service_edu.edu.controller.CourseController - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:34:16.415 [http-nio-8001-exec-3] ERROR com.yzz.service_edu.edu.controller.CourseController - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:34:59.671 [http-nio-8001-exec-6] ERROR com.yzz.service_edu.edu.controller.CourseController - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:34:59.671 [http-nio-8001-exec-6] ERROR com.yzz.service_edu.edu.controller.CourseController - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:35:31.746 [http-nio-8001-exec-9] ERROR com.yzz.service_edu.edu.controller.CourseController - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:35:31.747 [http-nio-8001-exec-9] ERROR com.yzz.service_edu.edu.controller.CourseController - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:36:00.279 [http-nio-8001-exec-10] ERROR com.yzz.service_edu.edu.controller.CourseController - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:36:00.279 [http-nio-8001-exec-10] ERROR com.yzz.service_edu.edu.controller.CourseController - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:37:27.161 [http-nio-8001-exec-3] ERROR com.yzz.service_edu.edu.controller.CourseController - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+2021-01-07 17:37:27.162 [http-nio-8001-exec-3] ERROR com.yzz.service_edu.edu.controller.CourseController - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,teacher_id,subject_id,subject_parent_id,title,price,lesson_num,cover,buy_count,view_count,version,status,is_deleted,gmt_create,gmt_modified  FROM edu_course     WHERE (course_id = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'

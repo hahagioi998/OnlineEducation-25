@@ -45,6 +45,38 @@ public class CourseController {
 		return ResultData.sucess().data("data", courseId);
 	}
 	
+	@ApiOperation("根据课程id获取课程信息")
+	@GetMapping("/getCourseInfoById")
+	public ResultData getCourseInfoById(@RequestParam String courseId){
+		log.info("访问接口：根据课程id获取课程信息");
+		CourseInfoVO courseInfoVO = new CourseInfoVO();
+		try{
+			courseInfoVO = courseService.getCourseInfoById(courseId);
+		}catch (Exception e){
+			log.error(e.getMessage());
+			log.error(e.fillInStackTrace().toString());
+			return ResultData.failed().data("data", null);
+		}
+		log.info("访问接口：根据课程id获取课程信息，结束");
+		return ResultData.sucess().data("data", courseInfoVO);
+	}
+	
+	@ApiOperation("根据课程id更新课程信息")
+	@PostMapping("/updateCourseInfoById")
+	public ResultData updateCourseInfoById(@RequestBody CourseInfoVO courseInfoVO){
+		log.info("访问接口：根据课程id更新课程信息");
+		int i = 0;
+		try{
+			i = courseService.updateCourseInfoById(courseInfoVO);
+		}catch (Exception e){
+			log.error(e.getMessage());
+			log.error(e.fillInStackTrace().toString());
+			return ResultData.failed().data("data", null);
+		}
+		log.info("访问接口：根据课程id更新课程信息，结束");
+		return ResultData.sucess().data("data", i);
+	}
+	
 
 }
 

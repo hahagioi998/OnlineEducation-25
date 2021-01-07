@@ -2,6 +2,9 @@ package com.yzz.service_edu.edu.service;
 
 import com.yzz.service_edu.edu.entity.Chapter;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.yzz.service_edu.edu.vo.ChapterVO;
+
+import java.util.List;
 
 /**
  * <p>
@@ -12,5 +15,11 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2021-01-05
  */
 public interface ChapterService extends IService<Chapter> {
-
+	
+	/**
+	 * 获取章节大纲列表
+	 * @param courseId
+	 * @return
+	 */
+	List<ChapterVO> getChapterList(String courseId);
 }

@@ -9,4 +9,21 @@ export function insertCourseInfo(courseInfo) {
         })
 }
 
+//根据课程id获取课程信息
+export function getCourseInfoById(courseId) {
+    return request({
+        url: `/edu/courseService/getCourseInfoById?courseId=${courseId}`,
+        method: 'get'
+        })
+}
+
+//根据课程id更新课程信息
+export function updateCourseInfoById(courseInfo) {
+    return request({
+        url: `/edu/courseService/updateCourseInfoById`,
+        method: 'post',
+        data: courseInfo
+        })
+}
+
 

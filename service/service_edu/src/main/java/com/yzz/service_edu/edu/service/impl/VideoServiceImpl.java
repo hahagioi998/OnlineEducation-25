@@ -1,10 +1,14 @@
 package com.yzz.service_edu.edu.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.yzz.service_edu.edu.entity.Video;
 import com.yzz.service_edu.edu.mapper.VideoMapper;
 import com.yzz.service_edu.edu.service.VideoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * <p>
@@ -16,5 +20,15 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class VideoServiceImpl extends ServiceImpl<VideoMapper, Video> implements VideoService {
-
+	
+	@Resource
+	private VideoMapper videoMapper;
+	
+	@Override
+	public List<Video> getVideoList(String courseId) {
+		
+		QueryWrapper<Video> queryWrapper = new QueryWrapper<>();
+		
+		return videoMapper.selectList(queryWrapper);
+	}
 }

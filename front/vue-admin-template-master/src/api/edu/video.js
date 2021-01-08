@@ -1,3 +1,5 @@
+import request from '@/utils/request'
+
 //新增小节
 export function addVideo(video){
     return request({

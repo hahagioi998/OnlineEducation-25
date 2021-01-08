@@ -49,5 +49,10 @@ public class CourseDescriptionServiceImpl extends ServiceImpl<CourseDescriptionM
 		courseDescription.setId(courseId);
 		return courseDescriptionMapper.updateById(courseDescription);
 	}
-
+	
+	@Override
+	public int deleteCourseDes(String id) {
+		return courseDescriptionMapper.deleteById(id);
+	}
+	
 }

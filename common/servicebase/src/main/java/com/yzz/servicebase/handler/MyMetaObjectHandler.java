@@ -23,6 +23,7 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
 		log.info("start autofill gmtCreate...");
 		this.strictInsertFill(metaObject, "gmtCreate", Date.class, DateUtil.date());
 		this.strictInsertFill(metaObject, "gmtModified", Date.class, DateUtil.date());
+		this.strictInsertFill(metaObject, "isDeleted", Integer.class, 0);
 		log.info("end autofill gmtCreate...");
 	}
 	

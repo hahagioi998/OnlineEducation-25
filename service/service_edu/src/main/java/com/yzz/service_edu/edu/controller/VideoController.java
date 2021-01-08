@@ -6,6 +6,7 @@ import com.yzz.service_edu.edu.entity.Video;
 import com.yzz.service_edu.edu.service.VideoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.annotations.Delete;
 import org.springframework.web.bind.annotation.*;
@@ -32,7 +33,7 @@ public class VideoController {
 
 	@ApiOperation("新增小节")
 	@PostMapping("/addVideo")
-	public ResultData addVideo(@RequestBody Video video){
+	public ResultData addVideo(@ApiParam("小节信息")@RequestBody Video video){
 		log.info("访问接口：新增小节");
 		int i ;
 		try{
@@ -46,7 +47,7 @@ public class VideoController {
 
 	@ApiOperation("删除小节")
 	@DeleteMapping("/deleteVideo")
-	public ResultData deleteVideo(@RequestParam String id){
+	public ResultData deleteVideo(@ApiParam("小节id")@RequestParam String id){
 		log.info("访问接口：删除小节");
 		int i ;
 		try{
@@ -60,7 +61,7 @@ public class VideoController {
 
 	@ApiOperation("根据id查询小节")
 	@GetMapping("/getVideteoById")
-	public ResultData getVideoById(@RequestParam String id){
+	public ResultData getVideoById(@ApiParam("小节id")@RequestParam String id){
 		log.info("访问接口：根据id查询小节");
 		Video video ;
 		try{
@@ -74,7 +75,7 @@ public class VideoController {
 
 	@ApiOperation("更新小节")
 	@PostMapping("/updateVideo")
-	public ResultData updateVideo(@RequestBody Video video){
+	public ResultData updateVideo(@ApiParam("小节信息")@RequestBody Video video){
 		log.info("访问接口：更新小节");
 		int i ;
 		try{

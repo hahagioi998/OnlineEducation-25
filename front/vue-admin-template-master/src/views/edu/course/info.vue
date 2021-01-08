@@ -62,6 +62,7 @@
         </el-form-item>
 
         <!-- 课程简介 TODO -->
+        <!-- 课程简介-->
         <el-form-item label="课程简介">
             <tinymce :height="300" v-model="courseInfo.description"/>
         </el-form-item>
@@ -75,7 +76,7 @@
                 :show-file-list="false"
                 :on-success="handleAvatarSuccess"
                 :before-upload="beforeAvatarUpload"
-                :action="BASE_API+'/fileOssService/upImg'"
+                :action="BASE_API+'/eduoss/fileoss'"
                 class="avatar-uploader">
                 <img :src="courseInfo.cover">
             </el-upload>

@@ -58,4 +58,11 @@ public class VideoServiceImpl extends ServiceImpl<VideoMapper, Video> implements
 	public int updateVideo(Video video) {
 		return videoMapper.updateById(video);
 	}
+	
+	@Override
+	public int deleteVideoByCourseId(String courseId) {
+		QueryWrapper<Video> qw = new QueryWrapper<>();
+		qw.eq("course_id", courseId);
+		return videoMapper.delete(qw);
+	}
 }

@@ -11,7 +11,7 @@ spring:
     time-zone: GMT+8
 
 mybatis-plus:
-  type-aliases-package: com.yzz.service_edu.edu.entity
+  type-aliases-package: com.yzz
 #  configuration:
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   mapper-locations: /mapper/*.xml

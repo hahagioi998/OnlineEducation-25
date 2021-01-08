@@ -34,4 +34,11 @@ public interface CourseDescriptionService extends IService<CourseDescription> {
 	 * @return
 	 */
 	int updateCourseDesById(String courseId, String description);
+	
+	/**
+	 * 删除课程描述
+	 * @param id
+	 * @return
+	 */
+	int deleteCourseDes(String id);
 }

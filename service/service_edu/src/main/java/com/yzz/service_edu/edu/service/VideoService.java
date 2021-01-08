@@ -55,4 +55,11 @@ public interface VideoService extends IService<Video> {
 	 * @return
 	 */
 	int updateVideo(Video video);
+	
+	/**
+	 *
+	 * @param courseId
+	 * @return
+	 */
+	int deleteVideoByCourseId(String courseId);
 }

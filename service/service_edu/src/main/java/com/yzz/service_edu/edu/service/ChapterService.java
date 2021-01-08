@@ -50,4 +50,11 @@ public interface ChapterService extends IService<Chapter> {
 	 * @return
 	 */
 	Chapter getChapter(String chapterId);
+	
+	/**
+	 * 根据courseId删除章节
+	 * @param courseId
+	 * @return
+	 */
+	int deleteChapterByCourseId(String courseId);
 }

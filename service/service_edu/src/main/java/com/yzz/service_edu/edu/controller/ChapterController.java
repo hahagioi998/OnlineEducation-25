@@ -7,6 +7,7 @@ import com.yzz.service_edu.edu.service.ChapterService;
 import com.yzz.service_edu.edu.vo.ChapterVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -35,7 +36,7 @@ public class ChapterController {
 	
 	@ApiOperation("获取课程大纲列表")
 	@GetMapping("/getChapterList")
-	public ResultData getChapterList(@RequestParam String courseId){
+	public ResultData getChapterList(@ApiParam("课程id")@RequestParam String courseId){
 		log.info("访问接口：获取课程大纲列表");
 		List<ChapterVO> list = new ArrayList<>();
 		try{
@@ -51,7 +52,7 @@ public class ChapterController {
 
 	@ApiOperation("新增章节")
 	@PostMapping("/addChapter")
-	public ResultData addChapter(@RequestBody Chapter chapter){
+	public ResultData addChapter(@ApiParam("章节")@RequestBody Chapter chapter){
 		log.info("访问接口：新增章节");
 		int i = 0;
 		try{
@@ -67,7 +68,7 @@ public class ChapterController {
 
 	@ApiOperation("更新章节")
 	@PostMapping("/updateChapter")
-	public ResultData updateChapter(@RequestBody Chapter chapter){
+	public ResultData updateChapter(@ApiParam("章节")@RequestBody Chapter chapter){
 		log.info("访问接口：更新章节");
 		int i = 0;
 		try{
@@ -83,7 +84,7 @@ public class ChapterController {
 
 	@ApiOperation("删除章节")
 	@DeleteMapping("/deleteChapter")
-	public ResultData deleteChapter(@RequestParam String chapterId){
+	public ResultData deleteChapter(@ApiParam("章节id")@RequestParam String chapterId){
 		log.info("访问接口：删除章节");
 		int i = 0;
 		try{
@@ -99,7 +100,7 @@ public class ChapterController {
 
 	@ApiOperation("根据id获取章节")
 	@GetMapping("/getChapter")
-	public ResultData getChapter(@RequestParam String chapterId){
+	public ResultData getChapter(@ApiParam("章节id")@RequestParam String chapterId){
 		log.info("访问接口：根据id获取章节");
 		Chapter chapter ;
 		try{

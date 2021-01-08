@@ -1,8 +1,12 @@
 package com.yzz.service_edu.edu.service;
 
+import com.yzz.service_edu.edu.dto.CourseDTO;
 import com.yzz.service_edu.edu.entity.Course;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.yzz.service_edu.edu.vo.CourseInfoVO;
+
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * <p>
@@ -34,4 +38,34 @@ public interface CourseService extends IService<Course> {
 	 * @return
 	 */
 	int updateCourseInfoById(CourseInfoVO courseInfoVO);
+	
+	/**
+	 * 根据课程id查询课程及其他信息
+	 * @param courseId
+	 * @return
+	 */
+	CourseDTO getCouseInfoById(String courseId);
+	
+	/**
+	 * 发布课程
+	 * @param courseId
+	 * @return
+	 */
+	int publishCourse(String courseId);
+	
+	/**
+	 * 条件分页查询课程
+	 * @param current
+	 * @param size
+	 * @param course
+	 * @return
+	 */
+	HashMap<String, Object> listCourseCondition(int current, int size, Course course);
+	
+	/**
+	 *
+	 * @param courseId
+	 * @return
+	 */
+	int deleteCourseById(String courseId);
 }

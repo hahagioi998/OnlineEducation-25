@@ -36,7 +36,7 @@
 
                 <span class="acts">
                     
-                    <el-button style="" type="text">编辑</el-button>
+                    <el-button style="" type="text" @click="openVideoDiag(video.id)">编辑</el-button>
                     <el-button type="text" @click="removeVideo(video.id)">删除</el-button>
                 </span>
                     </p>
@@ -149,10 +149,12 @@ export default {
         },
         //添加小节弹框的方法
         openVideo(chapterId) {
+            this.video = {}
             //弹框
             this.dialogVideoFormVisible = true
             //设置章节id
             this.video.chapterId = chapterId
+            
         },
         //添加小节
         addVideo() {
@@ -171,8 +173,43 @@ export default {
                     this.getChapterList()
                 })
         },
+        //更新小节
+        updateVideo(){
+            video.updateVideo(this.video)
+                .then(response =>{
+                    //关闭弹框
+                    this.dialogVideoFormVisible = false
+                    //提示
+                    this.$message({
+                        type: 'success',
+                        message: '更新小节成功!'
+                    });
+                    //刷新页面
+                    this.getChapterList()
+                })
+        },
+        //更新小节打开弹框
+        openVideoDiag(videoId){
+            //先去根据id获取小节的详细信息赋值给当前页面的小节
+            //然后再去调用更新方法
+            video.getVideteoById(videoId)
+                .then(response =>{
+                    var returnVideo = response.data.data
+                    this.video.id = returnVideo.id
+                    this.video.title = returnVideo.title
+                    this.video.videoSourceId = returnVideo.videoSourceId
+                    this.video.free = returnVideo.free
+                    this.video.sort = returnVideo.sort
+                })
+            this.dialogVideoFormVisible = true
+        },
         saveOrUpdateVideo() {
-            this.addVideo()
+            if(this.video.id){
+                this.updateVideo()
+            }else{
+                this.addVideo()
+            }
+            
         },
 
 //==============================章节操作====================================

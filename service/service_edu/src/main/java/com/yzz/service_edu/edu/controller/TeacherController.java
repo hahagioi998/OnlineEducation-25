@@ -126,7 +126,7 @@ public class TeacherController {
 	
 	@ApiOperation(value = "根据ID查询讲师")
 	@GetMapping("/queryTById")
-	public ResultData queryTById(@ApiParam(value = "讲师ID") @RequestParam(required = true) String teacherId){
+	public ResultData queryTById(@ApiParam(value = "讲师id") @RequestParam(required = true) String teacherId){
 		
 		log.info("访问接口：根据ID查询讲师");
 		HashMap<String, Object> hashMap = new HashMap<>();

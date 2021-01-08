@@ -1,5 +1,6 @@
 package com.yzz.service_edu.edu.mapper;
 
+import com.yzz.service_edu.edu.dto.CourseDTO;
 import com.yzz.service_edu.edu.entity.Course;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
@@ -13,4 +14,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface CourseMapper extends BaseMapper<Course> {
 
+	CourseDTO getPublishCourseInfo(String courseId);
 }

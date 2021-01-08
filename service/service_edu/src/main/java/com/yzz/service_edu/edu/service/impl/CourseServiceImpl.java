@@ -1,19 +1,28 @@
 package com.yzz.service_edu.edu.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.PageList;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.yzz.commonutils.exception.YzzException;
+import com.yzz.service_edu.edu.dto.CourseDTO;
 import com.yzz.service_edu.edu.entity.Course;
 import com.yzz.service_edu.edu.entity.CourseDescription;
 import com.yzz.service_edu.edu.mapper.CourseDescriptionMapper;
 import com.yzz.service_edu.edu.mapper.CourseMapper;
+import com.yzz.service_edu.edu.service.ChapterService;
 import com.yzz.service_edu.edu.service.CourseDescriptionService;
 import com.yzz.service_edu.edu.service.CourseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.yzz.service_edu.edu.service.VideoService;
 import com.yzz.service_edu.edu.vo.CourseInfoVO;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * <p>
@@ -31,6 +40,12 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
 
 	@Resource
 	private CourseDescriptionService courseDescriptionService;
+	
+	@Resource
+	private ChapterService chapterService;
+	
+	@Resource
+	private VideoService videoService;
 
 	@Override
 	public String insertCourseInfo(CourseInfoVO courseInfoVO) {
@@ -85,5 +100,60 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
 			throw new YzzException(201, "更新课程信息 或 更新课程描述失败");
 		}
 		return i;
+	}
+	
+	@Override
+	public CourseDTO getCouseInfoById(String courseId) {
+		return courseMapper.getPublishCourseInfo(courseId);
+	}
+	
+	@Override
+	public int publishCourse(String courseId) {
+		QueryWrapper<Course> qw = new QueryWrapper<>();
+		qw.eq("id", courseId);
+		Course course = new Course();
+		course.setStatus("Normal");
+		return courseMapper.update(course, qw);
+	}
+	
+	@Override
+	public HashMap<String, Object> listCourseCondition(int current, int size, Course course) {
+		PageHelper.startPage(current, size);
+		QueryWrapper<Course> qw = new QueryWrapper<>();
+		HashMap<String, Object> hashMap = new HashMap<>();
+		String status = course.getStatus();
+		String title = course.getTitle();
+		
+		if(!StringUtils.isEmpty(title)){
+			qw.like("title", title);
+		}
+		if(!StringUtils.isEmpty(status)){
+			qw.eq("status", status);
+		}
+		qw.orderByDesc("gmt_create");
+		
+		List<Course> list = courseMapper.selectList(qw);
+		PageInfo<Course> pageList = new PageInfo<>(list);
+		hashMap.put("total", pageList.getTotal());
+		hashMap.put("list", pageList.getList());
+		
+		return hashMap;
+	}
+	
+	@Override
+	public int deleteCourseById(String courseId) {
+		//根据courseId删除小节
+		int deleteVideo = videoService.deleteVideoByCourseId(courseId);
+		//根据courseId删除章节
+		int deleteChapter = chapterService.deleteChapterByCourseId(courseId);
+		//根据courseId删除课程描述
+		int deleteCourseDes = courseDescriptionService.deleteCourseDes(courseId);
+		//根据courseId删除课程
+		int deleteCourse = courseMapper.deleteById(courseId);
+		if( deleteVideo <= 0 || deleteChapter <= 0 || deleteCourseDes <= 0 || deleteCourse <= 0){
+			throw new YzzException(201, "删除课程失败");
+		}else{
+			return deleteCourse;
+		}
 	}
 }

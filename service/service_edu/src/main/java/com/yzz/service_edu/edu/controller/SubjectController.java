@@ -7,6 +7,7 @@ import com.yzz.service_edu.edu.entity.Subject;
 import com.yzz.service_edu.edu.service.SubjectService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -36,7 +37,7 @@ public class SubjectController {
 
 	@ApiOperation("添加课程分类")
 	@PostMapping("/addSubject")
-	public ResultData addSubject(MultipartFile file){
+	public ResultData addSubject(@ApiParam("文件")MultipartFile file){
 		log.info("访问接口：添加课程分类服务");
 		try{
 			subjectService.addSubject(file);
@@ -83,7 +84,7 @@ public class SubjectController {
 
 	@ApiOperation("根据一级课程获取二级课程")
 	@GetMapping("/levelTwoByLevelOne")
-	public ResultData levelTwoByLevelOne(@RequestBody String id){
+	public ResultData levelTwoByLevelOne(@ApiParam("一级课程id")@RequestBody String id){
 		log.info("访问接口：根据一级课程获取二级课程");
 		List<Subject> list = new ArrayList<>();
 		try{

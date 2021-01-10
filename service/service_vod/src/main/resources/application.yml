@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: @activatedProperties@
+  servlet:
+    multipart:
+      max-file-size: 100MB # 单个文件大小
+      max-request-size: 100MB # 设置总上传的数据大小
+      enabled: true #开启
+server:
+  port: 8003
+ali_OSS:
+  AccessKeyId: LTAI4FzEu4ciY3naYFUtddqg
+  AccessKeySecret: E7UesWNqUEP8RJKu4SwR5UMwXJuFo2

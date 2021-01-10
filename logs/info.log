@@ -1,985 +1,205 @@
-2021-01-07 21:12:06.883 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 10804 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-07 21:12:06.896 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-07 21:12:09.239 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-07 21:12:09.240 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-07 21:12:09.240 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-07 21:12:09.332 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-07 21:12:10.967 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-07 21:12:12.012 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-07 21:12:12.083 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-07 21:12:12.099 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-07 21:12:12.157 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-07 21:12:12.322 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.195 seconds (JVM running for 8.824)
-2021-01-07 21:12:39.421 [http-nio-8001-exec-5] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-07 21:13:06.192 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 22212 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-07 21:13:06.200 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-07 21:13:07.256 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-07 21:13:07.256 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-07 21:13:07.257 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-07 21:13:07.322 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-07 21:13:08.530 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-07 21:13:08.952 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-07 21:13:08.966 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-07 21:13:08.978 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-07 21:13:09.005 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-07 21:13:09.145 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.41 seconds (JVM running for 4.44)
-2021-01-07 21:13:12.561 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-07 21:14:29.264 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节
-2021-01-07 21:14:29.331 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-07 21:14:29.352 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-07 21:14:29.355 [http-nio-8001-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-07 21:14:30.070 [http-nio-8001-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-07 21:14:30.102 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节，结束
-2021-01-07 21:15:05.417 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：根据id获取章节
-2021-01-07 21:15:05.440 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：根据id获取章节，结束
-2021-01-07 21:15:45.637 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：更新章节
-2021-01-07 21:15:45.645 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-07 21:15:45.645 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-07 21:15:45.653 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：更新章节，结束
-2021-01-07 21:16:03.469 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：删除章节
-2021-01-07 21:16:03.472 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：删除章节，结束
-2021-01-07 21:16:13.710 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.LoginController - 登录ing
-2021-01-07 21:16:13.729 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:16:17.118 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-07 21:16:17.118 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-07 21:16:17.137 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-07 21:16:17.152 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-07 21:16:42.410 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:17:17.388 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-07 21:17:17.388 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-07 21:17:17.393 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-07 21:17:17.396 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-07 21:17:54.502 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息
-2021-01-07 21:17:54.513 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-07 21:17:54.513 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-07 21:17:54.520 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-07 21:17:54.520 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-07 21:17:54.522 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息，结束
-2021-01-07 21:18:45.172 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:20:06.278 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:20:13.701 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-07 21:20:13.701 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-07 21:20:13.704 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-07 21:20:13.707 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-07 21:20:30.600 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息
-2021-01-07 21:20:30.601 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-07 21:20:30.601 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-07 21:20:30.605 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-07 21:20:30.605 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-07 21:20:30.615 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息，结束
-2021-01-07 21:23:33.406 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-07 21:23:33.411 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-07 21:23:37.471 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 7544 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-07 21:23:37.479 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-07 21:23:38.487 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-07 21:23:38.488 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-07 21:23:38.488 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-07 21:23:38.562 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-07 21:23:39.721 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-07 21:23:40.135 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-07 21:23:40.148 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-07 21:23:40.161 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-07 21:23:40.187 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-07 21:23:40.326 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.322 seconds (JVM running for 4.295)
-2021-01-07 21:23:45.022 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-07 21:23:45.048 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:23:46.391 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:23:46.450 [http-nio-8001-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-07 21:23:46.973 [http-nio-8001-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-07 21:23:47.025 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:26:30.042 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:26:31.506 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:26:31.517 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:27:15.513 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节
-2021-01-07 21:27:15.516 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-07 21:27:15.521 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-07 21:27:15.554 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节，结束
-2021-01-07 21:27:16.902 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:27:16.926 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:27:23.700 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:27:23.705 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:27:38.114 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-07 21:27:38.119 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-07 21:27:38.123 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-07 21:27:38.139 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-07 21:27:38.161 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-07 21:27:38.293 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-07 21:28:08.995 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-07 21:28:08.995 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-07 21:28:09.001 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-07 21:28:09.004 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-07 21:28:09.027 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-07 21:28:09.034 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-07 21:28:12.093 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
-2021-01-07 21:28:12.097 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-07 21:28:12.097 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-07 21:28:12.100 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-07 21:28:12.100 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-07 21:28:12.102 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
-2021-01-07 21:28:12.649 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:28:12.655 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:35:34.017 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-07 21:35:34.024 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-07 21:35:38.833 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 19568 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-07 21:35:38.841 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-07 21:35:39.877 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-07 21:35:39.878 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-07 21:35:39.878 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-07 21:35:39.944 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-07 21:35:41.125 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-07 21:35:41.553 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-07 21:35:41.567 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-07 21:35:41.579 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-07 21:35:41.606 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-07 21:35:41.747 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.386 seconds (JVM running for 4.457)
-2021-01-07 21:36:19.662 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-07 21:36:19.687 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:36:19.885 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:36:19.947 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-07 21:36:20.485 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-07 21:36:20.541 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:36:57.863 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:36:58.137 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:36:58.147 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:37:03.863 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:37:03.926 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:37:03.934 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:37:48.065 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:37:48.296 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:37:48.306 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:37:55.268 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：删除章节
-2021-01-07 21:37:55.288 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：删除章节，结束
-2021-01-07 21:37:55.300 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:37:55.305 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:50:54.770 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：根据id获取章节
-2021-01-07 21:50:54.774 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：根据id获取章节，结束
-2021-01-07 21:50:58.735 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：更新章节
-2021-01-07 21:50:58.737 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-07 21:50:58.742 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-07 21:50:58.755 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：更新章节，结束
-2021-01-07 21:50:58.769 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:50:58.776 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:51:02.362 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:51:02.581 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:51:02.589 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:51:25.570 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:51:25.804 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:51:25.812 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:51:33.263 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节
-2021-01-07 21:51:33.267 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-07 21:51:33.267 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-07 21:51:33.270 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节，结束
-2021-01-07 21:51:33.282 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:51:33.286 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:51:37.869 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：删除章节
-2021-01-07 21:51:37.873 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：删除章节，结束
-2021-01-07 21:51:37.882 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:51:37.886 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 21:51:40.529 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-07 21:51:40.749 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-07 21:51:40.772 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-07 22:21:30.358 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-07 22:21:30.364 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-07 22:21:35.415 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 12092 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-07 22:21:35.423 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-07 22:21:36.425 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-07 22:21:36.426 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-07 22:21:36.426 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-07 22:21:36.492 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-07 22:21:37.637 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-07 22:21:38.050 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-07 22:21:38.063 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-07 22:21:38.075 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-07 22:21:38.102 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-07 22:21:38.245 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.251 seconds (JVM running for 4.269)
-2021-01-07 22:21:49.763 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-07 22:22:48.145 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-07 22:22:48.178 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-07 22:22:48.182 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-07 22:22:48.185 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-07 22:22:48.718 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-07 22:22:48.866 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
-2021-01-07 22:23:23.282 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-07 22:23:23.308 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-07 22:23:51.356 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
-2021-01-07 22:23:51.367 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-07 22:23:51.367 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-07 22:23:51.374 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
-2021-01-07 22:24:12.461 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节
-2021-01-07 22:24:12.464 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节，结束
-2021-01-08 10:23:18.274 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 18860 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 10:23:18.286 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 10:23:20.072 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 10:23:20.072 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 10:23:20.073 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 10:23:20.177 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 10:23:22.205 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 10:23:23.664 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 10:23:23.701 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 10:23:23.756 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 10:23:23.870 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 10:23:24.316 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.793 seconds (JVM running for 8.623)
-2021-01-08 10:24:12.545 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 10:24:12.680 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 登录ing
-2021-01-08 10:24:12.827 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 10:24:16.289 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 10:24:16.289 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 10:24:16.512 [http-nio-8001-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-08 10:24:17.493 [http-nio-8001-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-08 10:24:17.708 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 10:24:17.745 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 10:24:51.333 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 10:24:51.524 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 10:24:51.539 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 10:24:51.612 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 10:24:51.636 [http-nio-8001-exec-2] ERROR com.yzz.service_edu.edu.controller.CourseController - Source must not be null
-2021-01-08 10:24:51.656 [http-nio-8001-exec-2] ERROR com.yzz.service_edu.edu.controller.CourseController - java.lang.IllegalArgumentException: Source must not be null
-2021-01-08 10:25:00.780 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 10:25:01.021 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 10:25:01.022 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 10:25:01.029 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 10:25:01.030 [http-nio-8001-exec-4] ERROR com.yzz.service_edu.edu.controller.CourseController - Source must not be null
-2021-01-08 10:25:01.031 [http-nio-8001-exec-4] ERROR com.yzz.service_edu.edu.controller.CourseController - java.lang.IllegalArgumentException: Source must not be null
-2021-01-08 10:26:21.549 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 10:26:21.806 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 10:26:21.806 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 10:26:21.814 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 10:26:21.815 [http-nio-8001-exec-7] ERROR com.yzz.service_edu.edu.controller.CourseController - Source must not be null
-2021-01-08 10:26:21.817 [http-nio-8001-exec-7] ERROR com.yzz.service_edu.edu.controller.CourseController - java.lang.IllegalArgumentException: Source must not be null
-2021-01-08 10:28:07.159 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 10:28:07.159 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 10:28:07.168 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 10:28:07.170 [http-nio-8001-exec-8] ERROR com.yzz.service_edu.edu.controller.CourseController - Source must not be null
-2021-01-08 10:28:07.170 [http-nio-8001-exec-8] ERROR com.yzz.service_edu.edu.controller.CourseController - java.lang.IllegalArgumentException: Source must not be null
-2021-01-08 10:29:50.358 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 10:29:51.745 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 10:29:51.746 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 10:30:14.347 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 10:30:14.348 [http-nio-8001-exec-2] ERROR com.yzz.service_edu.edu.controller.CourseController - Source must not be null
-2021-01-08 10:30:14.348 [http-nio-8001-exec-2] ERROR com.yzz.service_edu.edu.controller.CourseController - java.lang.IllegalArgumentException: Source must not be null
-2021-01-08 10:30:32.074 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 10:30:33.378 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 10:30:33.385 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 10:30:33.389 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 10:30:33.409 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-08 10:30:33.496 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 10:30:33.712 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 10:30:41.718 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
-2021-01-08 10:30:41.727 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 10:30:41.767 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 10:30:41.788 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 10:30:41.789 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 10:30:41.792 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
-2021-01-08 10:30:42.425 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:30:42.452 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:30:49.563 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 10:30:49.563 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 10:30:49.570 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 10:30:49.574 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-08 10:30:49.636 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 10:30:49.650 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 10:30:55.389 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
-2021-01-08 10:30:55.392 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 10:30:55.392 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 10:30:55.399 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 10:30:55.399 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 10:30:55.403 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
-2021-01-08 10:30:55.980 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:30:55.992 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:31:08.593 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节
-2021-01-08 10:31:08.640 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 10:31:08.640 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 10:31:08.646 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节，结束
-2021-01-08 10:31:08.662 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:31:08.680 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:33:01.561 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:33:01.570 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:33:07.557 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:33:07.564 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:33:24.431 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:33:24.439 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:33:28.687 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 10:33:28.688 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 10:33:28.693 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 10:33:28.697 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 10:33:45.853 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 10:33:46.087 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 10:33:46.087 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 10:33:46.092 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 10:33:46.098 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-08 10:33:46.179 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 10:33:46.187 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 10:33:48.459 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
-2021-01-08 10:33:48.459 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 10:33:48.460 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 10:33:48.464 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 10:33:48.464 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 10:33:48.467 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
-2021-01-08 10:33:49.071 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:33:49.080 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:33:59.009 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 10:33:59.015 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 10:33:59.015 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 10:33:59.020 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
-2021-01-08 10:33:59.041 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:33:59.060 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:34:18.706 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节
-2021-01-08 10:34:18.710 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节，结束
-2021-01-08 10:34:18.725 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:34:18.731 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:34:37.612 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 10:34:37.612 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 10:34:37.612 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 10:34:37.620 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
-2021-01-08 10:34:37.641 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:34:37.650 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:34:43.225 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:34:43.232 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:39:45.877 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:39:45.885 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:43:39.933 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:43:39.942 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:45:15.065 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 10:45:15.174 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:45:15.185 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:45:50.825 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 10:45:50.965 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:45:50.974 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:47:27.750 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 10:47:27.751 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 10:47:27.751 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 10:48:25.467 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 10:48:25.607 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:48:25.617 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:48:27.288 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 10:48:27.289 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 10:48:27.289 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 10:48:44.088 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 10:48:44.088 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 10:48:44.088 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 10:49:48.508 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 10:49:48.655 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:49:48.663 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:49:49.967 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 10:49:49.968 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 10:49:49.969 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 10:50:11.142 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:50:11.153 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:50:13.820 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 10:50:13.821 [http-nio-8001-exec-9] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 10:50:13.821 [http-nio-8001-exec-9] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 10:50:52.501 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 10:50:52.509 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 10:50:54.637 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 10:50:54.640 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 10:50:54.640 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 11:02:43.858 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:02:43.868 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:02:44.942 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 11:02:44.943 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 11:02:44.943 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 11:02:48.102 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
-2021-01-08 11:02:48.108 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 11:02:48.108 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 11:02:48.111 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
-2021-01-08 11:02:48.125 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:02:48.130 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:04:00.603 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 11:04:00.714 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:04:00.733 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:04:02.017 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-08 11:04:02.021 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-08 11:04:28.259 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:04:28.268 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:04:29.080 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-08 11:04:29.084 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-08 11:04:34.822 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 11:04:34.822 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 11:04:34.822 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 11:05:36.945 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:05:36.965 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:05:39.724 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-08 11:05:39.727 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-08 11:05:44.249 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
-2021-01-08 11:05:44.250 [http-nio-8001-exec-9] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 11:05:44.250 [http-nio-8001-exec-9] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 11:05:44.254 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
-2021-01-08 11:05:44.270 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:05:44.276 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:08:29.269 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:08:29.276 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:08:34.599 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-08 11:08:34.602 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-08 11:08:38.046 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-08 11:08:38.049 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-08 11:08:48.280 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-08 11:08:48.283 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-08 11:10:58.043 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:10:58.049 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:11:44.965 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:11:44.971 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:11:46.085 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 11:11:46.211 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:11:46.224 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:11:48.307 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-08 11:11:48.310 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-08 11:11:55.381 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-08 11:11:55.384 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-08 11:12:11.463 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
-2021-01-08 11:12:11.465 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 11:12:11.465 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 11:12:11.470 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
-2021-01-08 11:12:15.986 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
-2021-01-08 11:12:15.986 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 11:12:15.986 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 11:12:15.990 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
-2021-01-08 11:12:16.014 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:12:16.021 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:14:08.579 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:14:08.586 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:15:45.276 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:15:45.283 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:15:46.970 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-08 11:15:46.973 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-08 11:16:35.303 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:16:35.309 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:16:51.074 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:16:51.083 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:16:59.033 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 11:16:59.033 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 11:16:59.033 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 11:16:59.038 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
-2021-01-08 11:16:59.055 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:16:59.063 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:17:02.427 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-08 11:17:02.431 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-08 11:17:06.166 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
-2021-01-08 11:17:06.166 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 11:17:06.166 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 11:17:06.170 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
-2021-01-08 11:17:06.185 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:17:06.190 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:17:55.017 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:17:55.025 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 11:18:00.569 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节
-2021-01-08 11:18:00.573 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节，结束
-2021-01-08 11:18:00.586 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 11:18:00.592 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 12:18:20.334 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-08 12:18:20.340 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-08 12:18:35.210 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 35276 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 12:18:35.222 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 12:18:37.254 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 12:18:37.255 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 12:18:37.258 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 12:18:37.510 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 12:18:38.088 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-08 12:19:23.518 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 23072 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 12:19:23.532 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 12:19:25.372 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 12:19:25.373 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 12:19:25.373 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 12:19:25.493 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 12:19:27.134 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 12:19:27.815 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 12:19:27.841 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 12:19:27.863 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 12:19:27.911 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 12:19:28.178 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.456 seconds (JVM running for 7.272)
-2021-01-08 12:19:32.182 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 12:21:15.422 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 22736 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 12:21:15.437 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 12:21:17.477 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 12:21:17.478 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 12:21:17.478 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 12:21:17.602 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 12:21:19.604 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 12:21:20.527 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 12:21:20.552 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 12:21:20.572 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 12:21:20.624 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 12:21:20.915 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.184 seconds (JVM running for 8.046)
-2021-01-08 12:21:34.772 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 12:25:28.317 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 12:25:28.414 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-08 12:25:29.136 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-08 12:25:29.434 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-08 14:26:28.673 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 31292 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 14:26:28.684 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: activatedProperties
-2021-01-08 14:26:30.425 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 14:26:30.426 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 14:26:30.426 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 14:26:30.536 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 14:26:30.726 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-08 14:31:48.684 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 26272 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 14:31:48.700 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 14:31:50.653 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 14:31:50.653 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 14:31:50.653 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 14:31:50.769 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 14:31:52.583 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 14:31:53.352 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 14:31:53.374 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 14:31:53.392 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 14:31:53.439 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 14:31:53.725 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.861 seconds (JVM running for 8.057)
-2021-01-08 14:33:00.221 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 14:33:00.284 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.LoginController - 登录ing
-2021-01-08 14:33:00.366 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 14:33:03.980 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 14:33:03.980 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 14:33:04.088 [http-nio-8001-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-08 14:33:04.801 [http-nio-8001-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-08 14:33:04.873 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 14:33:04.900 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 14:33:21.889 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 14:33:22.079 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 14:33:22.094 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 14:33:22.108 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 14:33:22.247 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-08 14:33:22.389 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 14:33:22.406 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 14:33:25.186 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
-2021-01-08 14:33:25.194 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 14:33:25.202 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 14:33:25.208 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 14:33:25.208 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 14:33:25.210 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
-2021-01-08 14:33:25.808 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 14:33:25.839 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 14:33:28.337 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:33:28.342 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:33:36.201 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 14:33:36.215 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 14:35:08.185 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 14:35:08.185 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 14:35:08.194 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 14:35:08.204 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 14:35:21.851 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 14:35:22.045 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 14:35:22.045 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 14:35:22.052 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 14:35:22.055 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-08 14:35:22.130 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 14:35:22.146 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 14:35:24.441 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
-2021-01-08 14:35:24.442 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 14:35:24.442 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 14:35:24.447 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 14:35:24.447 [http-nio-8001-exec-7] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 14:35:24.450 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
-2021-01-08 14:35:25.035 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 14:35:25.046 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 14:35:32.082 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:35:32.085 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:36:11.386 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 14:36:11.396 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 14:36:14.210 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 14:36:14.210 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 14:36:14.215 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 14:36:14.218 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-08 14:36:14.259 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 14:36:14.267 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 14:36:20.657 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
-2021-01-08 14:36:20.658 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 14:36:20.658 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 14:36:20.664 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 14:36:20.664 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 14:36:20.667 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
-2021-01-08 14:36:21.240 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 14:36:21.252 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 14:36:27.361 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:36:27.365 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:36:31.513 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 14:36:31.521 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 14:37:04.358 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:37:04.364 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:38:44.516 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 14:38:44.603 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:38:44.609 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:46:02.416 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-08 14:46:02.426 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-08 14:46:12.433 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 15992 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 14:46:12.444 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 14:46:14.170 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 14:46:14.171 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 14:46:14.171 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 14:46:14.298 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 14:46:16.269 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 14:46:17.024 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 14:46:17.047 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 14:46:17.070 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 14:46:17.114 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 14:46:17.410 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.628 seconds (JVM running for 7.369)
-2021-01-08 14:46:38.664 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 14:46:50.483 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程
-2021-01-08 14:46:50.556 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 14:46:50.565 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 14:46:50.569 [http-nio-8001-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-08 14:46:51.237 [http-nio-8001-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-08 14:46:51.449 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程，结束
-2021-01-08 14:48:37.581 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-08 14:48:37.594 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-08 14:48:44.657 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 27492 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 14:48:44.669 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 14:48:46.387 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 14:48:46.388 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 14:48:46.388 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 14:48:46.497 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 14:48:48.012 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 14:48:48.637 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 14:48:48.659 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 14:48:48.677 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 14:48:48.718 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 14:48:48.971 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 4.959 seconds (JVM running for 6.67)
-2021-01-08 14:48:55.395 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 14:48:55.439 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程
-2021-01-08 14:48:55.540 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 14:48:55.551 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 14:48:55.555 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-08 14:48:56.269 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-08 14:48:56.316 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程，结束
-2021-01-08 14:55:17.838 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:55:17.885 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:55:50.719 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:55:50.725 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:56:22.146 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 14:56:22.262 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:56:22.274 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:56:42.717 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:56:42.723 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:56:44.193 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 14:56:44.338 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:56:44.344 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:57:34.195 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:57:34.201 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:57:37.083 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 14:57:37.215 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 14:57:37.221 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 14:57:38.387 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程
-2021-01-08 14:57:38.388 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 14:57:38.389 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 14:57:38.393 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程，结束
-2021-01-08 14:59:47.191 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 15:03:36.129 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-08 15:03:36.143 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-08 15:12:06.158 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 13296 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 15:12:06.169 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 15:12:07.839 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 15:12:07.840 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 15:12:07.840 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 15:12:07.950 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 15:12:09.439 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 15:12:10.059 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 15:12:10.082 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 15:12:10.101 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 15:12:10.141 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 15:12:10.395 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 4.992 seconds (JVM running for 6.679)
-2021-01-08 15:12:21.519 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 15:26:06.496 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.LoginController - 登录ing
-2021-01-08 15:26:06.588 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 15:26:16.506 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 15:27:04.433 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 7120 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 15:27:04.443 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 15:27:06.228 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 15:27:06.228 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 15:27:06.228 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 15:27:06.356 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 15:27:07.924 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 15:27:08.565 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 15:27:08.587 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 15:27:08.604 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 15:27:08.646 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 15:27:08.894 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.167 seconds (JVM running for 7.016)
-2021-01-08 15:27:15.581 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 15:27:15.634 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 15:27:15.913 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:16.018 [http-nio-8001-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-08 15:27:16.700 [http-nio-8001-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-08 15:27:16.763 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:30.938 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:30.952 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:31.921 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:31.928 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:32.357 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:32.363 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:32.529 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:32.535 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:32.687 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:32.693 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:32.983 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:32.987 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:33.246 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:33.252 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:33.472 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:33.476 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:33.667 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:33.672 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:33.855 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:33.859 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:34.057 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:34.062 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:34.236 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:34.240 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:34.468 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:34.472 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:34.648 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:34.652 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:34.813 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:34.822 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:34.998 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:35.003 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:35.217 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:35.221 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:35.825 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:35.830 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:35.988 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:35.992 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:36.192 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:36.196 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:36.487 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:36.491 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:27:36.745 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:27:36.749 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:51:50.595 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-08 15:51:50.606 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-08 15:52:02.411 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 14860 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 15:52:02.423 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 15:52:04.233 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 15:52:04.234 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 15:52:04.234 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 15:52:04.358 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 15:52:06.085 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 15:52:06.755 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 15:52:06.778 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 15:52:06.797 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 15:52:06.843 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 15:52:07.091 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.386 seconds (JVM running for 7.4)
-2021-01-08 15:53:05.863 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 15:53:15.507 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 15:54:56.342 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 15:57:03.823 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 20604 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 15:57:03.837 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 15:57:05.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 15:57:05.753 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 15:57:05.753 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 15:57:05.909 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 15:57:07.440 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 15:57:08.074 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 15:57:08.097 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 15:57:08.114 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 15:57:08.157 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 15:57:08.424 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.326 seconds (JVM running for 6.957)
-2021-01-08 15:57:17.285 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 15:57:53.588 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:57:53.677 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-08 15:57:54.375 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-08 15:57:54.725 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 15:58:03.016 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 15:58:03.148 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 15:58:03.172 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 16:00:04.109 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 16:00:04.123 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 16:00:08.848 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 16:00:08.917 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 16:00:12.899 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 16:00:12.912 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 16:00:13.568 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 16:00:13.579 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 16:00:13.997 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 16:00:14.007 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 16:00:16.100 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 16:00:16.113 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 16:01:09.651 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 16:01:09.662 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 16:01:17.538 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 16:01:17.548 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 16:14:23.143 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 16:14:23.340 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程
-2021-01-08 16:14:23.354 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：获取全部课程，结束
-2021-01-08 16:17:27.432 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-08 16:17:27.444 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-08 16:17:42.254 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 8400 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 16:17:42.268 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 16:17:44.042 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 16:17:44.043 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 16:17:44.043 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 16:17:44.195 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 16:17:45.688 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 16:17:46.353 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 16:17:46.378 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 16:17:46.400 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 16:17:46.446 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 16:17:46.735 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.146 seconds (JVM running for 6.729)
-2021-01-08 16:18:05.055 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 16:18:05.112 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 16:18:05.448 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 16:18:05.536 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-08 16:18:06.227 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-08 16:18:06.337 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 16:18:09.318 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：删除课程
-2021-01-08 16:18:09.331 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：删除课程，结束
-2021-01-08 16:18:09.348 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 16:18:09.360 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 16:22:04.491 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 24584 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 16:22:04.504 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 16:22:06.466 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 16:22:06.467 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 16:22:06.468 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 16:22:06.599 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 16:22:08.290 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 16:22:08.944 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 16:22:08.964 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 16:22:08.986 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 16:22:09.035 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 16:22:09.299 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.521 seconds (JVM running for 7.509)
-2021-01-08 16:22:13.769 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 16:22:13.836 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 登录ing
-2021-01-08 16:22:13.913 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 16:22:18.157 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 16:22:18.243 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-08 16:22:18.912 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-08 16:22:19.187 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 16:22:23.928 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：删除课程
-2021-01-08 16:22:23.941 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：删除课程，结束
-2021-01-08 16:22:23.965 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 16:22:23.980 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 16:23:27.910 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 16:23:28.104 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 16:23:28.125 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 16:23:41.795 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 16:23:41.807 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 16:23:45.954 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 16:23:45.954 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 16:23:45.970 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 16:23:46.000 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-08 16:23:46.050 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 16:23:46.080 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 16:23:53.496 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
-2021-01-08 16:23:53.506 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 16:23:53.517 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 16:23:53.525 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 16:23:53.525 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 16:23:53.529 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
-2021-01-08 16:23:54.126 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 16:23:54.149 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 16:23:56.753 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 16:23:56.761 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 16:24:00.176 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程
-2021-01-08 16:24:00.183 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 16:24:00.184 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 16:24:00.189 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程，结束
-2021-01-08 16:24:00.667 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 16:24:00.675 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 16:24:03.708 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-08 16:24:03.708 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-08 16:24:03.724 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-08 16:24:03.725 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-08 16:24:03.757 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-08 16:24:03.770 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-08 16:24:06.738 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 16:24:06.749 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 16:24:08.741 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 16:24:08.756 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 16:24:18.984 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节
-2021-01-08 16:24:18.991 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 16:24:18.992 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 16:24:18.997 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节，结束
-2021-01-08 16:24:19.019 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 16:24:19.036 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 16:24:28.011 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-08 16:24:28.016 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-08 16:24:28.016 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-08 16:24:28.023 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
-2021-01-08 16:24:28.045 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 16:24:28.062 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 16:24:32.437 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
-2021-01-08 16:24:32.442 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
-2021-01-08 16:24:33.569 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程
-2021-01-08 16:24:33.570 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-08 16:24:33.571 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-08 16:24:33.579 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程，结束
-2021-01-08 16:24:34.092 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 16:24:34.101 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 16:24:37.381 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 16:24:37.391 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 16:24:52.402 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 16:24:52.412 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 16:24:57.728 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 16:24:57.741 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 16:25:00.149 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 16:25:00.157 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 17:21:03.814 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-08 17:21:03.825 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-08 17:21:17.638 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 21284 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 17:21:17.651 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 17:21:19.564 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 17:21:19.565 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 17:21:19.565 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 17:21:19.682 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 17:21:21.296 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 17:21:21.967 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 17:21:21.990 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 17:21:22.011 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 17:21:22.055 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 17:21:22.361 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.443 seconds (JVM running for 6.952)
-2021-01-08 17:22:22.160 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 17:22:22.224 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-08 17:22:22.497 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-08 17:22:22.603 [http-nio-8001-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-08 17:22:23.283 [http-nio-8001-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-08 17:22:23.366 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-08 17:22:29.822 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 17:22:30.043 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 17:22:33.134 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：删除课程
-2021-01-08 17:22:33.225 [http-nio-8001-exec-8] ERROR com.yzz.service_edu.edu.controller.CourseController - 
-### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
-### The error may exist in com/yzz/service_edu/edu/mapper/CourseDescriptionMapper.java (best guess)
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: DELETE FROM edu_course_description     WHERE (course_id = ?)
-### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
-2021-01-08 17:22:33.226 [http-nio-8001-exec-8] ERROR com.yzz.service_edu.edu.controller.CourseController - org.springframework.jdbc.BadSqlGrammarException: 
-### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
-### The error may exist in com/yzz/service_edu/edu/mapper/CourseDescriptionMapper.java (best guess)
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: DELETE FROM edu_course_description     WHERE (course_id = ?)
-### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'course_id' in 'where clause'
-2021-01-08 17:23:42.609 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-08 17:23:42.618 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-08 17:23:52.178 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 24464 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 17:23:52.189 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 17:23:53.824 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 17:23:53.824 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 17:23:53.825 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 17:23:53.932 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 17:23:55.427 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 17:23:56.092 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 17:23:56.120 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 17:23:56.139 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 17:23:56.183 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 17:23:56.455 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 4.914 seconds (JVM running for 6.7)
-2021-01-08 17:24:12.719 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-08 17:24:12.773 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：删除课程
-2021-01-08 17:24:12.862 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-08 17:24:13.537 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-08 17:24:13.599 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：删除课程，结束
-2021-01-08 17:24:13.720 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-08 17:24:13.975 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-08 17:26:59.771 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-08 17:26:59.788 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-08 17:27:10.543 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 32928 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-08 17:27:10.558 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-08 17:27:12.753 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-08 17:27:12.753 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-08 17:27:12.753 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-08 17:27:12.918 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-08 17:27:14.705 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-08 17:27:15.521 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-08 17:27:15.548 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-08 17:27:15.571 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-08 17:27:15.678 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-08 17:27:15.974 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.216 seconds (JVM running for 8.419)
+2021-01-10 10:29:13.987 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 16128 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 10:29:13.999 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-10 10:29:15.355 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-10 10:29:15.355 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 10:29:15.355 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 10:29:15.427 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 10:29:16.681 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 10:29:17.257 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-10 10:29:17.272 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 10:29:17.286 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 10:29:17.322 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 10:29:17.491 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 4.026 seconds (JVM running for 5.078)
+2021-01-10 10:30:00.996 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 10:30:07.918 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
+2021-01-10 10:30:07.990 [http-nio-8001-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-10 10:30:08.980 [http-nio-8001-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-10 10:30:09.102 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
+2021-01-10 11:33:34.947 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 21080 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 11:33:34.955 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-10 11:33:36.035 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-10 11:33:36.036 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 11:33:36.036 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 11:33:36.102 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 11:33:37.300 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 11:33:37.727 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-10 11:33:37.742 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 11:33:37.756 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 11:33:37.783 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 11:33:37.956 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.463 seconds (JVM running for 4.48)
+2021-01-10 11:34:39.828 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 13756 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 11:34:39.836 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-10 11:34:40.830 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-10 11:34:40.830 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 11:34:40.830 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 11:34:40.895 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 11:34:42.049 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 11:34:42.457 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-10 11:34:42.472 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 11:34:42.484 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 11:34:42.511 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 11:34:42.672 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.288 seconds (JVM running for 4.289)
+2021-01-10 11:35:12.969 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 10648 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 11:35:12.977 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-10 11:35:13.964 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-10 11:35:13.965 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 11:35:13.965 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 11:35:14.033 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 11:35:15.220 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 11:35:15.647 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-10 11:35:15.662 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 11:35:15.675 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 11:35:15.703 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 11:35:15.869 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.335 seconds (JVM running for 4.327)
+2021-01-10 11:35:34.301 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 19008 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 11:35:34.308 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-10 11:35:34.971 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-10 11:35:35.250 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-10 11:35:35.250 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 11:35:35.250 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 11:35:35.313 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 11:35:35.596 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 11:35:36.577 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-10 11:35:36.591 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 11:35:36.603 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 11:35:36.629 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 11:35:36.722 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.859 seconds (JVM running for 3.831)
+2021-01-10 11:35:40.457 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 11:42:10.947 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 7184 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 11:42:10.955 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-10 11:42:11.626 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-10 11:42:11.898 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-10 11:42:11.898 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 11:42:11.899 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 11:42:11.962 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 11:42:12.243 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 11:42:13.214 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-10 11:42:13.229 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 11:42:13.241 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 11:42:13.266 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 11:42:13.360 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.838 seconds (JVM running for 3.84)
+2021-01-10 11:42:24.415 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 11:42:24.632 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
+2021-01-10 11:42:36.338 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
+2021-01-10 11:43:30.398 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 23052 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 11:43:30.405 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-10 11:43:31.098 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-10 11:43:31.391 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-10 11:43:31.391 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 11:43:31.391 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 11:43:31.455 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 11:43:31.741 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 11:43:32.750 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-10 11:43:32.765 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 11:43:32.777 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 11:43:32.805 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 11:43:32.904 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.944 seconds (JVM running for 3.945)
+2021-01-10 12:41:09.460 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 21324 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 12:41:09.467 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-10 12:41:10.457 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-10 12:41:10.457 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 12:41:10.458 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 12:41:10.522 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 12:41:11.678 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 12:41:12.089 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-10 12:41:12.103 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 12:41:12.115 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 12:41:12.142 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 12:41:12.303 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.283 seconds (JVM running for 4.269)
+2021-01-10 12:41:16.729 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 12:41:16.763 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 登录ing
+2021-01-10 12:41:16.806 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
+2021-01-10 12:41:19.891 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
+2021-01-10 12:41:19.941 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-10 12:41:20.477 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-10 12:41:20.767 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
+2021-01-10 12:41:22.776 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
+2021-01-10 12:41:22.776 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
+2021-01-10 12:41:22.790 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
+2021-01-10 12:41:22.863 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
+2021-01-10 12:41:36.297 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息
+2021-01-10 12:41:36.306 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
+2021-01-10 12:41:36.314 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
+2021-01-10 12:41:36.386 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
+2021-01-10 12:41:36.386 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
+2021-01-10 12:41:36.414 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息，结束
+2021-01-10 12:41:36.996 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-10 12:41:37.018 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-10 12:41:43.526 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节
+2021-01-10 12:41:43.527 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
+2021-01-10 12:41:43.528 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
+2021-01-10 12:41:43.530 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节，结束
+2021-01-10 12:41:43.539 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-10 12:41:43.549 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-10 12:45:48.173 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 4112 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 12:45:48.181 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-10 12:45:48.851 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-10 12:45:49.138 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-10 12:45:49.139 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 12:45:49.139 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 12:45:49.204 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 12:45:49.492 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 12:45:50.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-10 12:45:50.488 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 12:45:50.499 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 12:45:50.525 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 12:45:50.617 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.872 seconds (JVM running for 3.877)
+2021-01-10 12:46:14.818 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-10 12:46:14.824 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-10 12:46:29.204 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 12:47:20.226 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 12636 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 12:47:20.233 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-10 12:47:20.916 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-10 12:47:21.193 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-10 12:47:21.194 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 12:47:21.194 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 12:47:21.257 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 12:47:21.542 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 12:47:22.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-10 12:47:22.551 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 12:47:22.563 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 12:47:22.588 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 12:47:22.680 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.895 seconds (JVM running for 3.876)
+2021-01-10 12:47:52.553 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 12:49:52.463 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 13608 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 12:49:52.469 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-10 12:49:53.142 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-10 12:49:53.420 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-10 12:49:53.420 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 12:49:53.420 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 12:49:53.483 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 12:49:53.761 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 12:49:54.739 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-10 12:49:54.752 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 12:49:54.765 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 12:49:54.789 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 12:49:54.881 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.856 seconds (JVM running for 3.857)
+2021-01-10 12:58:10.886 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-10 12:58:10.894 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-10 12:58:20.989 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 12:58:21.192 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
+2021-01-10 12:58:21.875 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.service.impl.VodServiceImpl - 上传视频失败，失败原因: InvalidFileName.Extension
+2021-01-10 13:01:36.590 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 3076 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
+2021-01-10 13:01:36.597 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-10 13:01:37.266 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-10 13:01:37.539 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-10 13:01:37.539 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-10 13:01:37.539 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 13:01:37.603 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-10 13:01:37.905 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-10 13:01:38.924 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-10 13:01:38.938 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-10 13:01:38.951 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-10 13:01:38.977 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-10 13:01:39.072 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.925 seconds (JVM running for 3.91)
+2021-01-10 13:01:56.426 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:01:56.629 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
+2021-01-10 13:02:07.958 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
+2021-01-10 13:02:14.000 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
+2021-01-10 13:02:14.002 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
+2021-01-10 13:02:14.003 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
+2021-01-10 13:02:14.034 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
+2021-01-10 13:02:14.071 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-10 13:02:14.111 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-10 13:02:22.696 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-10 13:02:22.701 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

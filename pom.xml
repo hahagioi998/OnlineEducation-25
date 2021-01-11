@@ -7,13 +7,11 @@
         <module>service/service_edu</module>
         <module>common</module>
     </modules>
-    <!--    <modules>-->
-<!--        <module>service</module>-->
-<!--    </modules>-->
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.1</version>
+        <version>2.3.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yzz</groupId>
@@ -87,12 +85,11 @@
                 <scope>import</scope>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-discovery -->
             <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>${cloud-alibaba.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+                <version>2.2.3.RELEASE</version>
             </dependency>
             <!--mybatis-plus 持久层-->
             <dependency>

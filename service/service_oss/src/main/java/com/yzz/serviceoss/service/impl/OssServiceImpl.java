@@ -9,6 +9,7 @@ import org.joda.time.DateTime;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.annotation.Resource;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -24,13 +25,17 @@ import java.util.UUID;
 @Slf4j
 @Service
 public class OssServiceImpl implements OssService {
+	
+	@Resource
+	private AliOSS aliOSS;
+	
 	@Override
 	public String upLoadAvatar(MultipartFile file) {
 		
-		String endPoint = AliOSS.EndPoint;
-		String bucketName = AliOSS.BucketName;
-		String accessKeySecret = AliOSS.AccessKeySecret;
-		String accessKeyId = AliOSS.AccessKeyId;
+		String endPoint = aliOSS.getEndpoint();
+		String bucketName = aliOSS.getBucketName();
+		String accessKeySecret = aliOSS.getAccessKeySecret();
+		String accessKeyId = aliOSS.getAccessKeyId();
 		String fileName = UUID.randomUUID().toString().replaceAll("-","");
 		//获取当前日期
 		String datePath = new DateTime().toString("yyyy/MM/dd");

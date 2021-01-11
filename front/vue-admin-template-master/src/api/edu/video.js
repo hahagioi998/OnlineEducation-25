@@ -33,3 +33,11 @@ export function updateVideo(video){
         data: video
     })
 }
+
+//根据id删除视频
+export function deleteVod(videoId){
+    return request({
+        url: `/videoService/deleteVod?videoId=${videoId}`,
+        method: 'delete'
+    })
+}

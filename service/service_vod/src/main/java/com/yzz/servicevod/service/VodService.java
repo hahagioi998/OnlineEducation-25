@@ -11,4 +11,11 @@ public interface VodService {
 	 * @return
 	 */
 	String upLoadVod(MultipartFile file) throws IOException;
+	
+	/**
+	 * 删除视频
+	 * @param videoId
+	 * @return
+	 */
+	boolean deleteVod(String videoId) throws Exception;
 }

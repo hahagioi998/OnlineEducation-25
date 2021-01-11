@@ -2,12 +2,14 @@ package com.yzz.servicevod.service.impl;
 
 import com.aliyun.vod.upload.impl.UploadVideoImpl;
 import com.aliyun.vod.upload.req.UploadStreamRequest;
-import com.aliyun.vod.upload.req.UploadVideoRequest;
 import com.aliyun.vod.upload.resp.UploadStreamResponse;
-import com.aliyun.vod.upload.resp.UploadVideoResponse;
+import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.vod.model.v20170321.DeleteVideoRequest;
+import com.aliyuncs.vod.model.v20170321.DeleteVideoResponse;
 import com.yzz.commonutils.exception.YzzException;
 import com.yzz.servicevod.service.VodService;
-import com.yzz.servicevod.vo.AliVod;
+import com.yzz.servicevod.vo.AliVodVO;
+import com.yzz.servicevod.vo.InitObjectVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -28,19 +30,30 @@ import java.util.HashMap;
 public class VodServiceImpl implements VodService {
 
 	@Resource
-	private AliVod aliVod;
+	private AliVodVO aliVodVO;
+	
 	@Override
 	public String upLoadVod(MultipartFile file) throws IOException {
 		String name = file.getOriginalFilename();
-		HashMap<String, Object> hashMap = uploadVideo(aliVod.getAccessKeyId(),
-				                                      aliVod.getAccessKeySecret(), name, name, file.getInputStream());
+		HashMap<String, Object> hashMap = uploadVideo(aliVodVO.getAccessKeyId(),
+				                                      aliVodVO.getAccessKeySecret(), name, name, file.getInputStream());
 		if(hashMap.getOrDefault("VideoId", null) == null){
 			log.error("上传视频失败，失败原因: {}", hashMap.get("ErrorCode"));
 			throw new YzzException(201, "上传视频失败");
 		}
 		return (String) hashMap.get("VideoId");
 	}
-
+	
+	@Override
+	public boolean deleteVod(String videoId) throws Exception {
+		
+		DefaultAcsClient client = InitObjectVO.initVodClient(aliVodVO.getAccessKeyId(), aliVodVO.getAccessKeySecret());
+		DeleteVideoResponse response = new DeleteVideoResponse();
+		response = deleteVideo(client, videoId);
+		log.info("删除视频requestId: {}", response.getRequestId());
+		return true;
+	}
+	
 	/**
 	 * 本地文件上传接口
 	 *
@@ -66,5 +79,19 @@ public class VodServiceImpl implements VodService {
 			hashMap.put("ErrorMessage", response.getMessage());
 			return hashMap;
 		}
+	}
+	
+	/**
+	 * 删除视频
+	 * @param client 发送请求客户端
+	 * @param videoId 发送请求客户端
+	 * @return DeleteVideoResponse 删除视频响应数据
+	 * @throws Exception
+	 */
+	public DeleteVideoResponse deleteVideo(DefaultAcsClient client, String videoId) throws Exception {
+		DeleteVideoRequest request = new DeleteVideoRequest();
+		//支持传入多个视频ID，多个用逗号分隔
+		request.setVideoIds(videoId);
+		return client.getAcsResponse(request);
 	}
 }

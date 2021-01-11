@@ -1,6 +1,5 @@
 package com.yzz.serviceoss.vo;
 
-import com.sun.corba.se.spi.activation.EndPointInfo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -18,12 +17,12 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @NoArgsConstructor
 @Component
-public class AliOSS implements InitializingBean {
+public class AliOSS {
 	
 	@Value("${ali_OSS.endpoint}")
 	private String endpoint;
 	
-	@Value("${ali_OSS.BucketName}")
+	@Value("${ali_OSS.bucketName}")
 	private String bucketName;
 	
 	@Value("${ali_OSS.AccessKeyId}")
@@ -32,19 +31,4 @@ public class AliOSS implements InitializingBean {
 	@Value("${ali_OSS.AccessKeySecret}")
 	private String accessKeySecret;
 	
-	/**
-	 * 同时定义4个静态变量
-	 */
-	public static String EndPoint;
-	public static String BucketName;
-	public static String AccessKeyId;
-	public static String AccessKeySecret;
-	
-	@Override
-	public void afterPropertiesSet() throws Exception {
-		EndPoint = this.endpoint;
-		BucketName = this.bucketName;
-		AccessKeySecret = this.accessKeySecret;
-		AccessKeyId = this.accessKeyId;
-	}
 }

@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @NoArgsConstructor
 @Component
-public class AliVod {
+public class AliVodVO {
 	
 	@Value("${ali_OSS.AccessKeyId}")
 	private String accessKeyId;

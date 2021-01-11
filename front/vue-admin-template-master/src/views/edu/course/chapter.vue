@@ -81,6 +81,8 @@
       </el-radio-group>
     </el-form-item>
     <el-form-item label="上传视频">
+        <!-- before-remove点击上传了的视频右侧的×号会调用的方法，会出现个是否确认的弹框 -->
+        <!-- on-remove 如果点击了确认就会调用这个方法 -->
         <el-upload
             :on-success="handleVodUploadSuccess"
             :on-remove="handleVodRemove"
@@ -128,7 +130,8 @@ export default {
                 title: '',
                 sort: 0,
                 free: 0,
-                videoSourceId: ''
+                videoSourceId: '',
+                videoOriginalName: ''
             },
             dialogChapterFormVisible: false,//章节弹框
             dialogVideoFormVisible: false, //小节弹框
@@ -147,9 +150,30 @@ export default {
     },
     methods:{
 //==============================视频操作====================================
+        //点击确认后调用的删除方法
+        handleVodRemove(){
+            video.deleteVod(this.video.videoSourceId)
+                .then(response => {
+                    //提示信息
+                    this.$message({
+                        type: 'success',
+                        message: '删除视频成功!'
+                    });
+                    //把文件列表清空，如果不清空，添加的小节还是会带有已经删除的视频id和name
+                    this.fileList = []
+                    this.video.videoOriginalName = ''
+                    this.video.videoSourceId = ''
+                })
+        },
+        //点击叉号调用的方法
+        beforeVodRemove(file, fileList){
+            return this.$confirm(`确定移除 ${file.name}?`);
+        },
         handleVodUploadSuccess(reponse, file, fileList){
+            //上传视频返回的视频id
             this.video.videoSourceId = reponse.data.videoId
-
+            //上传视频的视频名称
+            this.video.videoOriginalName = file.name
         },
         handleUploadExceed(){
             this.$message.warn("请先删除已经上传的视频，再重新上传");
@@ -230,6 +254,8 @@ export default {
                     this.video.videoSourceId = returnVideo.videoSourceId
                     this.video.free = returnVideo.free
                     this.video.sort = returnVideo.sort
+                    this.fileList.push(returnVideo.videoOriginalName)
+                    this.file = returnVideo.videoOriginalName
                 })
             this.dialogVideoFormVisible = true
         },
@@ -325,7 +351,7 @@ export default {
             chapter.getChapterList(this.courseId)
                 .then(response => {
                     this.chapterVideoList = response.data.data
-                })
+                    })
         },
         previous() {
             this.$router.push({path:'/course/info/'+this.courseId})

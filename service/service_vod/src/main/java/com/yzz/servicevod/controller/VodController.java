@@ -4,11 +4,10 @@ import com.yzz.commonutils.vo.ResultData;
 import com.yzz.servicevod.service.VodService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.apache.ibatis.annotations.Delete;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
@@ -37,9 +36,28 @@ public class VodController {
 		try{
 			videoId = vodService.upLoadVod(file);
 		}catch (Exception e){
+			log.error(e.getMessage());
+			log.error(e.fillInStackTrace().toString());
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：上传视频，结束");
+		return ResultData.sucess().data("videoId", videoId);
+	}
+	
+	
+	@ApiOperation("删除视频")
+	@DeleteMapping("/deleteVod")
+	public ResultData deleteVod(@RequestParam @ApiParam("视频id") String videoId){
+		log.info("访问接口：删除视频");
+		boolean flag;
+		try{
+			flag = vodService.deleteVod(videoId);
+		}catch (Exception e){
+			log.error(e.getLocalizedMessage());
+			log.error(e.fillInStackTrace().toString());
+			return ResultData.failed().data("data", null);
+		}
+		log.info("访问接口：删除视频，结束");
 		return ResultData.sucess().data("videoId", videoId);
 	}
 }

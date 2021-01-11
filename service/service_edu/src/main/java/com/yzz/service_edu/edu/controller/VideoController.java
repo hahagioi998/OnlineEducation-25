@@ -4,10 +4,12 @@ package com.yzz.service_edu.edu.controller;
 import com.yzz.commonutils.vo.ResultData;
 import com.yzz.service_edu.edu.entity.Video;
 import com.yzz.service_edu.edu.service.VideoService;
+import com.yzz.service_edu.edu.service.VodService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.ibatis.annotations.Delete;
 import org.springframework.web.bind.annotation.*;
 
@@ -30,6 +32,9 @@ public class VideoController {
 
 	@Resource
 	private VideoService videoService;
+	
+	@Resource
+	private VodService vodService;
 
 	@ApiOperation("新增小节")
 	@PostMapping("/addVideo")
@@ -49,6 +54,13 @@ public class VideoController {
 	@DeleteMapping("/deleteVideo")
 	public ResultData deleteVideo(@ApiParam("小节id")@RequestParam String id){
 		log.info("访问接口：删除小节");
+		
+		log.info("远程调用vod模块，删除视频功能");
+		String videoId = videoService.getVideoById(id).getVideoSourceId();
+		if(!StringUtils.isEmpty(videoId))
+			vodService.deleteVod(videoId);
+		log.info("远程调用vod模块，删除视频功能，结束");
+		
 		int i ;
 		try{
 			i = videoService.deleteVideo(id);

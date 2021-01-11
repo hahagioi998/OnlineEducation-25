@@ -1,0 +1,20 @@
+server:
+  port: 8002
+
+spring:
+  profiles:
+    active: @activatedProperties@
+  servlet:
+    multipart:
+      max-file-size: 100MB # \u5355\u4E2A\u6587\u4EF6\u5927\u5C0F
+      max-request-size: 100MB # \u8BBE\u7F6E\u603B\u4E0A\u4F20\u7684\u6570\u636E\u5927\u5C0F
+      enabled: true #\u5F00\u542F
+  application:
+    name: service-vod
+
+
+ali_OSS:
+  endpoint: 1
+  bucketName: onlineeducationyzz
+  AccessKeyId: LTAI4FzEu4ciY3naYFUtddqg
+  AccessKeySecret: E7UesWNqUEP8RJKu4SwR5UMwXJuFo2

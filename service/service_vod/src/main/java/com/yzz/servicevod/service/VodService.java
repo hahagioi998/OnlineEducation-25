@@ -3,6 +3,7 @@ package com.yzz.servicevod.service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+import java.util.List;
 
 public interface VodService {
 	/**
@@ -11,11 +12,11 @@ public interface VodService {
 	 * @return
 	 */
 	String upLoadVod(MultipartFile file) throws IOException;
-	
+
 	/**
 	 * 删除视频
-	 * @param videoId
+	 * @param videoIdList
 	 * @return
 	 */
-	boolean deleteVod(String videoId) throws Exception;
+	boolean deleteVod(List<String> videoIdList) throws Exception;
 }

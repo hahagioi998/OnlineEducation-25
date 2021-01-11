@@ -1,519 +1,35 @@
-2021-01-10 10:29:13.987 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 16128 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 10:29:13.999 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-10 10:29:15.355 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-10 10:29:15.355 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 10:29:15.355 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 10:29:15.427 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 10:29:16.681 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 10:29:17.257 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-10 10:29:17.272 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 10:29:17.286 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 10:29:17.322 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 10:29:17.491 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 4.026 seconds (JVM running for 5.078)
-2021-01-10 10:30:00.996 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-10 10:30:07.918 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-10 10:30:07.990 [http-nio-8001-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-10 10:30:08.980 [http-nio-8001-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-10 10:30:09.102 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-10 11:33:34.947 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 21080 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 11:33:34.955 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-10 11:33:36.035 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-10 11:33:36.036 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 11:33:36.036 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 11:33:36.102 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 11:33:37.300 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 11:33:37.727 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-10 11:33:37.742 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 11:33:37.756 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 11:33:37.783 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 11:33:37.956 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.463 seconds (JVM running for 4.48)
-2021-01-10 11:34:39.828 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 13756 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 11:34:39.836 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-10 11:34:40.830 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-10 11:34:40.830 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 11:34:40.830 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 11:34:40.895 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 11:34:42.049 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 11:34:42.457 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-10 11:34:42.472 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 11:34:42.484 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 11:34:42.511 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 11:34:42.672 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.288 seconds (JVM running for 4.289)
-2021-01-10 11:35:12.969 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 10648 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 11:35:12.977 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-10 11:35:13.964 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-10 11:35:13.965 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 11:35:13.965 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 11:35:14.033 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 11:35:15.220 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 11:35:15.647 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-10 11:35:15.662 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 11:35:15.675 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 11:35:15.703 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 11:35:15.869 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.335 seconds (JVM running for 4.327)
-2021-01-10 11:35:34.301 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 19008 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 11:35:34.308 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
-2021-01-10 11:35:34.971 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-10 11:35:35.250 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-10 11:35:35.250 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 11:35:35.250 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 11:35:35.313 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 11:35:35.596 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 11:35:36.577 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-10 11:35:36.591 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 11:35:36.603 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 11:35:36.629 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 11:35:36.722 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.859 seconds (JVM running for 3.831)
-2021-01-10 11:35:40.457 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-10 11:42:10.947 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 7184 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 11:42:10.955 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
-2021-01-10 11:42:11.626 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-10 11:42:11.898 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-10 11:42:11.898 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 11:42:11.899 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 11:42:11.962 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 11:42:12.243 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 11:42:13.214 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-10 11:42:13.229 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 11:42:13.241 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 11:42:13.266 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 11:42:13.360 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.838 seconds (JVM running for 3.84)
-2021-01-10 11:42:24.415 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-10 11:42:24.632 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
-2021-01-10 11:42:36.338 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
-2021-01-10 11:43:30.398 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 23052 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 11:43:30.405 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
-2021-01-10 11:43:31.098 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-10 11:43:31.391 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-10 11:43:31.391 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 11:43:31.391 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 11:43:31.455 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 11:43:31.741 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 11:43:32.750 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-10 11:43:32.765 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 11:43:32.777 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 11:43:32.805 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 11:43:32.904 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.944 seconds (JVM running for 3.945)
-2021-01-10 12:41:09.460 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 21324 (E:\Dev\project\OnlineEducation\service\service_edu\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 12:41:09.467 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-10 12:41:10.457 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-10 12:41:10.457 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 12:41:10.458 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 12:41:10.522 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 12:41:11.678 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 12:41:12.089 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-10 12:41:12.103 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 12:41:12.115 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 12:41:12.142 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 12:41:12.303 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 3.283 seconds (JVM running for 4.269)
-2021-01-10 12:41:16.729 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-10 12:41:16.763 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 登录ing
-2021-01-10 12:41:16.806 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-10 12:41:19.891 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-10 12:41:19.941 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-10 12:41:20.477 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-10 12:41:20.767 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-10 12:41:22.776 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-10 12:41:22.776 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-10 12:41:22.790 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-10 12:41:22.863 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-10 12:41:36.297 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息
-2021-01-10 12:41:36.306 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-10 12:41:36.314 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-10 12:41:36.386 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-10 12:41:36.386 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-10 12:41:36.414 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息，结束
-2021-01-10 12:41:36.996 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-10 12:41:37.018 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-10 12:41:43.526 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节
-2021-01-10 12:41:43.527 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-10 12:41:43.528 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-10 12:41:43.530 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节，结束
-2021-01-10 12:41:43.539 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-10 12:41:43.549 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-10 12:45:48.173 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 4112 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 12:45:48.181 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
-2021-01-10 12:45:48.851 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-10 12:45:49.138 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-10 12:45:49.139 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 12:45:49.139 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 12:45:49.204 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 12:45:49.492 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 12:45:50.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-10 12:45:50.488 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 12:45:50.499 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 12:45:50.525 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 12:45:50.617 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.872 seconds (JVM running for 3.877)
-2021-01-10 12:46:14.818 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-10 12:46:14.824 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-10 12:46:29.204 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-10 12:47:20.226 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 12636 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 12:47:20.233 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
-2021-01-10 12:47:20.916 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-10 12:47:21.193 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-10 12:47:21.194 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 12:47:21.194 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 12:47:21.257 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 12:47:21.542 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 12:47:22.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-10 12:47:22.551 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 12:47:22.563 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 12:47:22.588 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 12:47:22.680 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.895 seconds (JVM running for 3.876)
-2021-01-10 12:47:52.553 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-10 12:49:52.463 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 13608 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 12:49:52.469 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
-2021-01-10 12:49:53.142 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-10 12:49:53.420 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-10 12:49:53.420 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 12:49:53.420 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 12:49:53.483 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 12:49:53.761 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 12:49:54.739 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-10 12:49:54.752 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 12:49:54.765 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 12:49:54.789 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 12:49:54.881 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.856 seconds (JVM running for 3.857)
-2021-01-10 12:58:10.886 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-10 12:58:10.894 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-10 12:58:20.989 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-10 12:58:21.192 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
-2021-01-10 12:58:21.875 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.service.impl.VodServiceImpl - 上传视频失败，失败原因: InvalidFileName.Extension
-2021-01-10 13:01:36.590 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_251 on DESKTOP-VD7PFJ0 with PID 3076 (E:\Dev\project\OnlineEducation\service\service_vod\target\classes started by yky in E:\Dev\project\OnlineEducation)
-2021-01-10 13:01:36.597 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
-2021-01-10 13:01:37.266 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-10 13:01:37.539 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-10 13:01:37.539 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-10 13:01:37.539 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-10 13:01:37.603 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-10 13:01:37.905 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-10 13:01:38.924 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-10 13:01:38.938 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-10 13:01:38.951 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-10 13:01:38.977 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-10 13:01:39.072 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 2.925 seconds (JVM running for 3.91)
-2021-01-10 13:01:56.426 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-10 13:01:56.629 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
-2021-01-10 13:02:07.958 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
-2021-01-10 13:02:14.000 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-10 13:02:14.002 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-10 13:02:14.003 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-10 13:02:14.034 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
-2021-01-10 13:02:14.071 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-10 13:02:14.111 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-10 13:02:22.696 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-10 13:02:22.701 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-11 10:20:19.350 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_231 on MECH-YKY with PID 10232 (D:\java\things\onlineeducation\service\service_vod\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-11 10:20:19.413 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: dev
-2021-01-11 10:20:23.201 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-11 10:20:24.061 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-11 10:20:24.061 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 10:20:24.061 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-11 10:20:24.243 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 10:20:25.084 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 10:20:27.470 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-11 10:20:27.499 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 10:20:27.555 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 10:20:27.659 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 10:20:27.894 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 10.148 seconds (JVM running for 14.232)
-2021-01-11 11:14:34.976 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 16248 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-11 11:14:34.992 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 11:14:36.947 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 11:14:36.948 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 11:14:36.948 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-11 11:14:37.152 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 11:14:39.172 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 11:14:39.805 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-11 11:14:39.829 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 11:14:39.848 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 11:14:39.897 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 11:14:40.184 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.138 seconds (JVM running for 8.052)
-2021-01-11 11:15:21.918 [main] INFO  com.yzz.servicevod.VodApplication - Starting VodApplication using Java 1.8.0_231 on MECH-YKY with PID 26064 (D:\java\things\onlineeducation\service\service_vod\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-11 11:15:21.928 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: dev
-2021-01-11 11:15:24.022 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-11 11:15:25.002 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-11 11:15:25.003 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 11:15:25.012 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-11 11:15:25.323 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 11:15:26.304 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 11:15:28.360 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-11 11:15:28.406 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 11:15:28.443 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 11:15:28.523 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 11:15:28.816 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 7.612 seconds (JVM running for 9.776)
-2021-01-11 11:16:10.212 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-11 11:16:10.338 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 登录ing
-2021-01-11 11:16:10.461 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-11 11:16:15.067 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-11 11:16:15.067 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-11 11:16:15.260 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-11 11:16:16.544 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-11 11:16:16.768 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-11 11:16:16.806 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-11 11:16:27.808 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息
-2021-01-11 11:16:27.831 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-11 11:16:28.019 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-11 11:16:28.032 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-11 11:16:28.032 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-11 11:16:28.037 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息，结束
-2021-01-11 11:16:28.685 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:16:28.709 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:16:32.781 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节
-2021-01-11 11:16:32.783 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-11 11:16:32.783 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-11 11:16:32.788 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节，结束
-2021-01-11 11:16:32.805 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:16:32.827 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:17:27.419 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-11 11:17:27.709 [http-nio-8003-exec-2] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
-2021-01-11 11:17:34.859 [http-nio-8003-exec-2] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
-2021-01-11 11:19:38.555 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-11 11:19:38.654 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:19:38.666 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:21:30.692 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:21:30.701 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:21:55.863 [http-nio-8003-exec-6] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
-2021-01-11 11:22:01.046 [http-nio-8003-exec-6] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
-2021-01-11 11:22:09.517 [http-nio-8003-exec-10] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
-2021-01-11 11:22:09.767 [http-nio-8003-exec-10] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : B9004472-2DCD-495A-9972-55A4689F95A1
-2021-01-11 11:22:09.768 [http-nio-8003-exec-10] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : B9004472-2DCD-495A-9972-55A4689F95A1
-2021-01-11 11:22:43.101 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:22:43.112 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:23:05.552 [http-nio-8003-exec-9] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
-2021-01-11 11:23:10.481 [http-nio-8003-exec-9] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
-2021-01-11 11:23:13.414 [http-nio-8003-exec-4] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
-2021-01-11 11:23:13.709 [http-nio-8003-exec-4] INFO  com.yzz.servicevod.service.impl.VodServiceImpl - 删除视频requestId: F76E7BF0-3E35-4071-ADFB-B53AC55218FC
-2021-01-11 11:23:13.709 [http-nio-8003-exec-4] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频，结束
-2021-01-11 11:27:34.022 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:27:34.034 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:29:03.614 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:29:03.628 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:29:12.737 [http-nio-8003-exec-7] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
-2021-01-11 11:29:16.603 [http-nio-8003-exec-7] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
-2021-01-11 11:29:20.139 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
-2021-01-11 11:29:20.444 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.service.impl.VodServiceImpl - 删除视频requestId: 127F5A72-CB92-49E2-9CF3-DC1FD50D39EF
-2021-01-11 11:29:20.444 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频，结束
-2021-01-11 11:29:22.510 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
-2021-01-11 11:29:22.514 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
-2021-01-11 11:29:22.514 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
-2021-01-11 11:29:22.518 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
-2021-01-11 11:29:22.536 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:29:22.551 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:29:51.795 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:29:51.799 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:29:56.465 [http-nio-8003-exec-2] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
-2021-01-11 11:29:58.501 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
-2021-01-11 11:29:58.510 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-11 11:29:58.510 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-11 11:29:58.554 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
-2021-01-11 11:29:58.581 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:29:58.592 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:29:59.788 [http-nio-8003-exec-2] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
-2021-01-11 11:31:09.920 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:31:09.923 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:31:31.282 [http-nio-8003-exec-5] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
-2021-01-11 11:31:31.550 [http-nio-8003-exec-5] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : 4024A19A-A682-4041-AC0A-0D83D4D54C67
-2021-01-11 11:31:31.576 [http-nio-8003-exec-5] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : 4024A19A-A682-4041-AC0A-0D83D4D54C67
-2021-01-11 11:32:49.364 [http-nio-8003-exec-10] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
-2021-01-11 11:32:54.742 [http-nio-8003-exec-10] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
-2021-01-11 11:32:58.694 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
-2021-01-11 11:32:58.697 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-11 11:32:58.698 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-11 11:32:58.702 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
-2021-01-11 11:32:58.728 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:32:58.739 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:33:30.383 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:33:30.386 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:33:34.946 [http-nio-8003-exec-3] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
-2021-01-11 11:33:35.342 [http-nio-8003-exec-3] INFO  com.yzz.servicevod.service.impl.VodServiceImpl - 删除视频requestId: D720F7B6-98CF-402D-AB0C-6D2D0B2FE33F
-2021-01-11 11:33:35.343 [http-nio-8003-exec-3] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频，结束
-2021-01-11 11:33:37.742 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
-2021-01-11 11:33:37.743 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-11 11:33:37.743 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-11 11:33:37.746 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
-2021-01-11 11:33:37.763 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:33:37.775 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:35:15.125 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:35:15.129 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:35:19.727 [http-nio-8003-exec-4] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
-2021-01-11 11:35:23.566 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
-2021-01-11 11:35:23.567 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-11 11:35:23.567 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-11 11:35:23.573 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
-2021-01-11 11:35:23.599 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:35:23.610 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:35:24.512 [http-nio-8003-exec-4] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
-2021-01-11 11:35:31.471 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-11 11:35:31.479 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-11 11:35:31.481 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-11 11:35:31.493 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-11 11:35:31.552 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-11 11:35:31.562 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-11 11:35:34.574 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
-2021-01-11 11:35:34.579 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-11 11:35:34.580 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-11 11:35:34.585 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-11 11:35:34.585 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-11 11:35:34.589 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
-2021-01-11 11:35:35.154 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:35:35.162 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:35:36.871 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:35:36.874 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:36:45.098 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:36:45.104 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:36:46.507 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:36:46.511 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:36:57.171 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-11 11:36:57.308 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:36:57.319 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:37:04.517 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:37:04.521 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:38:06.496 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-11 11:38:06.627 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:38:06.642 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:38:13.798 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:38:13.803 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:39:17.813 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-11 11:39:17.945 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:39:17.958 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:39:19.332 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:39:19.335 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:39:27.192 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-11 11:39:27.569 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:39:27.581 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:39:35.304 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:39:35.307 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:40:38.947 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-11 11:40:39.081 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:40:39.088 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:42:01.526 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:42:01.535 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:42:04.898 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:42:04.901 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:42:21.994 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:42:22.001 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:42:23.242 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:42:23.245 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:42:54.568 [http-nio-8003-exec-7] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
-2021-01-11 11:42:58.333 [http-nio-8003-exec-7] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
-2021-01-11 11:42:59.397 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
-2021-01-11 11:42:59.398 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-11 11:42:59.398 [http-nio-8001-exec-8] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-11 11:42:59.402 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
-2021-01-11 11:42:59.426 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:42:59.437 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:43:07.833 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-11 11:43:07.833 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-11 11:43:07.838 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-11 11:43:07.842 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-11 11:43:07.921 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-11 11:43:07.929 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-11 11:43:28.344 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
-2021-01-11 11:43:28.346 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-11 11:43:28.347 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-11 11:43:28.351 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-11 11:43:28.351 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-11 11:43:28.354 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
-2021-01-11 11:43:28.927 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:43:28.938 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:43:34.796 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:43:34.799 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:44:46.673 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:44:46.677 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:45:19.554 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:45:19.564 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:45:21.177 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:45:21.181 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:45:43.177 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:45:43.186 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:45:44.323 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:45:44.327 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:46:44.874 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:46:44.878 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:46:50.939 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-11 11:46:51.098 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:46:51.108 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:46:52.728 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:46:52.731 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 11:47:32.296 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
-2021-01-11 11:47:32.417 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
-2021-01-11 11:47:39.312 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
-2021-01-11 11:47:39.323 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
-2021-01-11 11:47:39.324 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
-2021-01-11 11:47:39.327 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
-2021-01-11 11:47:39.391 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
-2021-01-11 11:47:39.397 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
-2021-01-11 11:47:42.228 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
-2021-01-11 11:47:42.230 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-11 11:47:42.230 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-11 11:47:42.235 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
-2021-01-11 11:47:42.235 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
-2021-01-11 11:47:42.238 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
-2021-01-11 11:47:42.817 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
-2021-01-11 11:47:42.833 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
-2021-01-11 11:47:44.954 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
-2021-01-11 11:47:44.958 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
-2021-01-11 12:01:45.931 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-11 12:01:45.944 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-11 15:27:06.930 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication using Java 1.8.0_231 on MECH-YKY with PID 7388 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-11 15:27:06.941 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 15:27:08.643 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 15:27:08.644 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 15:27:08.645 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2021-01-11 15:27:08.752 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 15:27:10.283 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 15:27:10.920 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-11 15:27:10.942 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 15:27:10.960 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 15:27:11.008 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 15:27:11.297 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.007 seconds (JVM running for 6.854)
-2021-01-11 15:56:27.441 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 15:56:29.137 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 15:56:29.138 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 15:56:29.138 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-01-11 15:56:29.274 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 15:56:30.884 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 15:56:30.913 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 15:56:30.913 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 15:56:30.919 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 15:56:30.920 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:04:23.551 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 16:07:38.303 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 16:07:41.133 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:07:41.133 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:07:41.134 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:07:41.397 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:07:43.374 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 16:07:43.400 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:07:43.400 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:07:43.405 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:07:43.405 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:07:49.508 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:07:49.554 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8002 register finished
-2021-01-11 16:07:50.888 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 16:07:50.913 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 16:07:50.962 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 16:07:51.246 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 16.607 seconds (JVM running for 18.498)
-2021-01-11 16:10:08.981 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: dev
-2021-01-11 16:10:11.135 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-11 16:10:12.055 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-11 16:10:12.056 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:10:12.056 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:10:12.373 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:10:13.008 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 16:10:13.037 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:10:13.038 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:10:13.044 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:10:13.044 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:10:18.606 [main] ERROR com.alibaba.cloud.nacos.discovery.NacosWatch - namingService subscribe failed, properties:NacosDiscoveryProperties{serverAddr='192.168.160.4:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.44.1', networkInterface='', port=-1, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}
-java.lang.IllegalArgumentException: Param 'serviceName' is illegal, serviceName is blank
-	at com.alibaba.nacos.api.naming.utils.NamingUtils.getGroupedName(NamingUtils.java:32) ~[nacos-api-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:446) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:124) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+2021-01-11 19:10:13.094 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-11 19:10:14.103 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-11 19:10:14.441 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-11 19:10:14.441 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 19:10:14.441 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 19:10:14.597 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 19:10:14.878 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 19:10:14.894 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 19:10:14.894 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 19:10:14.898 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 19:10:14.898 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 19:10:32.351 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-11 19:10:44.390 [main] ERROR com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-vod register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='192.168.23.3:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-vod', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.134.1', networkInterface='', port=8003, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([192.168.23.3:8848]) tried: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:486) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:239) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:200) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:70) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
 	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
 	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
 	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
@@ -529,266 +45,29 @@ java.lang.IllegalArgumentException: Param 'serviceName' is illegal, serviceName 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
 	at com.yzz.servicevod.VodApplication.main(VodApplication.java:20) [classes/:?]
-2021-01-11 16:10:18.615 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-11 16:10:18.649 [main] WARN  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - No service to register for nacos client...
-2021-01-11 16:10:19.994 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 16:10:20.020 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 16:10:20.072 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 16:10:20.244 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 15.248 seconds (JVM running for 17.26)
-2021-01-11 16:11:35.911 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: dev
-2021-01-11 16:11:37.360 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-11 16:11:37.856 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-11 16:11:37.856 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:11:37.856 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:11:38.064 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:11:38.459 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 16:11:38.482 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:11:38.482 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:11:38.487 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:11:38.487 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:11:44.066 [main] ERROR com.alibaba.cloud.nacos.discovery.NacosWatch - namingService subscribe failed, properties:NacosDiscoveryProperties{serverAddr='192.168.160.4:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.44.1', networkInterface='', port=-1, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}
-java.lang.IllegalArgumentException: Param 'serviceName' is illegal, serviceName is blank
-	at com.alibaba.nacos.api.naming.utils.NamingUtils.getGroupedName(NamingUtils.java:32) ~[nacos-api-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:446) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:124) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:894) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at com.yzz.servicevod.VodApplication.main(VodApplication.java:20) [classes/:?]
-2021-01-11 16:11:44.074 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-11 16:11:44.108 [main] WARN  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - No service to register for nacos client...
-2021-01-11 16:11:45.448 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 16:11:45.468 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 16:11:45.516 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 16:11:45.704 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 13.405 seconds (JVM running for 15.293)
-2021-01-11 16:13:40.989 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2021-01-11 16:13:40.990 [SpringContextShutdownHook] WARN  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - No dom to de-register for nacos client...
-2021-01-11 16:15:33.006 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: dev
-2021-01-11 16:15:34.704 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-11 16:15:35.322 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-11 16:15:35.322 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:15:35.323 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:15:35.560 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:15:36.088 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 16:15:36.123 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:15:36.123 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:15:36.128 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:15:36.129 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:15:42.277 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-11 16:15:42.327 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service_vod 192.168.44.1:8003 register finished
-2021-01-11 16:15:43.697 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 16:15:43.716 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 16:15:43.772 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 16:15:43.956 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 14.774 seconds (JVM running for 16.941)
-2021-01-11 16:16:09.596 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2021-01-11 16:16:09.613 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
-2021-01-11 16:19:31.559 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: dev
-2021-01-11 16:19:33.198 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-11 16:19:33.729 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-11 16:19:33.730 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:19:33.731 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:19:33.957 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:19:34.409 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 16:19:34.436 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:19:34.437 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:19:34.443 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:19:34.443 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:19:40.225 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-11 16:19:40.289 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-vod 192.168.44.1:8003 register finished
-2021-01-11 16:19:41.633 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 16:19:41.658 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 16:19:41.703 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 16:19:41.853 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 13.975 seconds (JVM running for 15.974)
-2021-01-11 16:20:51.522 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2021-01-11 16:20:51.526 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
-2021-01-11 16:20:52.183 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2021-01-11 16:20:52.187 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
-2021-01-11 16:45:10.274 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 16:45:12.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:45:12.753 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:45:12.753 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:45:12.911 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:45:14.677 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 16:45:14.704 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:45:14.705 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:45:14.710 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:45:14.710 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:45:19.783 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:45:19.830 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8002 register finished
-2021-01-11 16:45:21.160 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 16:45:21.184 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 16:45:21.243 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 16:45:21.526 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 15.02 seconds (JVM running for 17.032)
-2021-01-11 16:45:45.970 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: dev
-2021-01-11 16:45:47.714 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-11 16:45:48.365 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-11 16:45:48.366 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:45:48.366 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:45:48.688 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:45:49.160 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 16:45:49.185 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:45:49.186 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:45:49.190 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:45:49.190 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:45:55.076 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
-2021-01-11 16:45:55.125 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-vod 192.168.44.1:8003 register finished
-2021-01-11 16:45:56.465 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 16:45:56.486 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 16:45:56.533 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 16:45:56.694 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 14.49 seconds (JVM running for 16.529)
-2021-01-11 16:51:12.175 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2021-01-11 16:51:12.179 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
-2021-01-11 16:51:12.850 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2021-01-11 16:51:12.853 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
-2021-01-11 16:52:15.661 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 16:52:17.866 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:52:17.867 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:52:17.867 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:52:18.008 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:52:19.636 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 16:52:19.660 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:52:19.661 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:52:19.667 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 16:52:19.667 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 16:52:24.683 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:52:24.726 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8002 register finished
-2021-01-11 16:52:26.063 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 16:52:26.086 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 16:52:26.139 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 16:52:26.420 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 14.425 seconds (JVM running for 16.332)
-2021-01-11 16:53:50.509 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2021-01-11 16:53:50.512 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
-2021-01-11 16:54:10.774 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 16:54:12.916 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:54:12.917 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:54:12.917 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:54:13.056 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:54:14.169 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 16:54:40.315 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 16:54:42.493 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:54:42.493 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:54:42.493 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:54:42.637 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:54:43.760 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 16:56:04.000 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 16:56:06.190 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:56:06.191 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:56:06.191 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:56:06.348 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:56:07.475 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 16:58:15.085 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication on MECH-YKY with PID 17444 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-11 16:58:15.095 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 16:58:16.967 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:58:16.967 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:58:16.967 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:58:17.092 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:58:18.272 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 16:59:03.299 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication on MECH-YKY with PID 10632 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-11 16:59:03.309 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 16:59:05.232 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:59:05.232 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 16:59:05.232 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 16:59:05.345 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 16:59:06.874 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 16:59:07.511 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
-2021-01-11 16:59:07.541 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 16:59:07.564 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 16:59:07.613 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 16:59:07.889 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.201 seconds (JVM running for 6.961)
-2021-01-11 16:59:58.829 [http-nio-8002-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-11 17:00:07.309 [http-nio-8002-exec-1] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
-2021-01-11 17:05:31.019 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication on MECH-YKY with PID 26108 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-11 17:05:31.029 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:05:33.011 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 17:05:33.012 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:05:33.012 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:05:33.137 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:05:34.714 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 17:05:35.402 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
-2021-01-11 17:05:35.432 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 17:05:35.451 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 17:05:35.499 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 17:05:35.787 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.425 seconds (JVM running for 7.195)
-2021-01-11 17:06:07.768 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication on MECH-YKY with PID 31864 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-11 17:06:07.780 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:06:09.739 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 17:06:09.739 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:06:09.740 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:06:09.862 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:06:11.384 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 17:06:12.071 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
-2021-01-11 17:06:12.098 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-11 17:06:12.119 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-11 17:06:12.166 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-11 17:06:12.450 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 5.337 seconds (JVM running for 7.133)
-2021-01-11 17:08:39.080 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication on MECH-YKY with PID 34536 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-11 17:08:39.089 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:08:41.050 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:08:41.051 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:08:41.051 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:08:41.178 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:08:42.413 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 17:11:51.367 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Starting ServiceEduApplication on MECH-YKY with PID 28552 (D:\java\things\onlineeducation\service\service_edu\target\classes started by harry in D:\java\things\onlineeducation)
-2021-01-11 17:11:51.378 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:11:53.283 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:11:53.284 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:11:53.285 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:11:53.407 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:11:54.582 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 17:16:34.857 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:16:37.015 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:16:37.016 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:16:37.016 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:16:37.156 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:16:38.511 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 17:18:02.775 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:18:05.073 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:18:05.074 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:18:05.074 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:18:05.226 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:18:06.616 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 17:19:02.290 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:19:04.561 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:19:04.562 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:19:04.562 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:19:04.709 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:19:06.163 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 17:21:57.569 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:22:00.050 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:22:00.050 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:22:00.051 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:22:00.212 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:22:01.621 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 17:25:19.293 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:25:21.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:25:21.602 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:25:21.603 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:25:21.747 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:25:23.091 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 17:26:27.152 [main] INFO  com.yzz.serviceoss.ServiceOssApplication - The following profiles are active: dev
-2021-01-11 17:26:28.990 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.serviceoss]' package. Please check your configuration.
-2021-01-11 17:26:30.300 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-11 17:26:30.301 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:26:30.301 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:26:30.545 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:26:31.241 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-11 17:26:31.273 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 17:26:31.274 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 17:26:31.283 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-11 17:26:31.284 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-11 17:26:45.529 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
-2021-01-11 17:26:53.636 [main] ERROR com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-oss register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-oss', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.44.1', networkInterface='', port=8002, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+2021-01-11 19:10:56.439 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8003"]
+2021-01-11 19:10:56.787 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-11 19:10:56.790 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8003"]
+2021-01-11 19:10:56.792 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8003"]
+2021-01-11 19:23:38.081 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-11 19:23:39.573 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-11 19:23:39.573 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 19:23:39.573 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 19:23:39.664 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 19:23:40.820 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-11 19:25:00.738 [main] INFO  com.yzz.serviceoss.ServiceOssApplication - The following profiles are active: homedev
+2021-01-11 19:25:01.604 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.serviceoss]' package. Please check your configuration.
+2021-01-11 19:25:01.939 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+2021-01-11 19:25:01.940 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 19:25:01.940 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 19:25:02.078 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 19:25:02.331 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 19:25:02.345 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 19:25:02.345 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 19:25:02.348 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 19:25:02.348 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 19:25:12.843 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
+2021-01-11 19:25:20.893 [main] ERROR com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-vod register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-vod', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.134.1', networkInterface='', port=8002, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
 com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: connect
 	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552) ~[nacos-client-1.3.3.jar:?]
 	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491) ~[nacos-client-1.3.3.jar:?]
@@ -823,31 +102,439 @@ com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/i
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
 	at com.yzz.serviceoss.ServiceOssApplication.main(ServiceOssApplication.java:19) [classes/:?]
-2021-01-11 17:27:05.673 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8002"]
-2021-01-11 17:27:05.906 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 17:27:05.911 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8002"]
-2021-01-11 17:27:05.915 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8002"]
-2021-01-11 17:27:41.859 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:27:44.237 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:27:44.238 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:27:44.238 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:27:44.383 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:27:45.763 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 17:32:41.362 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:32:43.768 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:32:43.769 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:32:43.769 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:32:43.922 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:32:45.260 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 17:37:03.727 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:37:06.298 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:37:06.299 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:37:06.299 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:37:06.471 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:37:07.821 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-11 17:38:00.464 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:38:02.751 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:38:02.751 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:38:02.752 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:38:02.893 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:38:04.248 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-11 19:25:32.929 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8002"]
+2021-01-11 19:25:33.198 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-11 19:25:33.200 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8002"]
+2021-01-11 19:25:33.202 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8002"]
+2021-01-11 19:26:15.274 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-11 19:26:16.151 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-11 19:26:16.488 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-11 19:26:16.488 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 19:26:16.489 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 19:26:16.638 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 19:26:16.895 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 19:26:16.910 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 19:26:16.911 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 19:26:16.914 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 19:26:16.914 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 19:26:19.444 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-11 19:26:19.537 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-vod 192.168.134.1:8003 register finished
+2021-01-11 19:26:19.934 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-11 19:26:19.988 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-11 19:26:20.059 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-11 19:26:20.185 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 6.418 seconds (JVM running for 7.53)
+2021-01-11 19:28:25.338 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-11 19:28:25.342 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-11 19:30:46.703 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-11 19:30:48.114 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-11 19:30:48.114 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 19:30:48.114 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 19:30:48.203 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 19:30:49.272 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-11 19:39:09.958 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-11 19:39:11.360 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-11 19:39:11.361 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 19:39:11.361 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 19:39:11.450 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 19:39:12.718 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 19:39:12.734 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 19:39:12.734 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 19:39:12.737 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 19:39:12.738 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 19:39:14.613 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-11 19:39:14.644 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.134.1:8001 register finished
+2021-01-11 19:39:15.038 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-11 19:39:15.057 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-11 19:39:15.090 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-11 19:39:15.287 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.841 seconds (JVM running for 7.992)
+2021-01-11 19:40:46.872 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-11 19:40:46.875 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-11 19:41:02.566 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-11 19:41:03.962 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-11 19:41:03.962 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 19:41:03.963 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 19:41:04.051 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 19:41:05.336 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 19:41:05.352 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 19:41:05.352 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 19:41:05.355 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 19:41:05.355 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 19:41:07.185 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-11 19:41:07.213 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.134.1:8001 register finished
+2021-01-11 19:41:07.591 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-11 19:41:07.606 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-11 19:41:07.637 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-11 19:41:07.810 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.714 seconds (JVM running for 7.824)
+2021-01-11 20:44:08.215 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-11 20:44:09.093 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-11 20:44:09.440 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-11 20:44:09.440 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 20:44:09.440 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 20:44:09.592 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 20:44:09.861 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 20:44:09.877 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 20:44:09.878 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 20:44:09.881 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 20:44:09.881 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 20:44:12.433 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-11 20:44:12.465 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-vod 192.168.134.1:8003 register finished
+2021-01-11 20:44:12.859 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-11 20:44:12.873 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-11 20:44:12.901 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-11 20:44:12.995 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 6.373 seconds (JVM running for 7.49)
+2021-01-11 20:44:58.491 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-11 20:44:58.568 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.LoginController - 登录ing
+2021-01-11 20:44:58.599 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.LoginController - 获取用户信息ing
+2021-01-11 20:45:01.920 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
+2021-01-11 20:45:01.920 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
+2021-01-11 20:45:01.985 [http-nio-8001-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-11 20:45:02.828 [http-nio-8001-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-11 20:45:02.893 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
+2021-01-11 20:45:02.903 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
+2021-01-11 20:45:04.876 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
+2021-01-11 20:45:04.932 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
+2021-01-11 20:45:13.129 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
+2021-01-11 20:45:13.133 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
+2021-01-11 20:45:13.134 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
+2021-01-11 20:45:13.148 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
+2021-01-11 20:45:13.163 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
+2021-01-11 20:45:13.168 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
+2021-01-11 20:45:15.199 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息
+2021-01-11 20:45:15.204 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
+2021-01-11 20:45:15.219 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
+2021-01-11 20:45:15.226 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
+2021-01-11 20:45:15.226 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
+2021-01-11 20:45:15.228 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id更新课程信息，结束
+2021-01-11 20:45:15.784 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 20:45:15.820 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 20:45:17.617 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
+2021-01-11 20:45:17.621 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
+2021-01-11 20:45:31.976 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-11 20:45:32.481 [http-nio-8003-exec-2] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
+2021-01-11 20:45:39.532 [http-nio-8003-exec-2] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
+2021-01-11 20:45:44.331 [http-nio-8003-exec-4] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
+2021-01-11 20:45:44.527 [http-nio-8003-exec-4] INFO  com.yzz.servicevod.service.impl.VodServiceImpl - 删除视频requestId: F9C1ED6C-1392-42FB-AD31-8CA43E16D9E6
+2021-01-11 20:45:44.527 [http-nio-8003-exec-4] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频，结束
+2021-01-11 20:46:46.423 [http-nio-8003-exec-5] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
+2021-01-11 20:46:54.410 [http-nio-8003-exec-5] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
+2021-01-11 20:50:15.203 [http-nio-8003-exec-7] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
+2021-01-11 20:50:15.306 [http-nio-8003-exec-7] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : F5B6325F-5269-496C-8E0B-6ED2AD110FC4
+2021-01-11 20:50:15.307 [http-nio-8003-exec-7] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : F5B6325F-5269-496C-8E0B-6ED2AD110FC4
+2021-01-11 20:50:37.612 [http-nio-8003-exec-8] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
+2021-01-11 20:50:44.435 [http-nio-8003-exec-8] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
+2021-01-11 20:50:45.711 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
+2021-01-11 20:50:45.715 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
+2021-01-11 20:50:45.716 [http-nio-8001-exec-2] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
+2021-01-11 20:50:45.719 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
+2021-01-11 20:50:45.739 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 20:50:45.746 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 20:50:47.865 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
+2021-01-11 20:50:47.867 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
+2021-01-11 20:50:54.180 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节
+2021-01-11 20:50:54.180 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 远程调用vod模块，删除视频功能
+2021-01-11 20:50:54.364 [http-nio-8001-exec-6] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: service-vod.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-11 20:50:54.374 [http-nio-8001-exec-6] INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: service-vod instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-vod,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-01-11 20:50:54.381 [http-nio-8001-exec-6] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2021-01-11 20:50:54.396 [http-nio-8001-exec-6] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: service-vod.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-11 20:50:54.397 [http-nio-8001-exec-6] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client service-vod initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-vod,current list of Servers=[192.168.134.1:8003],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.134.1:8003;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@53ce7912
+2021-01-11 20:50:54.440 [http-nio-8003-exec-9] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
+2021-01-11 20:50:54.588 [http-nio-8003-exec-9] INFO  com.yzz.servicevod.service.impl.VodServiceImpl - 删除视频requestId: 4315D740-E209-4D21-A3E6-6D66EE7FC8F5
+2021-01-11 20:50:54.588 [http-nio-8003-exec-9] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频，结束
+2021-01-11 20:50:54.610 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 远程调用vod模块，删除视频功能，结束
+2021-01-11 20:50:54.612 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节，结束
+2021-01-11 20:50:54.619 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 20:50:54.628 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 20:50:55.384 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: service-vod.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-11 21:27:47.724 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-11 21:27:47.727 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-11 21:27:52.987 [Thread-1169] INFO  com.netflix.loadbalancer.PollingServerListUpdater - Shutting down the Executor Pool for PollingServerListUpdater
+2021-01-11 21:27:53.292 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-11 21:27:53.294 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-11 21:28:04.797 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-11 21:28:04.891 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-11 21:28:04.919 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-11 21:28:05.795 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-11 21:28:06.230 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-11 21:28:06.230 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 21:28:06.230 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 21:28:06.392 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 21:28:06.683 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 21:28:06.702 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 21:28:06.703 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 21:28:06.706 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 21:28:06.706 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 21:28:09.369 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-11 21:28:09.400 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-vod 192.168.134.1:8003 register finished
+2021-01-11 21:28:09.909 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-11 21:28:09.938 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-11 21:28:09.967 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-11 21:28:10.062 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 6.679 seconds (JVM running for 7.702)
+2021-01-11 21:28:11.949 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-11 21:28:13.307 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-11 21:28:13.307 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 21:28:13.307 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 21:28:13.393 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 21:28:14.679 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 21:28:14.694 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 21:28:14.695 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 21:28:14.698 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 21:28:14.698 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 21:28:16.513 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-11 21:28:16.544 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.134.1:8001 register finished
+2021-01-11 21:28:16.921 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-11 21:28:16.935 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-11 21:28:16.966 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-11 21:28:17.139 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.658 seconds (JVM running for 7.852)
+2021-01-11 21:28:44.872 [http-nio-8001-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-11 21:28:44.917 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
+2021-01-11 21:28:44.917 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
+2021-01-11 21:28:44.969 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-11 21:28:45.600 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-11 21:28:45.648 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
+2021-01-11 21:28:45.660 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
+2021-01-11 21:29:18.644 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息
+2021-01-11 21:29:18.656 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
+2021-01-11 21:29:18.662 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
+2021-01-11 21:29:18.678 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
+2021-01-11 21:29:18.679 [http-nio-8001-exec-6] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
+2021-01-11 21:29:18.681 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：添加课程信息，结束
+2021-01-11 21:29:19.232 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 21:29:19.246 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 21:29:27.610 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节
+2021-01-11 21:29:27.611 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
+2021-01-11 21:29:27.612 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
+2021-01-11 21:29:27.614 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：新增章节，结束
+2021-01-11 21:29:27.625 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 21:29:27.635 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 21:29:37.933 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-11 21:29:38.254 [http-nio-8003-exec-2] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
+2021-01-11 21:29:48.608 [http-nio-8003-exec-2] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
+2021-01-11 21:29:50.732 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
+2021-01-11 21:29:50.735 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
+2021-01-11 21:29:50.736 [http-nio-8001-exec-3] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
+2021-01-11 21:29:50.739 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
+2021-01-11 21:29:50.750 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 21:29:50.759 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 21:29:54.455 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
+2021-01-11 21:29:54.458 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
+2021-01-11 21:29:56.796 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程
+2021-01-11 21:29:56.802 [http-nio-8001-exec-9] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
+2021-01-11 21:29:56.802 [http-nio-8001-exec-9] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
+2021-01-11 21:29:56.804 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程，结束
+2021-01-11 21:29:57.333 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
+2021-01-11 21:29:57.366 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
+2021-01-11 21:31:36.764 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：删除课程
+2021-01-11 21:31:36.915 [http-nio-8001-exec-2] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: service-vod.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-11 21:31:36.926 [http-nio-8001-exec-2] INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: service-vod instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-vod,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-01-11 21:31:36.930 [http-nio-8001-exec-2] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2021-01-11 21:31:36.948 [http-nio-8001-exec-2] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: service-vod.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-11 21:31:36.950 [http-nio-8001-exec-2] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client service-vod initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-vod,current list of Servers=[192.168.134.1:8003],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.134.1:8003;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@2c2d8ce1
+2021-01-11 21:31:36.995 [http-nio-8003-exec-3] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
+2021-01-11 21:31:37.134 [http-nio-8003-exec-3] INFO  com.yzz.servicevod.service.impl.VodServiceImpl - 删除视频requestId: A3659874-FCDD-4AEC-9938-4F75494FB2D3
+2021-01-11 21:31:37.135 [http-nio-8003-exec-3] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频，结束
+2021-01-11 21:31:37.158 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：删除课程，结束
+2021-01-11 21:31:37.168 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
+2021-01-11 21:31:37.173 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
+2021-01-11 21:31:37.933 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: service-vod.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-11 21:36:29.960 [http-nio-8003-exec-3] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
+2021-01-11 21:36:30.110 [http-nio-8003-exec-3] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : A813A915-07BE-450F-A1B8-621AAB644C81
+2021-01-11 21:36:30.110 [http-nio-8003-exec-3] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : A813A915-07BE-450F-A1B8-621AAB644C81
+2021-01-11 21:36:49.391 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
+2021-01-11 21:36:49.399 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
+2021-01-11 21:36:54.741 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 21:36:54.749 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 21:37:02.825 [http-nio-8003-exec-6] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
+2021-01-11 21:37:11.456 [http-nio-8003-exec-6] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
+2021-01-11 21:37:55.988 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 21:37:55.993 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 21:38:15.772 [http-nio-8003-exec-3] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
+2021-01-11 21:38:25.575 [http-nio-8003-exec-3] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
+2021-01-11 21:38:29.074 [http-nio-8003-exec-9] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
+2021-01-11 21:38:29.240 [http-nio-8003-exec-9] INFO  com.yzz.servicevod.service.impl.VodServiceImpl - 删除视频requestId: FD404352-8A09-41CD-86A4-8721083BF46A
+2021-01-11 21:38:29.240 [http-nio-8003-exec-9] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频，结束
+2021-01-11 21:44:17.693 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-11 21:44:17.696 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-11 21:44:34.326 [main] INFO  com.yzz.servicevod.VodApplication - The following profiles are active: homedev
+2021-01-11 21:44:35.185 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-11 21:44:35.522 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-01-11 21:44:35.522 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 21:44:35.522 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 21:44:35.664 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 21:44:35.924 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 21:44:35.938 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 21:44:35.938 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 21:44:35.942 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 21:44:35.942 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 21:44:38.472 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-01-11 21:44:38.513 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-vod 192.168.134.1:8003 register finished
+2021-01-11 21:44:38.896 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-11 21:44:38.910 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-11 21:44:38.940 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-11 21:44:39.030 [main] INFO  com.yzz.servicevod.VodApplication - Started VodApplication in 6.112 seconds (JVM running for 7.18)
+2021-01-11 21:51:24.875 [Thread-1170] INFO  com.netflix.loadbalancer.PollingServerListUpdater - Shutting down the Executor Pool for PollingServerListUpdater
+2021-01-11 21:51:25.170 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-11 21:51:25.173 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-11 21:51:36.396 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-11 21:51:36.401 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-11 21:51:41.510 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-11 21:51:42.902 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-11 21:51:42.902 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 21:51:42.902 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 21:51:42.990 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 21:51:44.222 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 21:51:44.239 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 21:51:44.239 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 21:51:44.242 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 21:51:44.243 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 21:51:46.049 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-11 21:51:46.077 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.134.1:8001 register finished
+2021-01-11 21:51:46.456 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-11 21:51:46.470 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-11 21:51:46.501 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-11 21:51:46.678 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.639 seconds (JVM running for 7.728)
+2021-01-11 21:52:33.450 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-11 21:52:33.453 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-11 21:52:50.160 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-11 21:52:51.530 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-11 21:52:51.530 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 21:52:51.530 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 21:52:51.616 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 21:52:52.853 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 21:52:52.868 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 21:52:52.868 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 21:52:52.871 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 21:52:52.872 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 21:52:54.736 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-11 21:52:54.766 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.134.1:8001 register finished
+2021-01-11 21:52:55.155 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-11 21:52:55.169 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-11 21:52:55.201 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-11 21:52:55.381 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.672 seconds (JVM running for 7.764)
+2021-01-11 21:57:01.991 [http-nio-8003-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-11 21:57:02.222 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
+2021-01-11 21:57:12.272 [http-nio-8003-exec-1] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
+2021-01-11 21:57:18.400 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-11 21:57:18.440 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
+2021-01-11 21:57:18.472 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
+2021-01-11 21:57:18.476 [http-nio-8001-exec-1] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
+2021-01-11 21:57:18.480 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-11 21:57:19.113 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-11 21:57:19.139 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
+2021-01-11 21:57:19.175 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 21:57:19.238 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 22:00:08.418 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
+2021-01-11 22:00:08.419 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
+2021-01-11 22:00:08.419 [http-nio-8001-exec-4] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
+2021-01-11 22:00:08.422 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
+2021-01-11 22:00:08.440 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 22:00:08.449 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 22:00:10.524 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节
+2021-01-11 22:00:10.527 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：根据id查询小节，结束
+2021-01-11 22:00:12.501 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节
+2021-01-11 22:00:12.506 [http-nio-8001-exec-9] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
+2021-01-11 22:00:12.506 [http-nio-8001-exec-9] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
+2021-01-11 22:00:12.508 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：更新小节，结束
+2021-01-11 22:00:12.520 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 22:00:12.526 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 22:00:28.049 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 22:00:28.054 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 22:00:32.865 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节
+2021-01-11 22:00:32.865 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 远程调用vod模块，删除视频功能
+2021-01-11 22:00:32.869 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 远程调用vod模块，删除视频功能，结束
+2021-01-11 22:00:32.871 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节，结束
+2021-01-11 22:00:32.878 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 22:00:32.884 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 22:00:55.482 [http-nio-8003-exec-3] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频
+2021-01-11 22:01:04.383 [http-nio-8003-exec-3] INFO  com.yzz.servicevod.controller.VodController - 访问接口：上传视频，结束
+2021-01-11 22:01:05.664 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节
+2021-01-11 22:01:05.665 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtCreate...
+2021-01-11 22:01:05.665 [http-nio-8001-exec-5] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtCreate...
+2021-01-11 22:01:05.675 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：新增小节，结束
+2021-01-11 22:01:05.694 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 22:01:05.699 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 22:02:05.502 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息
+2021-01-11 22:02:05.508 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id查询课程及其他信息，结束
+2021-01-11 22:02:07.161 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程
+2021-01-11 22:02:07.167 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - start autofill gmtModified...
+2021-01-11 22:02:07.167 [http-nio-8001-exec-10] INFO  com.yzz.servicebase.handler.MyMetaObjectHandler - end autofill gmtModified...
+2021-01-11 22:02:07.169 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：发布课程，结束
+2021-01-11 22:02:07.679 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
+2021-01-11 22:02:07.709 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
+2021-01-11 22:02:32.553 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表
+2021-01-11 22:02:32.560 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.ChapterController - 访问接口：获取课程大纲列表，结束
+2021-01-11 22:02:37.253 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
+2021-01-11 22:02:37.253 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息
+2021-01-11 22:02:37.260 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
+2021-01-11 22:02:37.268 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：根据课程id获取课程信息，结束
+2021-01-11 22:02:37.285 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务
+2021-01-11 22:02:37.301 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.SubjectController - 访问接口：获取课程分类列表服务，结束
+2021-01-11 22:02:41.103 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
+2021-01-11 22:02:41.108 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
+2021-01-11 22:02:45.377 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：删除课程
+2021-01-11 22:02:45.534 [http-nio-8001-exec-2] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: service-vod.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-11 22:02:45.545 [http-nio-8001-exec-2] INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: service-vod instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-vod,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-01-11 22:02:45.549 [http-nio-8001-exec-2] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2021-01-11 22:02:45.567 [http-nio-8001-exec-2] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: service-vod.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-11 22:02:45.568 [http-nio-8001-exec-2] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client service-vod initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-vod,current list of Servers=[192.168.134.1:8003],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.134.1:8003;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@78285db7
+2021-01-11 22:02:45.613 [http-nio-8003-exec-4] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频
+2021-01-11 22:02:45.812 [http-nio-8003-exec-4] INFO  com.yzz.servicevod.service.impl.VodServiceImpl - 删除视频requestId: 02353E92-C949-4C50-9709-B85704C849F4
+2021-01-11 22:02:45.812 [http-nio-8003-exec-4] INFO  com.yzz.servicevod.controller.VodController - 访问接口：删除视频，结束
+2021-01-11 22:02:45.837 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：删除课程，结束
+2021-01-11 22:02:45.846 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程
+2021-01-11 22:02:45.852 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.CourseController - 访问接口：条件分页查询课程，结束
+2021-01-11 22:02:46.552 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: service-vod.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-11 22:28:23.705 [Thread-1170] INFO  com.netflix.loadbalancer.PollingServerListUpdater - Shutting down the Executor Pool for PollingServerListUpdater
+2021-01-11 22:28:24.072 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-11 22:28:24.074 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-11 22:28:24.114 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-11 22:28:24.116 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-11 22:28:34.971 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-11 22:28:34.976 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-11 22:36:22.874 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-11 22:36:24.312 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-11 22:36:24.312 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 22:36:24.312 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 22:36:24.400 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 22:36:25.441 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-11 22:43:32.114 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-11 22:43:33.481 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-11 22:43:33.482 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 22:43:33.482 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 22:43:33.571 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 22:43:34.794 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 22:43:34.809 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 22:43:34.809 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 22:43:34.812 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 22:43:34.812 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 22:43:36.623 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-11 22:43:36.652 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.134.1:8001 register finished
+2021-01-11 22:43:37.043 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-11 22:43:37.058 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-11 22:43:37.092 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-11 22:43:37.267 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.567 seconds (JVM running for 7.648)
+2021-01-11 22:43:59.018 [http-nio-8001-exec-3] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-11 22:44:10.616 [http-nio-8001-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-11 22:44:11.249 [http-nio-8001-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-11 22:44:11.256 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节
+2021-01-11 22:44:11.256 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 远程调用vod模块，删除视频功能
+2021-01-11 22:45:36.823 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节
+2021-01-11 22:45:36.823 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 远程调用vod模块，删除视频功能
+2021-01-11 22:45:37.097 [hystrix-service-vod-1] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: service-vod.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-11 22:45:37.108 [hystrix-service-vod-1] INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: service-vod instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-vod,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-01-11 22:45:37.112 [hystrix-service-vod-1] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2021-01-11 22:45:37.117 [hystrix-service-vod-1] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client service-vod initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-vod,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@3548e960
+2021-01-11 22:45:37.144 [hystrix-service-vod-1] ERROR com.yzz.service_edu.edu.service.impl.VodServiceFallBack - 调用vod服务删除视频出错
+2021-01-11 22:45:37.146 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - !!!!,123
+2021-01-11 22:45:37.147 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 远程调用vod模块，删除视频功能，结束
+2021-01-11 22:45:37.149 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节，结束
+2021-01-11 22:57:18.685 [Thread-1189] INFO  com.netflix.loadbalancer.PollingServerListUpdater - Shutting down the Executor Pool for PollingServerListUpdater

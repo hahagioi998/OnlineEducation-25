@@ -11,6 +11,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -132,7 +133,9 @@ public class CourseController {
 		log.info("访问接口：条件分页查询课程，结束");
 		return ResultData.sucess().data("data", hashMap);
 	}
-	
+
+	//加事务注解
+	@Transactional
 	@ApiOperation("删除课程")
 	@DeleteMapping("/deleteCourse")
 	public ResultData deleteCourse(@ApiParam("课程Id") @RequestParam String courseId){

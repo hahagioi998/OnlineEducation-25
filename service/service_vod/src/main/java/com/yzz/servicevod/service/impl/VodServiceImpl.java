@@ -11,6 +11,7 @@ import com.yzz.servicevod.service.VodService;
 import com.yzz.servicevod.vo.AliVodVO;
 import com.yzz.servicevod.vo.InitObjectVO;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -18,6 +19,7 @@ import javax.annotation.Resource;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * @ClassName VodServiceImpl
@@ -43,13 +45,12 @@ public class VodServiceImpl implements VodService {
 		}
 		return (String) hashMap.get("VideoId");
 	}
-	
+
 	@Override
-	public boolean deleteVod(String videoId) throws Exception {
-		
+	public boolean deleteVod(List<String> videoIdList) throws Exception {
 		DefaultAcsClient client = InitObjectVO.initVodClient(aliVodVO.getAccessKeyId(), aliVodVO.getAccessKeySecret());
 		DeleteVideoResponse response = new DeleteVideoResponse();
-		response = deleteVideo(client, videoId);
+		response = deleteVideo(client, videoIdList);
 		log.info("删除视频requestId: {}", response.getRequestId());
 		return true;
 	}
@@ -84,14 +85,15 @@ public class VodServiceImpl implements VodService {
 	/**
 	 * 删除视频
 	 * @param client 发送请求客户端
-	 * @param videoId 发送请求客户端
+	 * @param videoIdList 视频idList
 	 * @return DeleteVideoResponse 删除视频响应数据
 	 * @throws Exception
 	 */
-	public DeleteVideoResponse deleteVideo(DefaultAcsClient client, String videoId) throws Exception {
+	public DeleteVideoResponse deleteVideo(DefaultAcsClient client, List<String> videoIdList) throws Exception {
 		DeleteVideoRequest request = new DeleteVideoRequest();
+		String videoIdStr = StringUtils.join(videoIdList, ",");
 		//支持传入多个视频ID，多个用逗号分隔
-		request.setVideoIds(videoId);
+		request.setVideoIds(videoIdStr);
 		return client.getAcsResponse(request);
 	}
 }

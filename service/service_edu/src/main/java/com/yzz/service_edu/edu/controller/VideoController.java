@@ -1,6 +1,7 @@
 package com.yzz.service_edu.edu.controller;
 
 
+import com.baomidou.mybatisplus.extension.api.R;
 import com.yzz.commonutils.vo.ResultData;
 import com.yzz.service_edu.edu.entity.Video;
 import com.yzz.service_edu.edu.service.VideoService;
@@ -11,9 +12,12 @@ import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.ibatis.annotations.Delete;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * <p>
@@ -50,6 +54,8 @@ public class VideoController {
 		return ResultData.sucess().data("data", i);
 	}
 
+	//增加事务注解
+	@Transactional
 	@ApiOperation("删除小节")
 	@DeleteMapping("/deleteVideo")
 	public ResultData deleteVideo(@ApiParam("小节id")@RequestParam String id){
@@ -57,10 +63,8 @@ public class VideoController {
 		
 		log.info("远程调用vod模块，删除视频功能");
 		String videoId = videoService.getVideoById(id).getVideoSourceId();
-		if(!StringUtils.isEmpty(videoId))
-			vodService.deleteVod(videoId);
-		log.info("远程调用vod模块，删除视频功能，结束");
-		
+		List<String> videoIdList = new ArrayList<>();
+		videoIdList.add(videoId);
 		int i ;
 		try{
 			i = videoService.deleteVideo(id);

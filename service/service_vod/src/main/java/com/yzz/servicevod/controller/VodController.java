@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @ClassName VodController
@@ -47,17 +48,17 @@ public class VodController {
 	
 	@ApiOperation("删除视频")
 	@DeleteMapping("/deleteVod")
-	public ResultData deleteVod(@RequestParam @ApiParam("视频id") String videoId){
+	public ResultData deleteVod(@RequestParam @ApiParam("视频id") List<String> videoIdList){
 		log.info("访问接口：删除视频");
 		boolean flag;
 		try{
-			flag = vodService.deleteVod(videoId);
+			flag = vodService.deleteVod(videoIdList);
 		}catch (Exception e){
 			log.error(e.getLocalizedMessage());
 			log.error(e.fillInStackTrace().toString());
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：删除视频，结束");
-		return ResultData.sucess().data("videoId", videoId);
+		return ResultData.sucess().data("flag", flag);
 	}
 }

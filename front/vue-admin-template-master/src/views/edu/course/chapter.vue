@@ -225,6 +225,8 @@ export default {
                     });
                     //刷新页面
                     this.getChapterList()
+                    //文件上传列表清空
+                    this.fileList = []
                 })
         },
         //更新小节

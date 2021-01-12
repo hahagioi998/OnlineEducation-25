@@ -10,11 +10,8 @@ import com.yzz.service_edu.edu.entity.Course;
 import com.yzz.service_edu.edu.entity.CourseDescription;
 import com.yzz.service_edu.edu.mapper.CourseDescriptionMapper;
 import com.yzz.service_edu.edu.mapper.CourseMapper;
-import com.yzz.service_edu.edu.service.ChapterService;
-import com.yzz.service_edu.edu.service.CourseDescriptionService;
-import com.yzz.service_edu.edu.service.CourseService;
+import com.yzz.service_edu.edu.service.*;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yzz.service_edu.edu.service.VideoService;
 import com.yzz.service_edu.edu.vo.CourseInfoVO;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -46,6 +43,9 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
 	
 	@Resource
 	private VideoService videoService;
+
+	@Resource
+	private VodService vodService;
 
 	@Override
 	public String insertCourseInfo(CourseInfoVO courseInfoVO) {
@@ -142,6 +142,12 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
 	
 	@Override
 	public int deleteCourseById(String courseId) {
+		//根据courseId删除视频
+		List<String> videoIdList = videoService.getBatchIdByCourseId(courseId);
+		//如果有视频再去调用接口删除
+		if(videoIdList.size() > 0)
+			if(!(Boolean) vodService.deleteVod(videoIdList).getData().get("flag"))
+				throw new YzzException(201, "删除课程过程中，删除课程中的视频异常");
 		//根据courseId删除小节
 		int deleteVideo = videoService.deleteVideoByCourseId(courseId);
 		//根据courseId删除章节

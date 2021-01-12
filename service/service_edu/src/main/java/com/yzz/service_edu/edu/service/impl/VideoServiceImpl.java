@@ -1,5 +1,6 @@
 package com.yzz.service_edu.edu.service.impl;
 
+import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.yzz.service_edu.edu.entity.Video;
 import com.yzz.service_edu.edu.mapper.VideoMapper;
@@ -8,6 +9,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -64,5 +66,20 @@ public class VideoServiceImpl extends ServiceImpl<VideoMapper, Video> implements
 		QueryWrapper<Video> qw = new QueryWrapper<>();
 		qw.eq("course_id", courseId);
 		return videoMapper.delete(qw);
+	}
+
+	@Override
+	public List<String> getBatchIdByCourseId(String courseId) {
+		QueryWrapper<Video> qw = new QueryWrapper<>();
+		qw.select("video_source_id");
+		qw.eq("course_id", courseId);
+		List<Video> videoList = videoMapper.selectList(qw);
+		List<String> result = new ArrayList<>();
+		//不为空加入到list中
+		videoList.forEach(e ->{
+			if(!StrUtil.isBlank(e.getVideoSourceId()))
+				result.add(e.getVideoSourceId());
+		});
+		return result;
 	}
 }

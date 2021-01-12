@@ -1,0 +1,32 @@
+2021-01-11 22:43:32.114 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
+2021-01-11 22:43:33.481 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-11 22:43:33.482 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-11 22:43:33.482 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-11 22:43:33.571 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-11 22:43:34.794 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-11 22:43:34.809 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 22:43:34.809 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 22:43:34.812 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-11 22:43:34.812 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-11 22:43:36.623 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-11 22:43:36.652 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.134.1:8001 register finished
+2021-01-11 22:43:37.043 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-11 22:43:37.058 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-11 22:43:37.092 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-11 22:43:37.267 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.567 seconds (JVM running for 7.648)
+2021-01-11 22:43:59.018 [http-nio-8001-exec-3] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-11 22:44:10.616 [http-nio-8001-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-11 22:44:11.249 [http-nio-8001-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-11 22:44:11.256 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节
+2021-01-11 22:44:11.256 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.VideoController - 远程调用vod模块，删除视频功能
+2021-01-11 22:45:36.823 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节
+2021-01-11 22:45:36.823 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 远程调用vod模块，删除视频功能
+2021-01-11 22:45:37.097 [hystrix-service-vod-1] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: service-vod.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-01-11 22:45:37.108 [hystrix-service-vod-1] INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: service-vod instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-vod,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-01-11 22:45:37.112 [hystrix-service-vod-1] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+2021-01-11 22:45:37.117 [hystrix-service-vod-1] INFO  com.netflix.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client service-vod initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-vod,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@3548e960
+2021-01-11 22:45:37.144 [hystrix-service-vod-1] ERROR com.yzz.service_edu.edu.service.impl.VodServiceFallBack - 调用vod服务删除视频出错
+2021-01-11 22:45:37.146 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - !!!!,123
+2021-01-11 22:45:37.147 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 远程调用vod模块，删除视频功能，结束
+2021-01-11 22:45:37.149 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节，结束
+2021-01-11 22:57:18.685 [Thread-1189] INFO  com.netflix.loadbalancer.PollingServerListUpdater - Shutting down the Executor Pool for PollingServerListUpdater

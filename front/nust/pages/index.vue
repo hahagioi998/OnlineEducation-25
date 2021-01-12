@@ -152,7 +152,6 @@ export default {
       index.getHotCourse()
         .then(response => {
           this.eduList = response.data.data.list
-          alert(this.eduList)
         })
     },
     getHotTeacher() {
@@ -166,7 +165,6 @@ export default {
       banner.getListBanner()
         .then(response => {
           this.bannerList = response.data.data.list
-          alert(this.bannerList)
         })
     }
   }

@@ -1,6 +1,0 @@
-2021-01-11 17:38:00.464 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-11 17:38:02.751 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-11 17:38:02.751 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-11 17:38:02.752 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-11 17:38:02.893 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-11 17:38:04.248 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]

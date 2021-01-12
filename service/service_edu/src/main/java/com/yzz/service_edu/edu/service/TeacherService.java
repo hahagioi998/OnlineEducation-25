@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.yzz.service_edu.edu.vo.TeacherQueryVO;
 
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * <p>
@@ -25,4 +26,10 @@ public interface TeacherService extends IService<Teacher> {
 	HashMap<String, Object> queryTById(String teacherId);
 	
 	HashMap<String, Object> updateTearcher(Teacher teacher);
+	
+	/**
+	 * 获取老师排名
+	 * @return
+	 */
+	List<Teacher> queryHotCourse();
 }

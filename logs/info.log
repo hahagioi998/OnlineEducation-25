@@ -538,3 +538,297 @@ RequestId : A813A915-07BE-450F-A1B8-621AAB644C81
 2021-01-11 22:45:37.147 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 远程调用vod模块，删除视频功能，结束
 2021-01-11 22:45:37.149 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.VideoController - 访问接口：删除小节，结束
 2021-01-11 22:57:18.685 [Thread-1189] INFO  com.netflix.loadbalancer.PollingServerListUpdater - Shutting down the Executor Pool for PollingServerListUpdater
+2021-01-12 12:01:40.801 [main] INFO  com.yzz.serviceoss.ServiceOssApplication - The following profiles are active: dev
+2021-01-12 12:01:44.464 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.serviceoss]' package. Please check your configuration.
+2021-01-12 12:01:45.533 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+2021-01-12 12:01:45.533 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 12:01:45.534 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 12:01:45.759 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 12:01:46.571 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-12 12:01:46.608 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 12:01:46.609 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 12:01:46.625 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 12:01:46.625 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 12:05:02.967 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-12 12:05:05.332 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-12 12:05:05.332 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 12:05:05.333 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 12:05:05.481 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 12:05:07.305 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-12 12:05:07.327 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 12:05:07.328 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 12:05:07.333 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 12:05:07.333 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 12:05:20.411 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-12 12:05:28.544 [main] ERROR com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-edu register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='192.168.160.4:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-edu', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.44.1', networkInterface='', port=8001, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([192.168.160.4:8848]) tried: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:486) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:239) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:200) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:70) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:894) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at com.yzz.service_edu.edu.ServiceEduApplication.main(ServiceEduApplication.java:25) [classes/:?]
+2021-01-12 12:05:40.682 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2021-01-12 12:05:40.919 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-12 12:05:40.924 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2021-01-12 12:05:40.929 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2021-01-12 12:09:54.852 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - No active profile set, falling back to default profiles: default
+2021-01-12 12:11:23.148 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - No active profile set, falling back to default profiles: default
+2021-01-12 12:13:40.407 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - No active profile set, falling back to default profiles: default
+2021-01-12 12:13:41.205 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.servicecms]' package. Please check your configuration.
+2021-01-12 12:13:41.593 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-12 12:13:41.594 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 12:13:41.594 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 12:13:41.752 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 12:13:41.811 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 12:13:41.811 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 12:13:41.815 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 12:13:41.815 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 12:13:43.589 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-12 12:17:31.842 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: dev
+2021-01-12 12:17:32.918 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.servicecms]' package. Please check your configuration.
+2021-01-12 12:17:33.517 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-01-12 12:17:33.517 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 12:17:33.518 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 12:17:33.736 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 12:17:33.919 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 12:17:33.920 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 12:17:33.925 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 12:17:33.925 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 12:17:47.909 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2021-01-12 15:51:53.472 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: dev
+2021-01-12 15:51:58.739 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.service_cms.cms]' package. Please check your configuration.
+2021-01-12 15:52:00.527 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-01-12 15:52:00.528 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 15:52:00.528 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 15:52:00.787 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 15:52:00.909 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-12 15:54:26.785 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-12 15:54:29.452 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-12 15:54:29.453 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 15:54:29.453 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 15:54:29.592 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 15:54:31.887 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-12 15:54:31.936 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 15:54:31.936 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 15:54:31.951 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 15:54:31.952 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 15:54:46.029 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-12 15:54:54.166 [main] ERROR com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-edu register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='192.168.160.4:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-edu', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.44.1', networkInterface='', port=8001, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([192.168.160.4:8848]) tried: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:486) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:239) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:200) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:70) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:894) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at com.yzz.service_edu.edu.ServiceEduApplication.main(ServiceEduApplication.java:25) [classes/:?]
+2021-01-12 15:55:23.609 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: dev
+2021-01-12 15:55:25.354 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.service_cms.cms]' package. Please check your configuration.
+2021-01-12 15:55:26.106 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-01-12 15:55:26.106 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 15:55:26.107 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 15:55:26.319 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 15:55:26.432 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-12 16:04:53.387 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: dev
+2021-01-12 16:04:54.863 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.service_cms.cms]' package. Please check your configuration.
+2021-01-12 16:04:55.540 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:04:55.541 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 16:04:55.541 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 16:04:55.687 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 16:04:55.765 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-12 16:08:41.325 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: dev
+2021-01-12 16:08:42.840 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.service_cms.cms]' package. Please check your configuration.
+2021-01-12 16:08:43.436 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:08:43.436 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 16:08:43.436 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 16:08:43.621 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 16:08:43.698 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-12 16:10:25.585 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: dev
+2021-01-12 16:10:27.727 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:10:27.728 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 16:10:27.728 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 16:10:27.868 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 16:10:29.063 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-12 16:10:29.084 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 16:10:29.085 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 16:10:29.089 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 16:10:29.089 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 16:10:42.319 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:10:50.412 [main] ERROR com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-cms register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-cms', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.44.1', networkInterface='', port=8004, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:486) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:239) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:200) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:70) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:894) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at com.yzz.service_cms.cms.ServiceCmsApplication.main(ServiceCmsApplication.java:18) [classes/:?]
+2021-01-12 16:11:02.538 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:11:02.776 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-12 16:11:02.781 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:11:02.785 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:15:25.910 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: dev
+2021-01-12 16:15:28.096 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:15:28.096 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 16:15:28.096 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 16:15:28.320 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 16:15:29.720 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-12 16:15:29.750 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 16:15:29.750 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 16:15:29.755 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 16:15:29.755 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 16:15:42.931 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:15:50.031 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-12 16:15:51.034 [main] ERROR com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-cms register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-cms', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.44.1', networkInterface='', port=8004, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:486) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:239) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:200) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:70) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:894) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at com.yzz.service_cms.cms.ServiceCmsApplication.main(ServiceCmsApplication.java:18) [classes/:?]
+2021-01-12 16:15:52.284 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-12 16:15:52.284 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-12 16:15:52.284 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-12 16:15:52.446 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-12 16:15:54.015 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-12 16:15:54.038 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 16:15:54.039 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 16:15:54.044 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-12 16:15:54.044 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-12 16:15:59.191 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-12 16:15:59.292 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8001 register finished
+2021-01-12 16:16:00.618 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-12 16:16:00.694 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-12 16:16:00.788 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-12 16:16:01.077 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 14.817 seconds (JVM running for 17.0)
+2021-01-12 16:16:03.072 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:16:03.296 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-12 16:16:03.300 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:16:03.304 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8004"]
+2021-01-12 16:17:12.601 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:17:12.681 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程
+2021-01-12 16:17:12.681 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名
+2021-01-12 16:17:12.815 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-12 16:17:12.962 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程
+2021-01-12 16:17:12.962 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名
+2021-01-12 16:17:13.816 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-12 16:17:13.890 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名，结束
+2021-01-12 16:17:13.946 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程，结束
+2021-01-12 16:17:13.961 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程，结束
+2021-01-12 16:17:13.962 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名，结束
+2021-01-12 16:18:51.429 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名
+2021-01-12 16:18:51.429 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程
+2021-01-12 16:18:51.435 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名，结束
+2021-01-12 16:18:51.441 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程，结束
+2021-01-12 16:30:26.420 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-12 16:30:26.426 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-12 16:30:35.889 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-12 16:30:35.899 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

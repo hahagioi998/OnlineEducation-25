@@ -162,4 +162,12 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
 			return deleteCourse;
 		}
 	}
+	
+	@Override
+	public List<Course> queryHotCourse() {
+		QueryWrapper<Course> queryWrapper = new QueryWrapper<>();
+		queryWrapper.orderByDesc("view_count");
+		queryWrapper.last("limit 8");
+		return courseMapper.selectList(queryWrapper);
+	}
 }

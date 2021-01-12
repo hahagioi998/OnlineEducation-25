@@ -63,9 +63,15 @@ public interface CourseService extends IService<Course> {
 	HashMap<String, Object> listCourseCondition(int current, int size, Course course);
 	
 	/**
-	 *
+	 * 删除课程根据courseid
 	 * @param courseId
 	 * @return
 	 */
 	int deleteCourseById(String courseId);
+	
+	/**
+	 * 获取热门课程
+	 * @return
+	 */
+	List<Course> queryHotCourse();
 }

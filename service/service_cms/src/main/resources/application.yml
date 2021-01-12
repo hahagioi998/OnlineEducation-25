@@ -1,0 +1,27 @@
+server:
+  port: 8004
+
+spring:
+  profiles:
+    active: @activatedProperties@
+  servlet:
+    multipart:
+      max-file-size: 100MB # 单个文件大小
+      max-request-size: 100MB # 设置总上传的数据大小
+      enabled: true #开启
+  application:
+    name: service-cms
+
+mybatis-plus:
+  type-aliases-package: com.yzz
+  #  configuration:
+  #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: /mapper/*.xml
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+ali_OSS:
+  AccessKeyId: LTAI4FzEu4ciY3naYFUtddqg
+  AccessKeySecret: E7UesWNqUEP8RJKu4SwR5UMwXJuFo2

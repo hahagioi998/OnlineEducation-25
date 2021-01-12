@@ -7,14 +7,12 @@ import com.aliyun.vod.upload.req.UploadVideoRequest;
 import com.aliyun.vod.upload.resp.UploadImageResponse;
 import com.aliyun.vod.upload.resp.UploadVideoResponse;
 import com.aliyuncs.vod.model.v20170321.*;
-import com.yzz.servicevod.VodApplication;
+import com.yzz.servicevod.ServiceVodApplication;
 import com.aliyuncs.DefaultAcsClient;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import javax.annotation.Resource;
 
 import static com.yzz.InitObject.initVodClient;
 
@@ -24,7 +22,7 @@ import static com.yzz.InitObject.initVodClient;
  * @Date 2021/1/9
  * @Version 1.0
  */
-@SpringBootTest(classes = VodApplication.class)
+@SpringBootTest(classes = ServiceVodApplication.class)
 @RunWith(SpringRunner.class)
 public class NewOne {
 	//账号AK信息（必选）

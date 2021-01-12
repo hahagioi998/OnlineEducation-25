@@ -3,6 +3,7 @@ package com.yzz.service_edu.edu.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.yzz.service_edu.edu.entity.Course;
 import com.yzz.service_edu.edu.entity.Teacher;
 import com.yzz.service_edu.edu.mapper.TeacherMapper;
 import com.yzz.service_edu.edu.service.TeacherService;
@@ -98,5 +99,13 @@ public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> impl
 		Integer i = teacherMapper.updateTearcher(teacher);
 		hashMap.put("result", i);
 		return hashMap;
+	}
+	
+	@Override
+	public List<Teacher> queryHotCourse() {
+		QueryWrapper<Teacher> queryWrapper = new QueryWrapper<>();
+		queryWrapper.orderByDesc("id");
+		queryWrapper.last("limit 4");
+		return teacherMapper.selectList(queryWrapper);
 	}
 }

@@ -1,0 +1,23 @@
+server:
+  port: 8007
+
+spring:
+  application:
+    name: service-msm
+  profiles:
+    active: @activatedProperties@
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+
+mybatis-plus:
+  type-aliases-package: com.yzz
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: /mapper/*.xml
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+

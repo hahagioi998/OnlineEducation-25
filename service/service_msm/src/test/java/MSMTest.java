@@ -1,3 +1,4 @@
+import com.aliyuncs.exceptions.ClientException;
 import com.yzz.service_msm.msm.ServiceMsmApplication;
 import com.yzz.service_msm.msm.service.MsmService;
 import org.junit.Test;
@@ -21,7 +22,7 @@ public class MSMTest {
 	private MsmService msmService;
 	
 	@Test
-	public void test(){
+	public void test() throws ClientException {
 		msmService.sendMsg("123");
 	}
 }

@@ -1,8 +1,10 @@
 package com.yzz.service_msm.msm.service.Impl;
 
 import com.aliyuncs.CommonRequest;
+import com.aliyuncs.CommonResponse;
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
+import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.http.MethodType;
 import com.aliyuncs.profile.DefaultProfile;
 import com.yzz.commonutils.jwt.RandomUtils;
@@ -11,6 +13,7 @@ import com.yzz.service_msm.msm.service.MsmService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.json.JSONObject;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -30,8 +33,18 @@ public class MsmServiceImpl implements MsmService {
 	@Resource
 	private AliOSS aliOSS;
 	
+	@Resource
+	private RedisTemplate<String, String> redisTemplate;
+	
 	@Override
-	public boolean sendMsg(String phoneNo) {
+	public boolean sendMsg(String phoneNo) throws ClientException {
+		
+		String redisCode = redisTemplate.opsForValue().get(phoneNo);
+		//如果redis中有值，就返回true？？？
+		if(!StringUtils.isEmpty(redisCode)){
+			return true;
+		}
+		
 		Map<String, Object> param = new HashMap<>();
 		//随机生成4位验证码
 		String code = RandomUtils.getFourBitRandom();
@@ -56,6 +69,16 @@ public class MsmServiceImpl implements MsmService {
 		commonRequest.putQueryParameter("TemplateCode", "SMS_209550067");
 		commonRequest.putQueryParameter("TemplateParam", JSONObject.wrap(param).toString());
 		
-		return false;
+		CommonResponse commonResponse = iAcsClient.getCommonResponse(commonRequest);
+		
+		if(commonResponse.getHttpResponse().isSuccess()){
+			//存到redis并且设置过期时间为5分钟
+			redisTemplate.opsForValue().set(phoneNo, code, 1000*60*5);
+			return true;
+		}else{
+			log.error("发送短信失败：{}", commonResponse.getData());
+			return false;
+		}
+		
 	}
 }

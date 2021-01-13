@@ -20,16 +20,16 @@ import org.springframework.stereotype.Component;
 @PropertySource("classpath:/AliOSS.properties")
 public class AliOSS {
 	
-	@Value("${ali_OSS.endpoint}")
+	@Value("${AliOSS.endpoint}")
 	private String endpoint;
 	
-	@Value("${ali_OSS.bucketName}")
+	@Value("${AliOSS.bucketName}")
 	private String bucketName;
 	
-	@Value("${ali_OSS.AccessKeyId}")
+	@Value("${AliOSS.AccessKeyId}")
 	private String accessKeyId;
 	
-	@Value("${ali_OSS.AccessKeySecret}")
+	@Value("${AliOSS.AccessKeySecret}")
 	private String accessKeySecret;
 	
 }

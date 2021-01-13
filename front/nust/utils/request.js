@@ -6,4 +6,17 @@ const service = axios.create({
 
   timeout: 20000 // 请求超时时间
 })
+
+service.interceptors.request.use(
+  config => {
+    if(Cookies.get('token')){
+      config.headers['token'] = cookie.get('token');
+    }
+    return config
+  },
+  err => {
+    return Promise.reject(err);
+  }
+)
+
 export default service

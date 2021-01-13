@@ -82,6 +82,12 @@
         <logger name="com.yzz.service_edu.edu.mapper" level="DEBUG" additivity="false">
             <AppenderRef ref="Console"/>
         </logger>
+        <logger name="com.yzz.service_cms.cms.mapper" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+        </logger>
+        <logger name="com.yzz.service_ucenter.ucenter.mapper" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+        </logger>
 
         <!--<logger name="org.apache.shiro" level="trace" additivity="false">
             <AppenderRef ref="Console"/>

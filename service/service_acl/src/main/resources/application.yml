@@ -11,8 +11,3 @@ spring:
       enabled: true #开启
   application:
     name: service-acl
-
-
-ali_OSS:
-  AccessKeyId: LTAI4FzEu4ciY3naYFUtddqg
-  AccessKeySecret: E7UesWNqUEP8RJKu4SwR5UMwXJuFo2

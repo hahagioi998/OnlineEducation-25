@@ -12,7 +12,3 @@ spring:
   application:
     name: service-vod
 
-
-ali_OSS:
-  AccessKeyId: LTAI4FzEu4ciY3naYFUtddqg
-  AccessKeySecret: E7UesWNqUEP8RJKu4SwR5UMwXJuFo2

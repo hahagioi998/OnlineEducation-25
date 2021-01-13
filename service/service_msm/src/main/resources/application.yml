@@ -1,9 +1,9 @@
 server:
-  port: 8001
+  port: 8006
 
 spring:
   application:
-    name: service-edu
+    name: service-msm
   profiles:
     active: @activatedProperties@
   jackson:
@@ -20,8 +20,4 @@ mybatis-plus:
     db-config:
       logic-delete-value: 1
       logic-not-delete-value: 0
-#开启熔断
-feign:
-  hystrix:
-    enabled: true
 

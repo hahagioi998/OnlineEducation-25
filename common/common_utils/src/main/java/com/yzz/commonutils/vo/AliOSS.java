@@ -1,10 +1,10 @@
-package com.yzz.servicevod.vo;
+package com.yzz.commonutils.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 /**
@@ -17,7 +17,14 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @NoArgsConstructor
 @Component
-public class AliVodVO {
+@PropertySource("classpath:/AliOSS.properties")
+public class AliOSS {
+	
+	@Value("${ali_OSS.endpoint}")
+	private String endpoint;
+	
+	@Value("${ali_OSS.bucketName}")
+	private String bucketName;
 	
 	@Value("${ali_OSS.AccessKeyId}")
 	private String accessKeyId;
@@ -25,11 +32,4 @@ public class AliVodVO {
 	@Value("${ali_OSS.AccessKeySecret}")
 	private String accessKeySecret;
 	
-	/**
-	 * 同时定义2个静态变量
-	 */
-
-//	public static String AccessKeyId;
-//	public static String AccessKeySecret;
-
 }

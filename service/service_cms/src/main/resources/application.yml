@@ -21,7 +21,3 @@ mybatis-plus:
     db-config:
       logic-delete-value: 1
       logic-not-delete-value: 0
-
-ali_OSS:
-  AccessKeyId: LTAI4FzEu4ciY3naYFUtddqg
-  AccessKeySecret: E7UesWNqUEP8RJKu4SwR5UMwXJuFo2

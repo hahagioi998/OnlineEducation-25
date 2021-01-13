@@ -2,17 +2,14 @@ package com.yzz.serviceoss.service.impl;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
+import com.yzz.commonutils.vo.AliOSS;
 import com.yzz.serviceoss.service.OssService;
-import com.yzz.serviceoss.vo.AliOSS;
 import lombok.extern.slf4j.Slf4j;
 import org.joda.time.DateTime;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.UUID;
 

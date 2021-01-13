@@ -1,5 +1,5 @@
+import com.yzz.commonutils.vo.AliOSS;
 import com.yzz.serviceoss.ServiceOssApplication;
-import com.yzz.serviceoss.vo.AliOSS;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -23,8 +23,7 @@ public class OssTest {
 	
 	@Test
 	public void testAliOSS(){
-		AliOSS aliOSS = new AliOSS();
 		System.out.println(aliOSS.getAccessKeyId());
-		System.out.println(this.aliOSS.getAccessKeyId());
+		System.out.println(aliOSS.getAccessKeyId());
 	}
 }

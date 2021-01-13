@@ -1,0 +1,6 @@
+2021-01-13 11:54:11.295 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.serviceoss]' package. Please check your configuration.
+2021-01-13 11:54:15.247 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-13 11:54:15.268 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-13 11:59:01.574 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.serviceoss]' package. Please check your configuration.
+2021-01-13 11:59:03.955 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-13 11:59:03.966 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

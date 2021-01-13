@@ -7,8 +7,8 @@ import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.vod.model.v20170321.DeleteVideoRequest;
 import com.aliyuncs.vod.model.v20170321.DeleteVideoResponse;
 import com.yzz.commonutils.exception.YzzException;
+import com.yzz.commonutils.vo.AliOSS;
 import com.yzz.servicevod.service.VodService;
-import com.yzz.servicevod.vo.AliVodVO;
 import com.yzz.servicevod.vo.InitObjectVO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
@@ -32,13 +32,13 @@ import java.util.List;
 public class VodServiceImpl implements VodService {
 
 	@Resource
-	private AliVodVO aliVodVO;
+	private AliOSS aliOSS;
 	
 	@Override
 	public String upLoadVod(MultipartFile file) throws IOException {
 		String name = file.getOriginalFilename();
-		HashMap<String, Object> hashMap = uploadVideo(aliVodVO.getAccessKeyId(),
-				                                      aliVodVO.getAccessKeySecret(), name, name, file.getInputStream());
+		HashMap<String, Object> hashMap = uploadVideo(aliOSS.getAccessKeyId(),
+				aliOSS.getAccessKeySecret(), name, name, file.getInputStream());
 		if(hashMap.getOrDefault("VideoId", null) == null){
 			log.error("上传视频失败，失败原因: {}", hashMap.get("ErrorCode"));
 			throw new YzzException(201, "上传视频失败");
@@ -48,7 +48,7 @@ public class VodServiceImpl implements VodService {
 
 	@Override
 	public boolean deleteVod(List<String> videoIdList) throws Exception {
-		DefaultAcsClient client = InitObjectVO.initVodClient(aliVodVO.getAccessKeyId(), aliVodVO.getAccessKeySecret());
+		DefaultAcsClient client = InitObjectVO.initVodClient(aliOSS.getAccessKeyId(), aliOSS.getAccessKeySecret());
 		DeleteVideoResponse response = new DeleteVideoResponse();
 		response = deleteVideo(client, videoIdList);
 		log.info("删除视频requestId: {}", response.getRequestId());

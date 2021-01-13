@@ -26,9 +26,9 @@ import static com.yzz.InitObject.initVodClient;
 @RunWith(SpringRunner.class)
 public class NewOne {
 	//账号AK信息（必选）
-	private final String accessKeyId = "LTAI4FzEu4ciY3naYFUtddqg";
+	private final String accessKeyId = "2";
 	//账号AK信息（必选）
-	private final String accessKeySecret = "E7UesWNqUEP8RJKu4SwR5UMwXJuFo2";
+	private final String accessKeySecret = "1";
 
 	@Test
 	public void testUPLOAD() {

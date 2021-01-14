@@ -20,7 +20,7 @@ import java.util.List;
  * @Date 2021/1/14
  * @Version 1.0
  */
-@Api(tags = "前台讲师服务")
+@Api(tags = "前台课程服务")
 @Slf4j
 @RestController
 @RequestMapping("/edu/courseFrontService")
@@ -31,7 +31,7 @@ public class CourseFrontController {
 	private CourseService courseService;
 	
 	@ApiOperation("前台条件分页查询课程")
-	@GetMapping("/queryCByPageOnCondition")
+	@PostMapping("/queryCByPageOnCondition")
 	public ResultData queryCByPageOnCondition(@RequestParam @ApiParam("当前页") int current,
 	                                          @RequestParam @ApiParam("页容量") int pageSize,
 	                                          @RequestBody(required = false) @ApiParam("查询课程条件") CourseQueryVO courseQueryVO){

@@ -21,7 +21,7 @@ export function levelOneSubject(){
 export function levelTwoByLevelOne(id){
     return request({
         url: `/edu/subjectService/levelTwoByLevelOne`,
-        method: 'get',
+        method: 'post',
         data : id
     })
 }

@@ -83,7 +83,7 @@ public class SubjectController {
 	}
 
 	@ApiOperation("根据一级课程获取二级课程")
-	@GetMapping("/levelTwoByLevelOne")
+	@PostMapping("/levelTwoByLevelOne")
 	public ResultData levelTwoByLevelOne(@ApiParam("一级课程id")@RequestBody String id){
 		log.info("访问接口：根据一级课程获取二级课程");
 		List<Subject> list = new ArrayList<>();

@@ -197,22 +197,22 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
 			qw.like("title", title);
 		}
 		if(!StringUtils.isEmpty(teacherId)){
-			qw.eq("teacherId", teacherId);
+			qw.eq("teacher_id", teacherId);
 		}
 		if(!StringUtils.isEmpty(subjectParentId)){
-			qw.eq("subjectParentId", subjectParentId);
+			qw.eq("subject_parent_id", subjectParentId);
 		}
 		if(!StringUtils.isEmpty(subjectId)){
-			qw.eq("subjectId", subjectId);
+			qw.eq("subject_id", subjectId);
 		}
 		if(!StringUtils.isEmpty(buyCountSort)){
-			qw.orderByDesc("buyCountSort");
+			qw.orderByDesc("buy_count");
 		}
 		if(!StringUtils.isEmpty(gmtCreateSort)){
-			qw.orderByDesc("gmtCreateSort");
+			qw.orderByDesc("gmt_create");
 		}
 		if(!StringUtils.isEmpty(priceSort)){
-			qw.orderByDesc("priceSort");
+			qw.orderByDesc("price");
 		}
 		
 		List<Course> list = courseMapper.selectList(qw);

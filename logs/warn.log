@@ -1,18 +1,52 @@
-2021-01-14 14:32:12.989 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 14:32:13.001 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 14:57:35.909 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 14:57:35.916 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:01:38.257 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:01:38.263 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:19:36.350 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:19:36.356 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:25:37.748 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:25:37.754 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:27:44.591 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:27:44.596 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:37:46.045 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:37:46.054 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:39:12.422 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 15:39:12.430 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 16:19:54.293 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-14 16:19:54.299 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 22:12:01.600 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 22:12:01.607 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 22:14:47.438 [http-nio-8001-exec-4] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+2021-01-14 22:14:47.440 [http-nio-8001-exec-4] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+2021-01-14 22:24:00.969 [http-nio-8001-exec-5] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+2021-01-14 22:24:00.969 [http-nio-8001-exec-5] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+2021-01-14 22:25:02.540 [http-nio-8001-exec-9] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+2021-01-14 22:25:02.540 [http-nio-8001-exec-9] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+2021-01-14 22:28:21.518 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 22:28:21.522 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

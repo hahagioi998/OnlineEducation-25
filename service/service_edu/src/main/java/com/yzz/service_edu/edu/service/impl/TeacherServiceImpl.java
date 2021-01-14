@@ -38,6 +38,12 @@ public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> impl
 		HashMap<String, Object> map = new HashMap<>();
 		map.put("total", pageInfo.getTotal());
 		map.put("list", pageInfo.getList());
+		map.put("currentPage", currentPage);
+		map.put("pageSize", pageSize);
+		map.put("isHasNextPage", pageInfo.isHasNextPage());
+		map.put("isHasPreviousPage", pageInfo.isHasPreviousPage());
+		map.put("pages", pageInfo.getPages());
+		map.put("lastPage", pageInfo.getNavigateLastPage());
 		return map;
 	}
 	

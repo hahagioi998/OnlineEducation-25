@@ -119,8 +119,8 @@ public class CourseController {
 	@ApiOperation("条件分页查询课程")
 	@PostMapping("/listCourseCondition")
 	public ResultData listCourseCondition(@ApiParam("当前页") @RequestParam int current,
-	                                   @ApiParam("页容量") @RequestParam int size,
-	                                   @ApiParam("课程条件") @RequestBody Course course){
+	                                      @ApiParam("页容量") @RequestParam int size,
+	                                      @ApiParam("课程条件") @RequestBody Course course){
 		log.info("访问接口：条件分页查询课程");
 		HashMap<String, Object> hashMap;
 		try{

@@ -13,6 +13,7 @@ import com.yzz.service_edu.edu.mapper.CourseMapper;
 import com.yzz.service_edu.edu.service.*;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yzz.service_edu.edu.vo.CourseInfoVO;
+import com.yzz.service_edu.edu.vo.front.CourseQueryVO;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
@@ -169,5 +170,62 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
 		queryWrapper.orderByDesc("view_count");
 		queryWrapper.last("limit 8");
 		return courseMapper.selectList(queryWrapper);
+	}
+	
+	@Override
+	public List<Course> queryCInfoByTId(String teacherId) {
+		QueryWrapper<Course> qw = new QueryWrapper<>();
+		qw.eq("teacher_id", teacherId);
+		return courseMapper.selectList(qw);
+	}
+	
+	@Override
+	public HashMap<String, Object> queryCByPageOnCondition(int current, int pageSize, CourseQueryVO courseQueryVO) {
+		PageHelper.startPage(current, pageSize);
+		QueryWrapper<Course> qw = new QueryWrapper<>();
+		HashMap<String, Object> map = new HashMap<>();
+		String title = courseQueryVO.getTitle();
+		String teacherId = courseQueryVO.getTeacherId();
+		String subjectParentId = courseQueryVO.getSubjectParentId();
+		String subjectId = courseQueryVO.getSubjectId();
+		String buyCountSort = courseQueryVO.getBuyCountSort();
+		String gmtCreateSort = courseQueryVO.getGmtCreateSort();
+		String priceSort = courseQueryVO.getPriceSort();
+		
+		
+		if(!StringUtils.isEmpty(title)){
+			qw.like("title", title);
+		}
+		if(!StringUtils.isEmpty(teacherId)){
+			qw.eq("teacherId", teacherId);
+		}
+		if(!StringUtils.isEmpty(subjectParentId)){
+			qw.eq("subjectParentId", subjectParentId);
+		}
+		if(!StringUtils.isEmpty(subjectId)){
+			qw.eq("subjectId", subjectId);
+		}
+		if(!StringUtils.isEmpty(buyCountSort)){
+			qw.orderByDesc("buyCountSort");
+		}
+		if(!StringUtils.isEmpty(gmtCreateSort)){
+			qw.orderByDesc("gmtCreateSort");
+		}
+		if(!StringUtils.isEmpty(priceSort)){
+			qw.orderByDesc("priceSort");
+		}
+		
+		List<Course> list = courseMapper.selectList(qw);
+		PageInfo<Course> pageInfo = new PageInfo<>(list);
+		map.put("total", pageInfo.getTotal());
+		map.put("list", pageInfo.getList());
+		map.put("currentPage", current);
+		map.put("pageSize", pageSize);
+		map.put("isHasNextPage", pageInfo.isHasNextPage());
+		map.put("isHasPreviousPage", pageInfo.isHasPreviousPage());
+		map.put("pages", pageInfo.getPages());
+		map.put("lastPage", pageInfo.getNavigateLastPage());
+		
+		return map;
 	}
 }

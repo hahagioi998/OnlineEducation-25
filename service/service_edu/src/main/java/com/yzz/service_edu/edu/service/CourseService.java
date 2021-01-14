@@ -4,6 +4,7 @@ import com.yzz.service_edu.edu.dto.CourseDTO;
 import com.yzz.service_edu.edu.entity.Course;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.yzz.service_edu.edu.vo.CourseInfoVO;
+import com.yzz.service_edu.edu.vo.front.CourseQueryVO;
 
 import java.util.HashMap;
 import java.util.List;
@@ -74,4 +75,20 @@ public interface CourseService extends IService<Course> {
 	 * @return
 	 */
 	List<Course> queryHotCourse();
+	
+	/**
+	 * 根据讲师id获取课程
+	 * @param teacherId
+	 * @return
+	 */
+	List<Course> queryCInfoByTId(String teacherId);
+	
+	/**
+	 * 前台条件分页查询课程
+	 * @param current
+	 * @param pageSize
+	 * @param courseQueryVO
+	 * @return
+	 */
+	HashMap<String, Object> queryCByPageOnCondition(int current, int pageSize, CourseQueryVO courseQueryVO);
 }

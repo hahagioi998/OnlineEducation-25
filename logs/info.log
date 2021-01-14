@@ -1,383 +1,468 @@
-2021-01-12 21:02:08.641 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: ${activatedProperties}
-2021-01-12 21:02:10.789 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:02:10.790 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:02:10.790 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:02:10.886 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:02:12.412 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:02:12.428 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:02:12.430 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:02:12.435 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:02:12.435 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:02:13.059 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-12 21:04:03.369 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: ${activatedProperties}
-2021-01-12 21:04:04.644 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:04:04.644 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:04:04.644 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:04:04.731 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:04:05.860 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:04:05.875 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:04:05.875 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:04:05.878 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:04:05.878 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:04:06.447 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-12 21:05:19.293 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: ${activatedProperties}
-2021-01-12 21:05:20.583 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:05:20.584 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:05:20.584 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:05:20.680 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:05:21.905 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:05:21.919 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:05:21.919 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:05:21.922 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:05:21.923 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:05:22.492 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-12 21:13:31.214 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: ${activatedProperties}
-2021-01-12 21:13:32.488 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:13:32.488 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:13:32.488 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:13:32.573 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:13:33.737 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:13:33.752 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:13:33.752 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:13:33.755 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:13:33.755 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:13:34.371 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-12 21:15:30.577 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: ${activatedProperties}
-2021-01-12 21:15:32.204 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-12 21:15:32.204 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:15:32.204 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:15:32.292 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:15:33.790 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:15:33.807 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:15:33.807 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:15:33.811 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:15:33.811 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:15:34.367 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-12 21:18:37.585 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: ${activatedProperties}
-2021-01-12 21:18:38.996 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-12 21:18:38.996 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:18:38.997 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:18:39.084 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:18:40.515 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:18:40.532 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:18:40.533 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:18:40.536 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:18:40.536 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:18:41.141 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-12 21:19:40.108 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: ${activatedProperties}
-2021-01-12 21:19:41.502 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-12 21:19:41.502 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:19:41.502 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:19:41.590 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:19:43.020 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:19:43.037 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:19:43.037 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:19:43.040 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:19:43.040 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:19:43.606 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-12 21:20:17.847 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-12 21:20:19.246 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-12 21:20:19.246 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:20:19.246 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:20:19.333 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:20:20.728 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:20:20.745 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:20:20.745 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:20:20.749 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:20:20.749 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:20:22.673 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-12 21:20:22.702 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.134.1:8001 register finished
-2021-01-12 21:20:23.082 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-12 21:20:23.126 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-12 21:20:23.213 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-12 21:20:23.386 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.991 seconds (JVM running for 8.107)
-2021-01-12 21:22:07.850 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: homedev
-2021-01-12 21:22:09.112 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:22:09.112 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:22:09.112 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:22:09.197 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:22:10.335 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:22:10.350 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:22:10.350 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:22:10.353 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:22:10.353 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:22:20.020 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:22:28.057 [main] ERROR com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-cms register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-cms', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.134.1', networkInterface='', port=8004, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
-com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: connect
-	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:486) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:239) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:200) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:70) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:894) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at com.yzz.service_cms.cms.ServiceCmsApplication.main(ServiceCmsApplication.java:18) [classes/:?]
-2021-01-12 21:22:40.090 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:22:40.343 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-12 21:22:40.346 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:22:40.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:25:46.158 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: homedev
-2021-01-12 21:25:47.515 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:25:47.516 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:25:47.516 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:25:47.613 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:25:48.859 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:25:48.873 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:25:48.874 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:25:48.877 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:25:48.877 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:25:58.562 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:26:06.605 [main] ERROR com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-cms register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-cms', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.134.1', networkInterface='', port=8004, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
-com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: connect
-	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:486) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:239) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:200) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:70) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:894) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at com.yzz.service_cms.cms.ServiceCmsApplication.main(ServiceCmsApplication.java:18) [classes/:?]
-2021-01-12 21:26:18.638 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:26:18.898 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-12 21:26:18.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:26:18.903 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:28:00.401 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: homedev
-2021-01-12 21:28:01.681 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:28:01.681 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:28:01.681 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:28:01.772 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:28:02.902 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:28:02.916 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:28:02.916 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:28:02.918 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:28:02.919 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:28:04.580 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:28:04.604 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-cms 192.168.134.1:8004 register finished
-2021-01-12 21:28:04.990 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-12 21:28:05.002 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-12 21:28:05.029 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-12 21:28:05.125 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - Started ServiceCmsApplication in 6.159 seconds (JVM running for 7.242)
-2021-01-12 21:29:06.459 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: homedev
-2021-01-12 21:29:07.852 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2021-01-12 21:29:07.853 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:29:07.853 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:29:07.951 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:29:09.355 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:29:09.372 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:29:09.372 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:29:09.376 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:29:09.376 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:29:11.072 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2021-01-12 21:29:11.100 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.134.1:8001 register finished
-2021-01-12 21:29:11.529 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-12 21:29:11.546 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-12 21:29:11.575 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-12 21:29:11.736 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 6.711 seconds (JVM running for 7.853)
-2021-01-12 21:29:16.932 [http-nio-8004-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-12 21:29:16.934 [http-nio-8001-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-12 21:29:16.972 [http-nio-8004-exec-1] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner
-2021-01-12 21:29:17.110 [http-nio-8004-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-12 21:29:17.173 [http-nio-8004-exec-2] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner
-2021-01-12 21:29:18.071 [http-nio-8004-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-12 21:29:18.124 [http-nio-8004-exec-1] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner，结束
-2021-01-12 21:29:18.129 [http-nio-8004-exec-2] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner，结束
-2021-01-12 21:29:18.164 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程
-2021-01-12 21:29:18.164 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名
-2021-01-12 21:29:18.164 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程
-2021-01-12 21:29:18.164 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名
-2021-01-12 21:29:18.227 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-01-12 21:29:18.748 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-01-12 21:29:18.793 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名，结束
-2021-01-12 21:29:18.794 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程，结束
-2021-01-12 21:29:18.795 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名，结束
-2021-01-12 21:29:18.797 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程，结束
-2021-01-12 21:30:00.681 [http-nio-8004-exec-3] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner
-2021-01-12 21:30:00.685 [http-nio-8004-exec-3] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner，结束
-2021-01-12 21:30:00.865 [http-nio-8004-exec-4] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner
-2021-01-12 21:30:00.868 [http-nio-8004-exec-4] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner，结束
-2021-01-12 21:30:13.400 [http-nio-8004-exec-5] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner
-2021-01-12 21:30:13.404 [http-nio-8004-exec-5] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner，结束
-2021-01-12 21:30:13.741 [http-nio-8004-exec-6] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner
-2021-01-12 21:30:13.744 [http-nio-8004-exec-6] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner，结束
-2021-01-12 21:30:44.747 [http-nio-8004-exec-7] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner
-2021-01-12 21:30:44.750 [http-nio-8004-exec-7] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner，结束
-2021-01-12 21:30:45.595 [http-nio-8004-exec-8] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner
-2021-01-12 21:30:45.599 [http-nio-8004-exec-8] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner，结束
-2021-01-12 21:30:45.925 [http-nio-8004-exec-9] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner
-2021-01-12 21:30:45.928 [http-nio-8004-exec-9] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner，结束
-2021-01-12 21:31:50.774 [http-nio-8004-exec-10] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner
-2021-01-12 21:31:50.777 [http-nio-8004-exec-10] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner，结束
-2021-01-12 21:31:51.096 [http-nio-8004-exec-2] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner
-2021-01-12 21:31:51.099 [http-nio-8004-exec-2] INFO  com.yzz.service_cms.cms.controller.BannerClientController - 访问接口：查询所有banner，结束
-2021-01-12 21:40:10.336 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2021-01-12 21:40:10.338 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
-2021-01-12 21:40:10.385 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2021-01-12 21:40:10.387 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
-2021-01-12 21:40:20.699 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-12 21:40:20.704 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-12 21:40:20.859 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-01-12 21:40:20.863 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-01-12 21:41:57.138 [main] INFO  com.yzz.servicevod.ServiceVodApplication - The following profiles are active: homedev
-2021-01-12 21:41:57.988 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
-2021-01-12 21:41:58.420 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
-2021-01-12 21:41:58.421 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:41:58.421 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:41:58.505 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:41:58.919 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:41:58.935 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:41:58.935 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:41:58.938 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:41:58.938 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:42:23.168 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: homedev
-2021-01-12 21:42:24.446 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:42:24.447 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:42:24.447 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:42:24.531 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:42:25.671 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:42:25.685 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:42:25.685 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:42:25.688 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:42:25.688 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:42:27.355 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:42:27.380 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-cms 192.168.134.1:8004 register finished
-2021-01-12 21:42:27.758 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-12 21:42:27.772 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-12 21:42:27.799 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-12 21:42:27.902 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - Started ServiceCmsApplication in 6.161 seconds (JVM running for 7.228)
-2021-01-12 21:42:39.099 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2021-01-12 21:42:39.102 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
-2021-01-12 21:42:54.987 [main] INFO  com.yzz.service_cms.cms.ServiceCmsApplication - The following profiles are active: homedev
-2021-01-12 21:42:56.306 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:42:56.307 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-12 21:42:56.307 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-12 21:42:56.395 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-12 21:42:57.574 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-12 21:42:57.588 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:42:57.588 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:42:57.592 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-12 21:42:57.592 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-12 21:43:07.326 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
-2021-01-12 21:43:15.367 [main] ERROR com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-cms register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-cms', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.134.1', networkInterface='', port=8004, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
-com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: connect
-	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:486) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:239) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:200) ~[nacos-client-1.3.3.jar:?]
-	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:70) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78) [spring-cloud-starter-alibaba-nacos-discovery-2.2.3.RELEASE.jar:2.2.3.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) [spring-cloud-commons-2.2.0.RELEASE.jar:2.2.0.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:894) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
-	at com.yzz.service_cms.cms.ServiceCmsApplication.main(ServiceCmsApplication.java:18) [classes/:?]
-2021-01-13 14:48:57.925 [main] INFO  com.yzz.serviceoss.ServiceOssApplication - The following profiles are active: dev
-2021-01-13 14:48:59.808 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.serviceoss]' package. Please check your configuration.
-2021-01-13 14:49:01.376 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-13 14:49:01.377 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-13 14:49:01.378 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-13 14:49:01.636 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-13 14:49:01.763 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2021-01-13 14:51:49.504 [main] INFO  com.yzz.serviceoss.ServiceOssApplication - The following profiles are active: dev
-2021-01-13 14:51:51.225 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.serviceoss]' package. Please check your configuration.
-2021-01-13 14:51:52.512 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
-2021-01-13 14:51:52.513 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-13 14:51:52.513 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-13 14:51:52.699 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-13 14:51:53.711 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-13 14:51:53.747 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-13 14:51:53.747 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-13 14:51:53.755 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-13 14:51:53.755 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-13 14:51:59.471 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
-2021-01-13 14:51:59.584 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-vod 192.168.44.1:8002 register finished
-2021-01-13 14:52:00.962 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-13 14:52:00.990 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-13 14:52:01.048 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-13 14:52:01.230 [main] INFO  com.yzz.serviceoss.ServiceOssApplication - Started ServiceOssApplication in 15.646 seconds (JVM running for 17.316)
-2021-01-13 14:52:23.268 [http-nio-8002-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-01-13 14:52:35.602 [http-nio-8002-exec-9] INFO  com.yzz.serviceoss.controller.OssController - 访问上传头像接口...
-2021-01-13 14:52:44.518 [http-nio-8002-exec-9] WARN  com.aliyun.oss - [Client]Unable to execute HTTP request: 杩欐槸鍦ㄤ富鏈哄悕瑙ｆ瀽鏃堕�氬父鍑虹幇鐨勬殏鏃堕敊璇紝瀹冩剰鍛崇潃鏈湴鏈嶅姟鍣ㄦ病鏈変粠鏉冨▉鏈嶅姟鍣ㄤ笂鏀跺埌鍝嶅簲銆� (onlineeducationyzz.oss-cn-beijing.aliyuncs.com)
-[ErrorCode]: UnknownHost
-[RequestId]: Unknown
-2021-01-13 14:52:45.118 [http-nio-8002-exec-9] WARN  com.aliyun.oss - [Client]Unable to execute HTTP request: onlineeducationyzz.oss-cn-beijing.aliyuncs.com
-[ErrorCode]: UnknownHost
-[RequestId]: Unknown
-2021-01-13 14:52:46.319 [http-nio-8002-exec-9] WARN  com.aliyun.oss - [Client]Unable to execute HTTP request: onlineeducationyzz.oss-cn-beijing.aliyuncs.com
-[ErrorCode]: UnknownHost
-[RequestId]: Unknown
-2021-01-13 14:52:48.720 [http-nio-8002-exec-9] WARN  com.aliyun.oss - [Client]Unable to execute HTTP request: onlineeducationyzz.oss-cn-beijing.aliyuncs.com
-[ErrorCode]: UnknownHost
-[RequestId]: Unknown
-2021-01-13 14:54:02.105 [http-nio-8002-exec-8] INFO  com.yzz.serviceoss.controller.OssController - 访问上传头像接口...
+2021-01-14 14:32:07.306 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-14 14:32:10.339 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-14 14:32:10.340 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-14 14:32:10.341 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-14 14:32:10.495 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-14 14:32:12.963 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 14:32:12.989 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 14:32:12.992 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 14:32:13.001 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 14:32:13.001 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 14:32:18.148 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-14 14:32:18.195 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8001 register finished
+2021-01-14 14:32:19.572 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-14 14:32:19.592 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-14 14:32:19.646 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-14 14:32:19.908 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectTPageUsingGET_1
+2021-01-14 14:32:19.947 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 17.027 seconds (JVM running for 19.794)
+2021-01-14 14:57:09.688 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-14 14:57:09.693 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-14 14:57:31.185 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-14 14:57:33.775 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-14 14:57:33.776 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-14 14:57:33.776 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-14 14:57:33.921 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-14 14:57:35.883 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 14:57:35.909 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 14:57:35.910 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 14:57:35.916 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 14:57:35.916 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 14:57:40.794 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-14 14:57:40.867 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8001 register finished
+2021-01-14 14:57:42.202 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-14 14:57:42.223 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-14 14:57:42.271 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-14 14:57:42.498 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectTPageUsingGET_1
+2021-01-14 14:57:42.562 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 15.315 seconds (JVM running for 17.372)
+2021-01-14 14:57:46.393 [http-nio-8001-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-14 14:57:54.676 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 14:57:54.744 [http-nio-8001-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-14 14:57:55.464 [http-nio-8001-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-14 14:57:55.657 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 14:58:29.876 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 14:58:29.891 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:00:52.373 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:00:52.387 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:01:15.086 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-14 15:01:15.089 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-14 15:01:25.167 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-14 15:01:25.176 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-14 15:01:33.769 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-14 15:01:36.116 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:01:36.117 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-14 15:01:36.117 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-14 15:01:36.264 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-14 15:01:38.230 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 15:01:38.257 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:01:38.258 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:01:38.263 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:01:38.263 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:01:43.102 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:01:43.144 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8001 register finished
+2021-01-14 15:01:44.483 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-14 15:01:44.504 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-14 15:01:44.552 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-14 15:01:44.778 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectTPageUsingGET_1
+2021-01-14 15:01:44.816 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 14.739 seconds (JVM running for 16.776)
+2021-01-14 15:02:28.470 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-14 15:02:28.523 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:02:28.783 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-14 15:02:29.561 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-14 15:02:29.699 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:02:38.579 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名
+2021-01-14 15:02:38.579 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程
+2021-01-14 15:02:38.603 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取老师排名，结束
+2021-01-14 15:02:38.608 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.IndexController - 访问接口：获取热门课程，结束
+2021-01-14 15:02:40.161 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:02:40.176 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:03:16.833 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:03:16.844 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:03:24.964 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:03:24.975 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:03:41.261 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:03:41.272 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:03:49.682 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:03:49.691 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:04:03.574 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:04:03.587 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:05:12.645 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:05:12.656 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:06:36.897 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:06:36.905 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:06:50.334 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:06:50.342 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:07:05.875 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:07:05.883 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:09:49.379 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:09:49.387 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:18:13.921 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:18:13.929 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:19:05.529 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-14 15:19:05.531 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-14 15:19:17.705 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-14 15:19:17.715 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-14 15:19:31.096 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-14 15:19:33.866 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:19:33.867 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-14 15:19:33.867 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-14 15:19:34.025 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-14 15:19:36.314 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 15:19:36.350 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:19:36.350 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:19:36.356 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:19:36.356 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:19:41.459 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:19:41.503 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8001 register finished
+2021-01-14 15:19:42.848 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-14 15:19:42.877 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-14 15:19:42.937 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-14 15:19:43.203 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectTPageUsingGET_1
+2021-01-14 15:19:43.251 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 16.009 seconds (JVM running for 18.184)
+2021-01-14 15:20:40.696 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-14 15:20:43.458 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:20:43.700 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-14 15:20:44.453 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-14 15:20:44.648 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:22:34.628 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:22:34.643 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:22:37.342 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:22:37.349 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:22:38.958 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:22:38.967 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:22:39.261 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:22:39.267 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:23:59.152 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:23:59.159 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:24:06.352 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:24:06.369 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:25:10.250 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-14 15:25:10.253 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-14 15:25:20.810 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-14 15:25:20.821 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-14 15:25:33.291 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-14 15:25:35.605 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:25:35.606 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-14 15:25:35.606 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-14 15:25:35.750 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-14 15:25:37.721 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 15:25:37.748 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:25:37.748 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:25:37.754 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:25:37.754 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:25:42.748 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:25:42.799 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8001 register finished
+2021-01-14 15:25:44.157 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-14 15:25:44.180 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-14 15:25:44.232 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-14 15:25:44.470 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectTPageUsingGET_1
+2021-01-14 15:25:44.509 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 14.956 seconds (JVM running for 16.898)
+2021-01-14 15:26:07.658 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-14 15:26:07.704 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:26:07.961 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-14 15:26:08.738 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-14 15:26:08.871 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:26:24.429 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:26:24.440 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:26:26.091 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:26:26.102 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:27:24.678 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-14 15:27:24.681 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-14 15:27:39.927 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-14 15:27:42.461 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:27:42.462 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-14 15:27:42.462 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-14 15:27:42.622 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-14 15:27:44.566 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 15:27:44.591 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:27:44.591 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:27:44.596 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:27:44.596 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:27:49.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:27:49.513 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8001 register finished
+2021-01-14 15:27:50.847 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-14 15:27:50.871 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-14 15:27:50.925 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-14 15:27:51.157 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectTPageUsingGET_1
+2021-01-14 15:27:51.192 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 14.967 seconds (JVM running for 16.995)
+2021-01-14 15:27:56.821 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-14 15:27:56.869 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:27:57.107 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-14 15:27:57.843 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-14 15:27:57.974 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:29:02.334 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:29:02.344 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:29:40.492 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:29:43.096 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:29:48.158 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:30:31.868 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:31:17.407 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:31:21.181 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:31:30.704 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:31:30.712 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:31:33.331 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:31:33.342 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:31:37.752 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:31:37.762 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:31:41.612 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:31:41.620 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:32:38.293 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:32:38.301 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:32:40.406 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:32:40.413 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:33:03.234 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:33:03.240 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:33:40.333 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:33:40.341 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:33:50.369 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:33:50.376 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:34:23.629 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:34:23.636 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:34:26.812 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:34:26.817 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:34:33.832 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:34:33.842 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:34:39.922 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:34:39.931 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:34:43.334 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:34:43.338 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:34:45.437 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:34:45.445 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:34:47.334 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:34:47.340 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:37:22.024 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-14 15:37:22.028 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-14 15:37:40.645 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-14 15:37:43.493 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:37:43.493 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-14 15:37:43.493 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-14 15:37:43.662 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-14 15:37:46.010 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 15:37:46.045 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:37:46.046 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:37:46.054 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:37:46.054 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:37:51.177 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:37:51.225 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8001 register finished
+2021-01-14 15:37:52.594 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-14 15:37:52.612 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-14 15:37:52.668 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-14 15:37:52.935 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectTPageUsingGET_1
+2021-01-14 15:37:52.979 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 16.361 seconds (JVM running for 18.207)
+2021-01-14 15:38:52.651 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-14 15:38:52.654 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-14 15:39:06.791 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-14 15:39:09.673 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:39:09.674 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-14 15:39:09.674 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-14 15:39:09.863 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-14 15:39:12.370 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 15:39:12.422 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:39:12.422 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:39:12.430 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 15:39:12.430 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 15:39:17.638 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-14 15:39:17.680 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8001 register finished
+2021-01-14 15:39:19.038 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-14 15:39:19.059 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-14 15:39:19.104 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-14 15:39:19.327 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectTPageUsingGET_1
+2021-01-14 15:39:19.363 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 16.491 seconds (JVM running for 18.687)
+2021-01-14 15:39:24.563 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-14 15:39:24.609 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:39:24.851 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-14 15:39:25.546 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-14 15:39:25.671 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:39:28.979 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:39:28.994 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:39:35.010 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:39:35.021 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:39:37.729 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:39:37.735 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:39:43.102 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:39:43.106 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:39:44.916 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:39:44.921 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:39:46.618 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:39:46.622 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:39:48.213 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:39:48.218 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:39:50.080 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:39:50.086 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:39:51.955 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:39:51.962 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:41:18.430 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师
+2021-01-14 15:41:18.441 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：分页查询讲师，结束
+2021-01-14 15:50:58.849 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 15:50:58.860 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 15:50:58.867 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 15:50:58.875 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 15:51:14.778 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 15:51:14.786 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 15:51:36.994 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 15:51:37.000 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 15:51:47.933 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 15:51:47.941 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 15:52:34.168 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 15:52:34.176 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 15:52:38.085 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 15:52:38.092 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 15:52:59.083 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 15:52:59.090 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 15:56:23.159 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 15:56:23.179 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 15:56:30.198 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 15:56:30.204 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 15:57:07.242 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 15:57:07.250 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:01:14.057 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:01:14.064 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:01:28.404 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:01:28.412 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:01:53.941 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:01:53.950 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:01:56.310 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:01:56.316 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:02:21.290 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:02:21.297 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:02:23.117 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:02:23.123 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:03:09.016 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:03:09.029 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:03:10.965 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:03:10.973 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:03:23.603 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:03:23.609 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:03:29.500 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:03:29.512 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:03:38.286 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:03:38.293 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:04:22.181 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:04:22.189 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:04:24.066 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:04:24.072 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:04:24.658 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:04:24.663 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:04:25.000 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:04:25.007 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:04:25.346 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:04:25.350 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:04:28.643 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:04:28.648 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:19:32.349 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-01-14 16:19:32.353 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-01-14 16:19:48.871 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-01-14 16:19:51.769 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-01-14 16:19:51.770 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-14 16:19:51.770 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-14 16:19:51.993 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-14 16:19:54.260 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 16:19:54.293 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 16:19:54.294 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 16:19:54.299 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-14 16:19:54.299 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-14 16:19:59.504 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-01-14 16:19:59.555 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8001 register finished
+2021-01-14 16:20:00.944 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-14 16:20:00.975 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-14 16:20:01.024 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-14 16:20:01.285 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectTPageUsingGET_1
+2021-01-14 16:20:01.328 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 16.468 seconds (JVM running for 18.754)
+2021-01-14 16:24:51.888 [http-nio-8001-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-14 16:24:51.933 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:24:51.974 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-14 16:24:52.881 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-14 16:24:52.958 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:25:00.254 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:25:00.259 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:25:04.545 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:25:04.550 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:25:15.168 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:25:15.172 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:25:27.316 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:25:27.320 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:25:36.882 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:25:36.972 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:25:40.354 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:25:40.358 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:26:40.400 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:26:40.413 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:26:44.646 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:26:44.650 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:28:22.823 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:28:22.827 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:28:46.325 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:28:46.329 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:28:49.962 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:28:49.967 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:29:15.494 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:29:15.499 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:29:45.287 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:29:45.295 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:33:51.139 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:33:51.143 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:34:13.778 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:34:13.783 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:34:17.872 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:34:17.876 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:34:26.065 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:34:26.076 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:34:27.225 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师
+2021-01-14 16:34:27.230 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：根据ID查询讲师，结束
+2021-01-14 16:35:41.689 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:35:41.696 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:36:36.835 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:36:36.861 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:36:50.794 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:36:50.809 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:36:53.335 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:36:53.341 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:38:00.139 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:38:00.147 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:38:04.525 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:38:04.534 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:38:17.474 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:38:17.482 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:38:23.959 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:38:23.965 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:38:28.970 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:38:28.977 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:38:34.929 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:38:34.936 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:38:37.177 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:38:37.183 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:38:39.443 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:38:39.449 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:38:53.689 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:38:53.696 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:38:56.123 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:38:56.128 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:38:59.623 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:38:59.628 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:39:02.882 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:39:02.889 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:39:04.181 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:39:04.186 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:40:06.025 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:40:06.032 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:40:06.311 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:40:06.321 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:40:13.207 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:40:13.212 [http-nio-8001-exec-4] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:41:35.399 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:41:35.407 [http-nio-8001-exec-7] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:41:36.915 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:41:36.923 [http-nio-8001-exec-5] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:41:39.220 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:41:39.226 [http-nio-8001-exec-6] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:41:41.573 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:41:41.579 [http-nio-8001-exec-8] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:41:44.741 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师
+2021-01-14 16:41:44.749 [http-nio-8001-exec-10] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：分页查询讲师，结束
+2021-01-14 16:41:46.119 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:41:46.126 [http-nio-8001-exec-9] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:41:50.020 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:41:50.025 [http-nio-8001-exec-1] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:41:52.498 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:41:52.503 [http-nio-8001-exec-2] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束
+2021-01-14 16:41:54.477 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程
+2021-01-14 16:41:54.483 [http-nio-8001-exec-3] INFO  com.yzz.service_edu.edu.controller.front.TeacherFrontController - 访问接口：查询讲师信息和课程，结束

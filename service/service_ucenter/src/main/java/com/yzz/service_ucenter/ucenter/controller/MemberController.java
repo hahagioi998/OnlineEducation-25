@@ -58,11 +58,11 @@ public class MemberController {
 	
 	@ApiOperation("用户登录")
 	@PostMapping("/loginIn")
-	public ResultData loginIn(@RequestBody @ApiParam("用户json")Member member){
+	public ResultData loginIn(@RequestBody @ApiParam("用户json")Member userInfo){
 		log.info("访问接口：用户登录");
 		String token;
 		try{
-			token = memberService.loginIn(member);
+			token = memberService.loginIn(userInfo);
 		}catch (Exception e){
 			log.error(e.getMessage());
 			log.error(e.fillInStackTrace().toString());
@@ -87,7 +87,7 @@ public class MemberController {
 		}
 		log.info("访问接口：根据token获取用户信息，结束");
 		
-		return ResultData.sucess().data("token", member);
+		return ResultData.sucess().data("userInfo", member);
 	}
 
 }

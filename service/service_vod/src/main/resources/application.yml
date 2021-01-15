@@ -6,9 +6,9 @@ spring:
     active: @activatedProperties@
   servlet:
     multipart:
-      max-file-size: 100MB # µ¥¸öÎÄ¼ş´óĞ¡
-      max-request-size: 100MB # ÉèÖÃ×ÜÉÏ´«µÄÊı¾İ´óĞ¡
-      enabled: true #¿ªÆô
+      max-file-size: 100MB # å•ä¸ªæ–‡ä»¶å¤§å°
+      max-request-size: 100MB # è®¾ç½®æ€»ä¸Šä¼ çš„æ•°æ®å¤§å°
+      enabled: true #å¼€å¯
   application:
     name: service-vod
 

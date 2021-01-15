@@ -6,6 +6,7 @@
         <module>service</module>
         <module>service/service_edu</module>
         <module>common</module>
+        <module>gateway</module>
     </modules>
 
     <parent>

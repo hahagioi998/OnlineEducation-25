@@ -27,3 +27,11 @@ export function levelTwoByLevelOne(parentSubjectId) {
     })
 }
 
+//根据一级课程获取二级课程
+export function queryCourseInfo(courseId) {
+    return request({
+        url: `/edu/courseFrontService/queryCourseInfo?courseId=${courseId}`,
+        method: 'get'
+    })
+}
+

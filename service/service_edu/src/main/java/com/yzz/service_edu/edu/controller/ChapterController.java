@@ -34,10 +34,10 @@ public class ChapterController {
 	private ChapterService chapterService;
 	
 	
-	@ApiOperation("获取课程大纲列表")
+	@ApiOperation("根据课程id获取章节、小节")
 	@GetMapping("/getChapterList")
 	public ResultData getChapterList(@ApiParam("课程id")@RequestParam String courseId){
-		log.info("访问接口：获取课程大纲列表");
+		log.info("访问接口：根据课程id获取章节、小节");
 		List<ChapterVO> list = new ArrayList<>();
 		try{
 			list = chapterService.getChapterList(courseId);
@@ -46,7 +46,7 @@ public class ChapterController {
 			log.error(e.fillInStackTrace().toString());
 			return ResultData.failed().data("data", null);
 		}
-		log.info("访问接口：获取课程大纲列表，结束");
+		log.info("访问接口：根据课程id获取章节、小节，结束");
 		return ResultData.sucess().data("data", list);
 	}
 

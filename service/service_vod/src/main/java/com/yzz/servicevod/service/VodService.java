@@ -1,5 +1,6 @@
 package com.yzz.servicevod.service;
 
+import com.aliyuncs.exceptions.ClientException;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
@@ -19,4 +20,11 @@ public interface VodService {
 	 * @return
 	 */
 	boolean deleteVod(List<String> videoIdList) throws Exception;
+	
+	/**
+	 * 根据视频id获取凭证
+	 * @param vidoId
+	 * @return
+	 */
+	String getAuthById(String vidoId) throws ClientException;
 }

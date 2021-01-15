@@ -22,4 +22,33 @@
             a.id = #{courseId}
     </select>
 
+
+    <select id="getCourseDetails" parameterType="String" resultType="CourseWebVO">
+        SELECT
+            a.id,
+            a.title,
+            a.price,
+            a.lesson_num lessonNum,
+            a.cover,
+            a.buy_count buyCount,
+            a.view_count viewCount,
+            c.description,
+            b.id teacherId,
+            b.`name` teacherName,
+            b.intro,
+            b.avatar,
+            es1.id subjectLevelOneId,
+            es1.title subjectLevelOne,
+            es2.id subjectLevelTwoId,
+            es2.title subjectLevelTwo
+        FROM
+            edu_course a
+            LEFT JOIN edu_teacher b ON a.teacher_id = b.id
+            LEFT JOIN edu_course_description c ON a.id = c.id
+            LEFT JOIN edu_subject es1 ON a.subject_parent_id = es1.id
+            LEFT JOIN edu_subject es2 ON a.subject_id = es2.id
+        WHERE
+            a.id = #{courseId}
+    </select>
+
 </mapper>

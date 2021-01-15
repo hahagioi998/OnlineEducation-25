@@ -47,4 +47,20 @@ public class CourseFrontController {
 		log.info("访问接口：前台条件分页查询课程，结束");
 		return ResultData.sucess().data("data", result);
 	}
+	
+	@ApiOperation("根据课程id查询课程信息，课程描述，课程分类")
+	@GetMapping("/queryCourseInfo")
+	public ResultData queryCourseInfo(@RequestParam @ApiParam("课程id") String courseId){
+		log.info("访问接口：根据课程id查询课程信息，课程描述，课程分类");
+		HashMap<String, Object> result = new HashMap<>();
+		try{
+			result = courseService.queryCourseInfo(courseId);
+		}catch (Exception e){
+			log.error(e.getMessage());
+			log.error(e.fillInStackTrace().toString());
+			return ResultData.failed().data("data", null);
+		}
+		log.info("访问接口：根据课程id查询课程信息，课程描述，课程分类，结束");
+		return ResultData.sucess().data(result);
+	}
 }

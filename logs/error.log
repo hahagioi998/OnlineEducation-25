@@ -46,3 +46,45 @@
 ### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
 ### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
 ; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
+2021-01-15 14:47:08.589 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - SDK.ServerUnreachable : Server unreachable: connection http://vod.cn-shanghai.aliyuncs.com/?SignatureVersion=1.0&Action=GetVideoPlayAuth&ServiceCode=vod&Format=JSON&VideoId=undefined&SignatureNonce=303c1d3c-b598-4f9a-9a76-77768c7bd98c1610693217447918&Version=2017-03-21&AccessKeyId=LTAI4FzEu4ciY3naYFUtddqg&Signature=wIh2j8%2FlNPczFbcAwYrPP7nPb%2Bs%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-shanghai&Timestamp=2021-01-15T06%3A46%3A57Z failed
+2021-01-15 14:47:08.589 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: SDK.ServerUnreachable : Server unreachable: connection http://vod.cn-shanghai.aliyuncs.com/?SignatureVersion=1.0&Action=GetVideoPlayAuth&ServiceCode=vod&Format=JSON&VideoId=undefined&SignatureNonce=303c1d3c-b598-4f9a-9a76-77768c7bd98c1610693217447918&Version=2017-03-21&AccessKeyId=LTAI4FzEu4ciY3naYFUtddqg&Signature=wIh2j8%2FlNPczFbcAwYrPP7nPb%2Bs%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-shanghai&Timestamp=2021-01-15T06%3A46%3A57Z failed
+2021-01-15 14:50:25.002 [http-nio-8003-exec-2] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : 84C6A1E9-18EA-487A-94F6-2BCBDBCDA0A3
+2021-01-15 14:50:25.002 [http-nio-8003-exec-2] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : 84C6A1E9-18EA-487A-94F6-2BCBDBCDA0A3
+2021-01-15 14:51:21.130 [http-nio-8003-exec-3] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : 996254D5-BAA2-4963-BCD6-6BADCC56FDF0
+2021-01-15 14:51:21.131 [http-nio-8003-exec-3] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : 996254D5-BAA2-4963-BCD6-6BADCC56FDF0
+2021-01-15 14:51:47.591 [http-nio-8003-exec-4] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : 2577D248-A569-46B9-954E-A4D6AD78CD55
+2021-01-15 14:51:47.592 [http-nio-8003-exec-4] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : 2577D248-A569-46B9-954E-A4D6AD78CD55
+2021-01-15 15:05:08.928 [http-nio-8003-exec-5] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : D675F124-3F00-41FC-8D2C-17F9B83E4032
+2021-01-15 15:05:08.929 [http-nio-8003-exec-5] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : D675F124-3F00-41FC-8D2C-17F9B83E4032
+2021-01-15 15:06:14.160 [http-nio-8003-exec-6] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : D79818B0-660B-47E9-838F-D95BAD8F69D0
+2021-01-15 15:06:14.160 [http-nio-8003-exec-6] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : D79818B0-660B-47E9-838F-D95BAD8F69D0
+2021-01-15 15:06:24.863 [http-nio-8003-exec-7] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : D84DD420-5D78-46ED-A881-73A0B3927D07
+2021-01-15 15:06:24.864 [http-nio-8003-exec-7] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : D84DD420-5D78-46ED-A881-73A0B3927D07
+2021-01-15 15:19:15.670 [http-nio-8003-exec-8] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : 3A197593-9F71-4EDD-9F86-8F23192A05B8
+2021-01-15 15:19:15.670 [http-nio-8003-exec-8] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : 3A197593-9F71-4EDD-9F86-8F23192A05B8
+2021-01-15 15:19:37.933 [http-nio-8003-exec-9] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : D7A8D9AD-DF13-4DF3-BCAC-A847E0F0ACD5
+2021-01-15 15:19:37.933 [http-nio-8003-exec-9] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : D7A8D9AD-DF13-4DF3-BCAC-A847E0F0ACD5
+2021-01-15 15:23:15.139 [http-nio-8003-exec-10] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : B1AB5270-6649-4A25-B5A2-68017F764ED9
+2021-01-15 15:23:15.139 [http-nio-8003-exec-10] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : B1AB5270-6649-4A25-B5A2-68017F764ED9
+2021-01-15 15:23:34.689 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : 179B5BD7-6370-4EC1-8CC3-D75D078BB4BD
+2021-01-15 15:23:34.690 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : 179B5BD7-6370-4EC1-8CC3-D75D078BB4BD

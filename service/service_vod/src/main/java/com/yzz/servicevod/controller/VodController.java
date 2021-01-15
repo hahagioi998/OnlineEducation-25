@@ -61,4 +61,20 @@ public class VodController {
 		log.info("访问接口：删除视频，结束");
 		return ResultData.sucess().data("flag", flag);
 	}
+	
+	@ApiOperation("根据视频id获取凭证")
+	@GetMapping("/getAuthById")
+	public ResultData getAuthById(@RequestParam @ApiParam("视频id") String videoId){
+		log.info("访问接口：根据视频id获取凭证");
+		String auth;
+		try{
+			auth = vodService.getAuthById(videoId);
+		}catch (Exception e){
+			log.error(e.getLocalizedMessage());
+			log.error(e.fillInStackTrace().toString());
+			return ResultData.failed().data("data", null);
+		}
+		log.info("访问接口：根据视频id获取凭证，结束");
+		return ResultData.sucess().data("auth", auth);
+	}
 }

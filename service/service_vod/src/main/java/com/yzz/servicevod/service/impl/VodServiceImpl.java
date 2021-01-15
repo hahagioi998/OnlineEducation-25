@@ -4,12 +4,15 @@ import com.aliyun.vod.upload.impl.UploadVideoImpl;
 import com.aliyun.vod.upload.req.UploadStreamRequest;
 import com.aliyun.vod.upload.resp.UploadStreamResponse;
 import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.vod.model.v20170321.DeleteVideoRequest;
 import com.aliyuncs.vod.model.v20170321.DeleteVideoResponse;
+import com.aliyuncs.vod.model.v20170321.GetVideoPlayAuthRequest;
+import com.aliyuncs.vod.model.v20170321.GetVideoPlayAuthResponse;
 import com.yzz.commonutils.exception.YzzException;
 import com.yzz.commonutils.vo.AliOSS;
 import com.yzz.servicevod.service.VodService;
-import com.yzz.servicevod.vo.InitObjectVO;
+import com.yzz.servicevod.config.InitObject;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
@@ -48,11 +51,21 @@ public class VodServiceImpl implements VodService {
 
 	@Override
 	public boolean deleteVod(List<String> videoIdList) throws Exception {
-		DefaultAcsClient client = InitObjectVO.initVodClient(aliOSS.getAccessKeyId(), aliOSS.getAccessKeySecret());
+		DefaultAcsClient client = InitObject.initVodClient(aliOSS.getAccessKeyId(), aliOSS.getAccessKeySecret());
 		DeleteVideoResponse response = new DeleteVideoResponse();
 		response = deleteVideo(client, videoIdList);
 		log.info("删除视频requestId: {}", response.getRequestId());
 		return true;
+	}
+	
+	@Override
+	public String getAuthById(String vidoId) throws ClientException {
+		
+		DefaultAcsClient defaultAcsClient = InitObject.initVodClient(aliOSS.getAccessKeyId(), aliOSS.getAccessKeySecret());
+		GetVideoPlayAuthRequest request = new GetVideoPlayAuthRequest();
+		request.setVideoId(vidoId);
+		GetVideoPlayAuthResponse response = defaultAcsClient.getAcsResponse(request);
+		return response.getPlayAuth();
 	}
 	
 	/**

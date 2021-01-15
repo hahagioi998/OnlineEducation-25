@@ -1,4 +1,4 @@
-package com.yzz.servicevod.vo;
+package com.yzz.servicevod.config;
 
 import com.aliyun.oss.ClientException;
 import com.aliyuncs.DefaultAcsClient;
@@ -10,7 +10,7 @@ import com.aliyuncs.profile.DefaultProfile;
  * @Date 2021/1/9
  * @Version 1.0
  */
-public class InitObjectVO {
+public class InitObject {
 
 	public static DefaultAcsClient initVodClient(String accessKeyId, String accessKeySecret) throws ClientException {
 		String regionId = "cn-shanghai";  // 点播服务接入区域

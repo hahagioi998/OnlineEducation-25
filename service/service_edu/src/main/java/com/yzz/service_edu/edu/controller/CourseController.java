@@ -84,10 +84,10 @@ public class CourseController {
 		return ResultData.sucess().data("data", i);
 	}
 	
-	@ApiOperation("根据课程id查询课程及其他信息")
+	@ApiOperation("根据课程id查询课程")
 	@GetMapping("/getCouseInfoById")
 	public ResultData getCouseInfoById(@ApiParam("课程id")@RequestParam String courseId){
-		log.info("访问接口：根据课程id查询课程及其他信息");
+		log.info("访问接口：根据课程id查询课程");
 		CourseDTO courseDTO;
 		try{
 			courseDTO = courseService.getCouseInfoById(courseId);
@@ -96,7 +96,7 @@ public class CourseController {
 			log.error(e.fillInStackTrace().toString());
 			return ResultData.failed().data("data", null);
 		}
-		log.info("访问接口：根据课程id查询课程及其他信息，结束");
+		log.info("访问接口：根据课程id查询课程，结束");
 		return ResultData.sucess().data("data", courseDTO);
 	}
 	

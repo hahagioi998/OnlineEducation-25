@@ -177,6 +177,9 @@ export default {
       this.searchObj.subjectId = ""
       this.subSubjectList = []
       this.searchObj.subjectParentId = ""
+      this.buyCountSort = ""
+      this.gmtCreateSort = ""
+      this.priceSort = ""
       //点击某个一级分类进行条件查询
       this.gotoPage(1)
     },

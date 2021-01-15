@@ -12,8 +12,10 @@ import com.yzz.service_edu.edu.mapper.CourseDescriptionMapper;
 import com.yzz.service_edu.edu.mapper.CourseMapper;
 import com.yzz.service_edu.edu.service.*;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.yzz.service_edu.edu.vo.ChapterVO;
 import com.yzz.service_edu.edu.vo.CourseInfoVO;
 import com.yzz.service_edu.edu.vo.front.CourseQueryVO;
+import com.yzz.service_edu.edu.vo.front.CourseWebVO;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
@@ -227,5 +229,16 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
 		map.put("lastPage", pageInfo.getNavigateLastPage());
 		
 		return map;
+	}
+	
+	@Override
+	public HashMap<String, Object> queryCourseInfo(String courseId) {
+		HashMap<String, Object> result = new HashMap<>();
+		
+		List<ChapterVO> chapterVOList = chapterService.getChapterList(courseId);
+		CourseWebVO courseDetails = courseMapper.getCourseDetails(courseId);
+		result.put("chapterList", chapterVOList);
+		result.put("courseDetails", courseDetails);
+		return result;
 	}
 }

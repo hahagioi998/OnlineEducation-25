@@ -91,4 +91,11 @@ public interface CourseService extends IService<Course> {
 	 * @return
 	 */
 	HashMap<String, Object> queryCByPageOnCondition(int current, int pageSize, CourseQueryVO courseQueryVO);
+	
+	/**
+	 * 前台查询课程相关信息
+	 * @param courseId
+	 * @return
+	 */
+	HashMap<String, Object> queryCourseInfo(String courseId);
 }

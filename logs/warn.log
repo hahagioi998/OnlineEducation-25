@@ -50,3 +50,83 @@
 ; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
 2021-01-14 22:28:21.518 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
 2021-01-14 22:28:21.522 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 09:33:35.592 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 09:33:35.635 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 10:19:41.317 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 10:19:41.322 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 14:41:54.455 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 14:41:54.461 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 14:45:11.288 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.commonutils, com.yzz.servicebase, com.yzz.servicevod]' package. Please check your configuration.
+2021-01-15 14:45:12.769 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 14:45:12.774 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 14:47:08.589 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - SDK.ServerUnreachable : Server unreachable: connection http://vod.cn-shanghai.aliyuncs.com/?SignatureVersion=1.0&Action=GetVideoPlayAuth&ServiceCode=vod&Format=JSON&VideoId=undefined&SignatureNonce=303c1d3c-b598-4f9a-9a76-77768c7bd98c1610693217447918&Version=2017-03-21&AccessKeyId=LTAI4FzEu4ciY3naYFUtddqg&Signature=wIh2j8%2FlNPczFbcAwYrPP7nPb%2Bs%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-shanghai&Timestamp=2021-01-15T06%3A46%3A57Z failed
+2021-01-15 14:47:08.589 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: SDK.ServerUnreachable : Server unreachable: connection http://vod.cn-shanghai.aliyuncs.com/?SignatureVersion=1.0&Action=GetVideoPlayAuth&ServiceCode=vod&Format=JSON&VideoId=undefined&SignatureNonce=303c1d3c-b598-4f9a-9a76-77768c7bd98c1610693217447918&Version=2017-03-21&AccessKeyId=LTAI4FzEu4ciY3naYFUtddqg&Signature=wIh2j8%2FlNPczFbcAwYrPP7nPb%2Bs%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-shanghai&Timestamp=2021-01-15T06%3A46%3A57Z failed
+2021-01-15 14:50:25.002 [http-nio-8003-exec-2] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : 84C6A1E9-18EA-487A-94F6-2BCBDBCDA0A3
+2021-01-15 14:50:25.002 [http-nio-8003-exec-2] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : 84C6A1E9-18EA-487A-94F6-2BCBDBCDA0A3
+2021-01-15 14:51:21.130 [http-nio-8003-exec-3] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : 996254D5-BAA2-4963-BCD6-6BADCC56FDF0
+2021-01-15 14:51:21.131 [http-nio-8003-exec-3] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : 996254D5-BAA2-4963-BCD6-6BADCC56FDF0
+2021-01-15 14:51:47.591 [http-nio-8003-exec-4] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : 2577D248-A569-46B9-954E-A4D6AD78CD55
+2021-01-15 14:51:47.592 [http-nio-8003-exec-4] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : 2577D248-A569-46B9-954E-A4D6AD78CD55
+2021-01-15 15:05:08.928 [http-nio-8003-exec-5] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : D675F124-3F00-41FC-8D2C-17F9B83E4032
+2021-01-15 15:05:08.929 [http-nio-8003-exec-5] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : D675F124-3F00-41FC-8D2C-17F9B83E4032
+2021-01-15 15:06:14.160 [http-nio-8003-exec-6] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : D79818B0-660B-47E9-838F-D95BAD8F69D0
+2021-01-15 15:06:14.160 [http-nio-8003-exec-6] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : D79818B0-660B-47E9-838F-D95BAD8F69D0
+2021-01-15 15:06:24.863 [http-nio-8003-exec-7] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : D84DD420-5D78-46ED-A881-73A0B3927D07
+2021-01-15 15:06:24.864 [http-nio-8003-exec-7] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : D84DD420-5D78-46ED-A881-73A0B3927D07
+2021-01-15 15:15:15.440 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s688ms294µs400ns).
+2021-01-15 15:17:02.376 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 15:17:02.381 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 15:19:15.670 [http-nio-8003-exec-8] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : 3A197593-9F71-4EDD-9F86-8F23192A05B8
+2021-01-15 15:19:15.670 [http-nio-8003-exec-8] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : 3A197593-9F71-4EDD-9F86-8F23192A05B8
+2021-01-15 15:19:37.933 [http-nio-8003-exec-9] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : D7A8D9AD-DF13-4DF3-BCAC-A847E0F0ACD5
+2021-01-15 15:19:37.933 [http-nio-8003-exec-9] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : D7A8D9AD-DF13-4DF3-BCAC-A847E0F0ACD5
+2021-01-15 15:23:15.139 [http-nio-8003-exec-10] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : B1AB5270-6649-4A25-B5A2-68017F764ED9
+2021-01-15 15:23:15.139 [http-nio-8003-exec-10] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : B1AB5270-6649-4A25-B5A2-68017F764ED9
+2021-01-15 15:23:34.689 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
+RequestId : 179B5BD7-6370-4EC1-8CC3-D75D078BB4BD
+2021-01-15 15:23:34.690 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
+RequestId : 179B5BD7-6370-4EC1-8CC3-D75D078BB4BD
+2021-01-15 16:40:08.485 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.gateway]' package. Please check your configuration.
+2021-01-15 16:40:09.049 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 16:40:09.053 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 16:41:45.311 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.gateway]' package. Please check your configuration.
+2021-01-15 16:41:45.825 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 16:41:45.829 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 16:58:59.427 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.gateway]' package. Please check your configuration.
+2021-01-15 16:59:00.038 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 16:59:00.043 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:03:48.892 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.gateway]' package. Please check your configuration.
+2021-01-15 17:03:49.633 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:03:49.639 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:05:38.324 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.gateway]' package. Please check your configuration.
+2021-01-15 17:05:38.982 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:05:38.987 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:07:06.855 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.gateway]' package. Please check your configuration.
+2021-01-15 17:07:07.644 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:07:07.653 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:22:21.888 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:22:21.894 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:36:38.123 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.gateway]' package. Please check your configuration.
+2021-01-15 17:36:38.820 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:36:38.826 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:37:15.583 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yzz.gateway]' package. Please check your configuration.
+2021-01-15 17:37:16.297 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-01-15 17:37:16.302 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

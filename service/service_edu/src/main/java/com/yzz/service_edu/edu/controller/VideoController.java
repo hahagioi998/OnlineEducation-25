@@ -65,6 +65,9 @@ public class VideoController {
 		String videoId = videoService.getVideoById(id).getVideoSourceId();
 		List<String> videoIdList = new ArrayList<>();
 		videoIdList.add(videoId);
+		vodService.deleteVod(videoIdList);
+		log.info("远程调用vod模块，删除视频功能，结束");
+		
 		int i ;
 		try{
 			i = videoService.deleteVideo(id);

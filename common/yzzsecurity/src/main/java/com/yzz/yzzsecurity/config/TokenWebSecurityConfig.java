@@ -7,6 +7,7 @@ import com.yzz.yzzsecurity.security.TokenLogoutHandler;
 import com.yzz.yzzsecurity.security.TokenManager;
 import com.yzz.yzzsecurity.security.UnauthorizedEntryPoint;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

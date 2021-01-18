@@ -21,6 +21,12 @@
         </dependency>
 
         <dependency>
+            <artifactId>servicebase</artifactId>
+            <version>1.0</version>
+            <groupId>com.yzz</groupId>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>

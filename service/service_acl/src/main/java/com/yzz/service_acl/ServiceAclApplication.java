@@ -11,8 +11,8 @@ import org.springframework.context.annotation.ComponentScan;
  * @Date 2021/1/12
  * @Version 1.0
  */
-@ComponentScan("com.yzz")
-@SpringBootApplication
+@ComponentScan(basePackages = "com.yzz")
+@SpringBootApplication(scanBasePackages = "com.yzz")
 @EnableDiscoveryClient
 public class ServiceAclApplication {
 	public static void main(String[] args) {

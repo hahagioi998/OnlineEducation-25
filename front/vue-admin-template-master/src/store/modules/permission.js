@@ -1,4 +1,4 @@
-import router from '@/router'
+import constantRoutes from '@/router'
 import * as getMenu from '@/api/login'
 import Layout from '@/views/layout/Layout'
 
@@ -34,7 +34,7 @@ const state = {
 const mutations = {
   SET_ROUTES: (state, routes) => {
     state.addRoutes = routes
-    state.routes = router.concat(routes)
+    state.routes = constantRoutes.concat(routes)
   } 
 }
 

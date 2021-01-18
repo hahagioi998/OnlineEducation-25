@@ -24,7 +24,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("/edu/courseFrontService")
-@CrossOrigin
+//@CrossOrigin
 public class CourseFrontController {
 	
 	@Resource
@@ -45,7 +45,7 @@ public class CourseFrontController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：前台条件分页查询课程，结束");
-		return ResultData.sucess().data("data", result);
+		return ResultData.success().data("data", result);
 	}
 	
 	@ApiOperation("根据课程id查询课程信息，课程描述，课程分类")
@@ -61,6 +61,6 @@ public class CourseFrontController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：根据课程id查询课程信息，课程描述，课程分类，结束");
-		return ResultData.sucess().data(result);
+		return ResultData.success().data(result);
 	}
 }

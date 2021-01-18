@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @Api(tags = "登录服务")
 @RestController
 @RequestMapping("/edu/loginService")
-@CrossOrigin
+//@CrossOrigin
 public class LoginController {
 	
 	
@@ -26,7 +26,7 @@ public class LoginController {
 	@PostMapping("/login")
 	public ResultData login(){
 		log.info("登录ing");
-		return ResultData.sucess().data("token", "token");
+		return ResultData.success().data("token", "token");
 	}
 	
 	/**
@@ -36,7 +36,7 @@ public class LoginController {
 	@GetMapping("/info")
 	public ResultData getInfo(){
 		log.info("获取用户信息ing");
-		return ResultData.sucess().data("roles", "[admin]")
+		return ResultData.success().data("roles", "[admin]")
 								  .data("name", "admin")
 				                  .data("avatar", "outsider");
 	}

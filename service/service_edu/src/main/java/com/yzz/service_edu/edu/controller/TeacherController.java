@@ -29,7 +29,7 @@ import java.util.List;
 @Api(tags = "讲师管理")
 @RestController
 @RequestMapping("/edu/teacherService")
-@CrossOrigin
+//@CrossOrigin
 public class TeacherController {
 	
 	@Resource
@@ -49,7 +49,7 @@ public class TeacherController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：所有讲师列表，结束");
-		return ResultData.sucess().data("data", list);
+		return ResultData.success().data("data", list);
 	}
 	
 	@ApiOperation(value = "逻辑删除讲师")
@@ -65,7 +65,7 @@ public class TeacherController {
 			return ResultData.failed().data("data", flag);
 		}
 		log.info("访问接口：逻辑删除讲师，结束");
-		return ResultData.sucess().data("data", flag);
+		return ResultData.success().data("data", flag);
 	
 	}
 	
@@ -80,10 +80,10 @@ public class TeacherController {
 		}catch (Exception e){
 			log.error(e.getMessage());
 			log.error(e.fillInStackTrace().toString());
-			return ResultData.sucess().data("data", null);
+			return ResultData.success().data("data", null);
 		}
 		log.info("访问接口：分页查询讲师，结束");
-		return ResultData.sucess().data(hashMap);
+		return ResultData.success().data(hashMap);
 		
 	}
 	
@@ -102,7 +102,7 @@ public class TeacherController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：条件分页查询，结束");
-		return ResultData.sucess().data(hashMap);
+		return ResultData.success().data(hashMap);
 		
 	}
 	
@@ -120,7 +120,7 @@ public class TeacherController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：增加讲师，结束");
-		return ResultData.sucess().data(hashMap);
+		return ResultData.success().data(hashMap);
 		
 	}
 	
@@ -138,7 +138,7 @@ public class TeacherController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：根据ID查询讲师，结束");
-		return ResultData.sucess().data(hashMap);
+		return ResultData.success().data(hashMap);
 		
 	}
 	
@@ -156,7 +156,7 @@ public class TeacherController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：讲师信息更新，结束");
-		return ResultData.sucess().data(hashMap);
+		return ResultData.success().data(hashMap);
 		
 	}
 

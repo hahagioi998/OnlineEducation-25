@@ -78,7 +78,7 @@
       </section>
     </header>
     <!-- /公共头引入 -->
-      
+
     <nuxt/>
 
     <!-- 公共底引入 -->
@@ -90,7 +90,7 @@
           </h4>
           <ul class="of flink-list">
             <li>
-              <a href="http://www.atguigu.com/" title="尚硅谷" target="_blank">尚硅谷</a>
+              <a href="http://www.yzz.com/" title="尚硅谷" target="_blank">尚硅谷</a>
             </li>
           </ul>
           <div class="clear"></div>
@@ -104,7 +104,7 @@
                 <a href="#" title="帮助中心" target="_blank">帮助中心</a>|
                 <a href="#" title="资源下载" target="_blank">资源下载</a>|
                 <span>服务热线：010-56253825(北京) 0755-85293825(深圳)</span>
-                <span>Email：info@atguigu.com</span>
+                <span>Email：info@yzz.com</span>
               </section>
               <section class="b-f-link mt10">
                 <span>©2018课程版权均归谷粒学院所有 京ICP备17055252号</span>

@@ -17,4 +17,18 @@ spring:
         - id: service-edu
           # lb://nacos中注册的名字
           uri: lb://service-edu
-          predicates: Path=/eduservice/**
+          # path后面是个路由
+          predicates: Path=/edu/**
+        - id: service-cms
+          # lb://nacos中注册的名字
+          uri: lb://service-cms
+          predicates: Path=/cms/**
+        - id: service-msm
+          uri: lb://service-msm
+          predicates: Path=/msm/**
+        - id: service-oss
+          uri: lb://service-oss
+          predicates: Path=/fileOssService/**
+        - id: service-ucenter
+          uri: lb://service-ucenter
+          predicates: Path=/ucenter/**

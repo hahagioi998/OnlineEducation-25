@@ -25,7 +25,7 @@ import java.util.List;
 @Api(tags = "前台首页服务")
 @RestController
 @RequestMapping("/edu/IndexController")
-@CrossOrigin
+//@CrossOrigin
 public class IndexController {
 	
 	@Resource
@@ -49,7 +49,7 @@ public class IndexController {
 		}
 		log.info("访问接口：获取热门课程，结束");
 		
-		return ResultData.sucess().data("list", list);
+		return ResultData.success().data("list", list);
 	}
 	
 	@Cacheable(value = "hotTeacher", key = "'queryHotTeacher'")
@@ -67,6 +67,6 @@ public class IndexController {
 		}
 		log.info("访问接口：获取老师排名，结束");
 		
-		return ResultData.sucess().data("list", list);
+		return ResultData.success().data("list", list);
 	}
 }

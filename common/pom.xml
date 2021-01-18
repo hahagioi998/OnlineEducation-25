@@ -16,6 +16,7 @@
     <modules>
         <module>servicebase</module>
         <module>common_utils</module>
+        <module>yzzsecurity</module>
     </modules>
 
     <dependencies>

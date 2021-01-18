@@ -11,3 +11,13 @@ spring:
       enabled: true #开启
   application:
     name: service-acl
+
+mybatis-plus:
+  type-aliases-package: com.yzz.service_acl.entity
+  #  configuration:
+  #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: /mapper/*.xml
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0

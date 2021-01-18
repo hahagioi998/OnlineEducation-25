@@ -25,7 +25,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("/cms/Client")
-@CrossOrigin
+//@CrossOrigin
 public class BannerClientController {
 	
 	@Resource
@@ -45,7 +45,7 @@ public class BannerClientController {
 		}
 		log.info("访问接口：查询所有banner，结束");
 		
-		return ResultData.sucess().data("list",bannerList);
+		return ResultData.success().data("list",bannerList);
 	}
 
 }

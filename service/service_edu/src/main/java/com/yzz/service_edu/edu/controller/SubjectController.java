@@ -29,7 +29,7 @@ import java.util.List;
 @Api(tags = "课程分类服务")
 @RestController
 @RequestMapping("/edu/subjectService")
-@CrossOrigin
+//@CrossOrigin
 public class SubjectController {
 
 	@Resource
@@ -47,7 +47,7 @@ public class SubjectController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：添加课程分类服务，结束");
-		return ResultData.sucess().data("data", "ok");
+		return ResultData.success().data("data", "ok");
 	}
 
 	@ApiOperation("获取课程分类列表")
@@ -63,7 +63,7 @@ public class SubjectController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：获取课程分类列表服务，结束");
-		return ResultData.sucess().data("data", list);
+		return ResultData.success().data("data", list);
 	}
 
 	@ApiOperation("获取一级课程")
@@ -79,7 +79,7 @@ public class SubjectController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口: 获取一级课程，结束");
-		return ResultData.sucess().data("data", list);
+		return ResultData.success().data("data", list);
 	}
 
 	@ApiOperation("根据一级课程获取二级课程")
@@ -95,7 +95,7 @@ public class SubjectController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：根据一级课程获取二级课程，结束");
-		return ResultData.sucess().data("data", list);
+		return ResultData.success().data("data", list);
 	}
 
 }

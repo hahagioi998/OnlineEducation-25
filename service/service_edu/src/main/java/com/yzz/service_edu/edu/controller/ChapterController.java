@@ -27,7 +27,7 @@ import java.util.List;
 @Api(tags = "章节服务")
 @RestController
 @RequestMapping("/edu/chapterService")
-@CrossOrigin
+//@CrossOrigin
 public class ChapterController {
 	
 	@Resource
@@ -47,7 +47,7 @@ public class ChapterController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：根据课程id获取章节、小节，结束");
-		return ResultData.sucess().data("data", list);
+		return ResultData.success().data("data", list);
 	}
 
 	@ApiOperation("新增章节")
@@ -63,7 +63,7 @@ public class ChapterController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：新增章节，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 
 	@ApiOperation("更新章节")
@@ -79,7 +79,7 @@ public class ChapterController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：更新章节，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 
 	@ApiOperation("删除章节")
@@ -95,7 +95,7 @@ public class ChapterController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：删除章节，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 
 	@ApiOperation("根据id获取章节")
@@ -111,7 +111,7 @@ public class ChapterController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：根据id获取章节，结束");
-		return ResultData.sucess().data("data", chapter);
+		return ResultData.success().data("data", chapter);
 	}
 
 }

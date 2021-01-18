@@ -25,7 +25,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("/edu/teacherFrontService")
-@CrossOrigin
+//@CrossOrigin
 public class TeacherFrontController {
 	
 	@Resource
@@ -51,7 +51,7 @@ public class TeacherFrontController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：查询讲师信息和课程，结束");
-		return ResultData.sucess().data("data", result);
+		return ResultData.success().data("data", result);
 		
 	}
 }

@@ -10,4 +10,4 @@ spring:
       max-request-size: 100MB # \u8BBE\u7F6E\u603B\u4E0A\u4F20\u7684\u6570\u636E\u5927\u5C0F
       enabled: true #\u5F00\u542F
   application:
-    name: service-vod
+    name: service-oss

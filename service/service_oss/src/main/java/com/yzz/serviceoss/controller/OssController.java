@@ -23,7 +23,7 @@ import javax.annotation.Resource;
 @Api(tags = "Oss管理")
 @RestController
 @RequestMapping("/fileOssService")
-@CrossOrigin
+//@CrossOrigin
 public class OssController {
 	
 	@Resource
@@ -35,6 +35,6 @@ public class OssController {
 		
 		log.info("访问上传头像接口...");
 		String returnUrl = service.upLoadAvatar(file);
-		return ResultData.sucess().data("data", returnUrl);
+		return ResultData.success().data("data", returnUrl);
 	}
 }

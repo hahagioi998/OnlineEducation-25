@@ -23,7 +23,7 @@ import java.util.List;
 @Api(tags = "视频服务")
 @Slf4j
 @RequestMapping("/videoService")
-@CrossOrigin
+//@CrossOrigin
 public class VodController {
 
 	@Resource
@@ -42,7 +42,7 @@ public class VodController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：上传视频，结束");
-		return ResultData.sucess().data("videoId", videoId);
+		return ResultData.success().data("videoId", videoId);
 	}
 	
 	
@@ -59,7 +59,7 @@ public class VodController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：删除视频，结束");
-		return ResultData.sucess().data("flag", flag);
+		return ResultData.success().data("flag", flag);
 	}
 	
 	@ApiOperation("根据视频id获取凭证")
@@ -75,6 +75,6 @@ public class VodController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：根据视频id获取凭证，结束");
-		return ResultData.sucess().data("auth", auth);
+		return ResultData.success().data("auth", auth);
 	}
 }

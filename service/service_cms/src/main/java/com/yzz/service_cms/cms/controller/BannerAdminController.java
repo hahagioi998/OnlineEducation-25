@@ -27,7 +27,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequestMapping("/cms/Admin")
-@CrossOrigin
+//@CrossOrigin
 public class BannerAdminController {
 	
 	@Resource
@@ -47,7 +47,7 @@ public class BannerAdminController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：分页查询banner，结束");
-		return ResultData.sucess().data("map",hashMap);
+		return ResultData.success().data("map",hashMap);
 	}
 	
 	@ApiOperation("添加banner")
@@ -63,7 +63,7 @@ public class BannerAdminController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：添加banner，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 	
 	@ApiOperation("删除banner")
@@ -79,7 +79,7 @@ public class BannerAdminController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：删除banner，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 	
 	@ApiOperation("更新banner")
@@ -95,7 +95,7 @@ public class BannerAdminController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：更新banner，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 	
 	@ApiOperation("根据id查询banner")
@@ -111,7 +111,7 @@ public class BannerAdminController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：根据id查询banner，结束");
-		return ResultData.sucess().data("data", crmBanner);
+		return ResultData.success().data("data", crmBanner);
 	}
 
 }

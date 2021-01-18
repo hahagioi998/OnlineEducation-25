@@ -22,7 +22,7 @@ import javax.annotation.Resource;
 @RestController
 @Slf4j
 @RequestMapping("/msm/MsmService")
-@CrossOrigin
+//@CrossOrigin
 public class MsmController {
 	
 	@Resource
@@ -44,7 +44,7 @@ public class MsmController {
 		}
 		log.info("访问接口：发送短信至手机，结束");
 		
-		return flag ? ResultData.sucess().data("data", "短信发送成功")
+		return flag ? ResultData.success().data("data", "短信发送成功")
 				: ResultData.failed().data("data", "短信发送失败");
 	}
 }

@@ -32,7 +32,7 @@ public class ResultData {
 	private ResultData() {}
 	
 	//成功静态方法
-	public static ResultData sucess() {
+	public static ResultData success() {
 		ResultData r = new ResultData();
 		r.setSuccess(true);
 		r.setCode(StatusCode.Success);

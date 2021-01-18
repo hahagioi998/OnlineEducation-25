@@ -29,7 +29,7 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/ucenter/member")
 @Slf4j
-@CrossOrigin
+//@CrossOrigin
 public class MemberController {
 	
 	@Resource
@@ -53,7 +53,7 @@ public class MemberController {
 		}
 		log.info("访问接口：用户注册，结束");
 
-		return ResultData.sucess().data("data", null);
+		return ResultData.success().data("data", null);
 	}
 	
 	@ApiOperation("用户登录")
@@ -70,7 +70,7 @@ public class MemberController {
 		}
 		log.info("访问接口：用户登录，结束");
 		
-		return ResultData.sucess().data("token", token);
+		return ResultData.success().data("token", token);
 	}
 	
 	@ApiOperation("根据token获取用户信息")
@@ -87,7 +87,7 @@ public class MemberController {
 		}
 		log.info("访问接口：根据token获取用户信息，结束");
 		
-		return ResultData.sucess().data("userInfo", member);
+		return ResultData.success().data("userInfo", member);
 	}
 
 }

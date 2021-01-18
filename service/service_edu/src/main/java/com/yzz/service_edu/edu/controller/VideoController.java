@@ -31,7 +31,7 @@ import java.util.List;
 @Api(tags = "小节服务")
 @RestController
 @RequestMapping("/edu/videoService")
-@CrossOrigin
+//@CrossOrigin
 public class VideoController {
 
 	@Resource
@@ -51,7 +51,7 @@ public class VideoController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：新增小节，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 
 	//增加事务注解
@@ -75,7 +75,7 @@ public class VideoController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：删除小节，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 
 	@ApiOperation("根据id查询小节")
@@ -89,7 +89,7 @@ public class VideoController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：根据id查询小节，结束");
-		return ResultData.sucess().data("data", video);
+		return ResultData.success().data("data", video);
 	}
 
 	@ApiOperation("更新小节")
@@ -103,7 +103,7 @@ public class VideoController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：更新小节，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 
 }

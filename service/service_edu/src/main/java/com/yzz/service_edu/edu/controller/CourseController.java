@@ -30,7 +30,7 @@ import java.util.List;
 @Api(tags = "课程服务")
 @RestController
 @RequestMapping("/edu/courseService")
-@CrossOrigin
+//@CrossOrigin
 public class CourseController {
 
 	@Resource
@@ -49,7 +49,7 @@ public class CourseController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：添加课程信息，结束");
-		return ResultData.sucess().data("data", courseId);
+		return ResultData.success().data("data", courseId);
 	}
 	
 	@ApiOperation("根据课程id获取课程信息")
@@ -65,7 +65,7 @@ public class CourseController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：根据课程id获取课程信息，结束");
-		return ResultData.sucess().data("data", courseInfoVO);
+		return ResultData.success().data("data", courseInfoVO);
 	}
 	
 	@ApiOperation("根据课程id更新课程信息")
@@ -81,7 +81,7 @@ public class CourseController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：根据课程id更新课程信息，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 	
 	@ApiOperation("根据课程id查询课程")
@@ -97,7 +97,7 @@ public class CourseController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：根据课程id查询课程，结束");
-		return ResultData.sucess().data("data", courseDTO);
+		return ResultData.success().data("data", courseDTO);
 	}
 	
 	@ApiOperation("发布课程")
@@ -113,7 +113,7 @@ public class CourseController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：发布课程，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 	
 	@ApiOperation("条件分页查询课程")
@@ -131,7 +131,7 @@ public class CourseController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：条件分页查询课程，结束");
-		return ResultData.sucess().data("data", hashMap);
+		return ResultData.success().data("data", hashMap);
 	}
 
 	//加事务注解
@@ -149,7 +149,7 @@ public class CourseController {
 			return ResultData.failed().data("data", null);
 		}
 		log.info("访问接口：删除课程，结束");
-		return ResultData.sucess().data("data", i);
+		return ResultData.success().data("data", i);
 	}
 	
 

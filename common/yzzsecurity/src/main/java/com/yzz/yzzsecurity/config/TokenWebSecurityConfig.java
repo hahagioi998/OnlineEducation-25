@@ -6,6 +6,7 @@ import com.yzz.yzzsecurity.security.DefaultPasswordEncoder;
 import com.yzz.yzzsecurity.security.TokenLogoutHandler;
 import com.yzz.yzzsecurity.security.TokenManager;
 import com.yzz.yzzsecurity.security.UnauthorizedEntryPoint;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -26,6 +27,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
  * @author qy
  * @since 2019-11-18
  */
+@Slf4j
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
@@ -43,6 +45,10 @@ public class TokenWebSecurityConfig extends WebSecurityConfigurerAdapter {
         this.defaultPasswordEncoder = defaultPasswordEncoder;
         this.tokenManager = tokenManager;
         this.redisTemplate = redisTemplate;
+        log.info("执行了 {}", this.userDetailsService.toString());
+        log.info("执行了 {}", this.defaultPasswordEncoder.toString());
+        log.info("执行了 {}", this.tokenManager.toString());
+        log.info("执行了 {}", this.redisTemplate.toString());
     }
 
     /**

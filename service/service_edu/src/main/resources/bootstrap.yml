@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.160.4:8848
+        file-extension: yml
+        # \u652F\u6301\u52A8\u6001\u5237\u65B0
+        refresh-enabled: true
+#        namespace: ca0548c4-f730-4993-9089-85f2b80c966e
+        extension-configs:
+          - data-id: port.yml
+            refresh: true
+  application:
+    name: service-edu
+  profiles:
+    active: @activatedProperties@

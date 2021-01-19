@@ -1,90 +1,113 @@
-2021-01-14 22:14:47.438 [http-nio-8001-exec-4] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
-### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-2021-01-14 22:14:47.440 [http-nio-8001-exec-4] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
-### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-2021-01-14 22:24:00.969 [http-nio-8001-exec-5] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
-### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-2021-01-14 22:24:00.969 [http-nio-8001-exec-5] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
-### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-2021-01-14 22:25:02.540 [http-nio-8001-exec-9] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
-### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-2021-01-14 22:25:02.540 [http-nio-8001-exec-9] ERROR com.yzz.service_edu.edu.controller.front.CourseFrontController - org.springframework.jdbc.BadSqlGrammarException: 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-### The error may exist in com/yzz/service_edu/edu/mapper/CourseMapper.java (best guess)
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: SELECT count(0) FROM edu_course WHERE (subjectParentId = ?)
-### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'subjectParentId' in 'where clause'
-2021-01-15 14:47:08.589 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - SDK.ServerUnreachable : Server unreachable: connection http://vod.cn-shanghai.aliyuncs.com/?SignatureVersion=1.0&Action=GetVideoPlayAuth&ServiceCode=vod&Format=JSON&VideoId=undefined&SignatureNonce=303c1d3c-b598-4f9a-9a76-77768c7bd98c1610693217447918&Version=2017-03-21&AccessKeyId=LTAI4FzEu4ciY3naYFUtddqg&Signature=wIh2j8%2FlNPczFbcAwYrPP7nPb%2Bs%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-shanghai&Timestamp=2021-01-15T06%3A46%3A57Z failed
-2021-01-15 14:47:08.589 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: SDK.ServerUnreachable : Server unreachable: connection http://vod.cn-shanghai.aliyuncs.com/?SignatureVersion=1.0&Action=GetVideoPlayAuth&ServiceCode=vod&Format=JSON&VideoId=undefined&SignatureNonce=303c1d3c-b598-4f9a-9a76-77768c7bd98c1610693217447918&Version=2017-03-21&AccessKeyId=LTAI4FzEu4ciY3naYFUtddqg&Signature=wIh2j8%2FlNPczFbcAwYrPP7nPb%2Bs%3D&SignatureMethod=HMAC-SHA1&RegionId=cn-shanghai&Timestamp=2021-01-15T06%3A46%3A57Z failed
-2021-01-15 14:50:25.002 [http-nio-8003-exec-2] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : 84C6A1E9-18EA-487A-94F6-2BCBDBCDA0A3
-2021-01-15 14:50:25.002 [http-nio-8003-exec-2] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : 84C6A1E9-18EA-487A-94F6-2BCBDBCDA0A3
-2021-01-15 14:51:21.130 [http-nio-8003-exec-3] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : 996254D5-BAA2-4963-BCD6-6BADCC56FDF0
-2021-01-15 14:51:21.131 [http-nio-8003-exec-3] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : 996254D5-BAA2-4963-BCD6-6BADCC56FDF0
-2021-01-15 14:51:47.591 [http-nio-8003-exec-4] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : 2577D248-A569-46B9-954E-A4D6AD78CD55
-2021-01-15 14:51:47.592 [http-nio-8003-exec-4] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : 2577D248-A569-46B9-954E-A4D6AD78CD55
-2021-01-15 15:05:08.928 [http-nio-8003-exec-5] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : D675F124-3F00-41FC-8D2C-17F9B83E4032
-2021-01-15 15:05:08.929 [http-nio-8003-exec-5] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : D675F124-3F00-41FC-8D2C-17F9B83E4032
-2021-01-15 15:06:14.160 [http-nio-8003-exec-6] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : D79818B0-660B-47E9-838F-D95BAD8F69D0
-2021-01-15 15:06:14.160 [http-nio-8003-exec-6] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : D79818B0-660B-47E9-838F-D95BAD8F69D0
-2021-01-15 15:06:24.863 [http-nio-8003-exec-7] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : D84DD420-5D78-46ED-A881-73A0B3927D07
-2021-01-15 15:06:24.864 [http-nio-8003-exec-7] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : D84DD420-5D78-46ED-A881-73A0B3927D07
-2021-01-15 15:19:15.670 [http-nio-8003-exec-8] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : 3A197593-9F71-4EDD-9F86-8F23192A05B8
-2021-01-15 15:19:15.670 [http-nio-8003-exec-8] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : 3A197593-9F71-4EDD-9F86-8F23192A05B8
-2021-01-15 15:19:37.933 [http-nio-8003-exec-9] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : D7A8D9AD-DF13-4DF3-BCAC-A847E0F0ACD5
-2021-01-15 15:19:37.933 [http-nio-8003-exec-9] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : D7A8D9AD-DF13-4DF3-BCAC-A847E0F0ACD5
-2021-01-15 15:23:15.139 [http-nio-8003-exec-10] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : B1AB5270-6649-4A25-B5A2-68017F764ED9
-2021-01-15 15:23:15.139 [http-nio-8003-exec-10] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : B1AB5270-6649-4A25-B5A2-68017F764ED9
-2021-01-15 15:23:34.689 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - InvalidVideo.NotFound : The video does not exist.
-RequestId : 179B5BD7-6370-4EC1-8CC3-D75D078BB4BD
-2021-01-15 15:23:34.690 [http-nio-8003-exec-1] ERROR com.yzz.servicevod.controller.VodController - com.aliyuncs.exceptions.ClientException: InvalidVideo.NotFound : The video does not exist.
-RequestId : 179B5BD7-6370-4EC1-8CC3-D75D078BB4BD
+2021-01-19 14:01:19.136 [main] ERROR com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - get data from Nacos error,dataId:application-${spring.profiles.active}.yml, 
+com.alibaba.nacos.api.exception.NacosException: dataId invalid
+	at com.alibaba.nacos.client.config.utils.ParamUtils.checkKeyParam(ParamUtils.java:90) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfigInner(NacosConfigService.java:130) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfig(NacosConfigService.java:97) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.loadNacosData(NacosPropertySourceBuilder.java:85) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.build(NacosPropertySourceBuilder.java:74) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosPropertySource(NacosPropertySourceLocator.java:204) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosDataIfPresent(NacosPropertySourceLocator.java:191) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosConfiguration(NacosPropertySourceLocator.java:161) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadSharedConfiguration(NacosPropertySourceLocator.java:117) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.locate(NacosPropertySourceLocator.java:101) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:98) [spring-cloud-context-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:626) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:370) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at com.yzz.service_edu.edu.ServiceEduApplication.main(ServiceEduApplication.java:25) [classes/:?]
+2021-01-19 14:11:26.983 [main] ERROR com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - get data from Nacos error,dataId:service-edu-${spring.profiles.active}.yml, 
+com.alibaba.nacos.api.exception.NacosException: dataId invalid
+	at com.alibaba.nacos.client.config.utils.ParamUtils.checkKeyParam(ParamUtils.java:90) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfigInner(NacosConfigService.java:130) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.nacos.client.config.NacosConfigService.getConfig(NacosConfigService.java:97) ~[nacos-client-1.3.3.jar:?]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.loadNacosData(NacosPropertySourceBuilder.java:85) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder.build(NacosPropertySourceBuilder.java:74) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosPropertySource(NacosPropertySourceLocator.java:204) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosDataIfPresent(NacosPropertySourceLocator.java:191) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadNacosConfiguration(NacosPropertySourceLocator.java:161) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.loadExtConfiguration(NacosPropertySourceLocator.java:129) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at com.alibaba.cloud.nacos.client.NacosPropertySourceLocator.locate(NacosPropertySourceLocator.java:102) [spring-cloud-starter-alibaba-nacos-config-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.initialize(PropertySourceBootstrapConfiguration.java:98) [spring-cloud-context-2.2.0.RELEASE.jar:2.2.0.RELEASE]
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:626) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:370) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at com.yzz.service_edu.edu.ServiceEduApplication.main(ServiceEduApplication.java:25) [classes/:?]
+2021-01-19 15:01:47.525 [com.alibaba.nacos.naming.push.receiver] ERROR com.alibaba.nacos.client.naming - [NA] error while receiving push data
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method) ~[?:1.8.0_231]
+	at java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124) ~[?:1.8.0_231]
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143) ~[?:1.8.0_231]
+	at java.net.DatagramSocket.receive(DatagramSocket.java:812) ~[?:1.8.0_231]
+	at com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:83) [nacos-client-1.3.3.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+2021-01-19 15:10:48.082 [com.alibaba.nacos.naming.push.receiver] ERROR com.alibaba.nacos.client.naming - [NA] error while receiving push data
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method) ~[?:1.8.0_231]
+	at java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124) ~[?:1.8.0_231]
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143) ~[?:1.8.0_231]
+	at java.net.DatagramSocket.receive(DatagramSocket.java:812) ~[?:1.8.0_231]
+	at com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:83) [nacos-client-1.3.3.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+2021-01-19 15:12:53.651 [com.alibaba.nacos.naming.push.receiver] ERROR com.alibaba.nacos.client.naming - [NA] error while receiving push data
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method) ~[?:1.8.0_231]
+	at java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124) ~[?:1.8.0_231]
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143) ~[?:1.8.0_231]
+	at java.net.DatagramSocket.receive(DatagramSocket.java:812) ~[?:1.8.0_231]
+	at com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:83) [nacos-client-1.3.3.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+2021-01-19 15:13:59.402 [com.alibaba.nacos.naming.push.receiver] ERROR com.alibaba.nacos.client.naming - [NA] error while receiving push data
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method) ~[?:1.8.0_231]
+	at java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124) ~[?:1.8.0_231]
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143) ~[?:1.8.0_231]
+	at java.net.DatagramSocket.receive(DatagramSocket.java:812) ~[?:1.8.0_231]
+	at com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:83) [nacos-client-1.3.3.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+2021-01-19 15:21:32.831 [com.alibaba.nacos.naming.push.receiver] ERROR com.alibaba.nacos.client.naming - [NA] error while receiving push data
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method) ~[?:1.8.0_231]
+	at java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124) ~[?:1.8.0_231]
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143) ~[?:1.8.0_231]
+	at java.net.DatagramSocket.receive(DatagramSocket.java:812) ~[?:1.8.0_231]
+	at com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:83) [nacos-client-1.3.3.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]

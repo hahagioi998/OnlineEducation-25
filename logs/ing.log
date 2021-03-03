@@ -1,47 +1,88 @@
-2021-01-19 15:21:40.315 [main] INFO  com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\harry\nacos\config
-2021-01-19 15:21:40.350 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
-2021-01-19 15:21:40.377 [main] INFO  com.alibaba.nacos.client.config.utils.JvmUtil - isMultiInstance:false
-2021-01-19 15:21:40.389 [main] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[service-edu] & group[DEFAULT_GROUP]
-2021-01-19 15:21:40.392 [main] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[service-edu.yml] & group[DEFAULT_GROUP]
-2021-01-19 15:21:40.405 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
-2021-01-19 15:21:42.597 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8766"]
-2021-01-19 15:21:42.597 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-01-19 15:21:42.598 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
-2021-01-19 15:21:42.718 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-01-19 15:21:44.543 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-01-19 15:21:44.569 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-19 15:21:44.570 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-19 15:21:44.575 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-2021-01-19 15:21:44.575 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-01-19 15:21:49.115 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
-2021-01-19 15:21:49.116 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
-2021-01-19 15:21:49.116 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
-2021-01-19 15:21:49.214 [main] INFO  com.alibaba.nacos.client.naming - [LISTENER] adding DEFAULT_GROUP@@service-edu with DEFAULT to listener map
-2021-01-19 15:21:49.218 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8766"]
-2021-01-19 15:21:49.252 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: BeatInfo{port=8766, ip='192.168.44.1', weight=1.0, serviceName='DEFAULT_GROUP@@service-edu', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
-2021-01-19 15:21:49.253 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@service-edu with instance: Instance{instanceId='null', ip='192.168.44.1', port=8766, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
-2021-01-19 15:21:49.258 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8766 register finished
-2021-01-19 15:21:50.238 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming - new ips(1) service: DEFAULT_GROUP@@service-edu@@DEFAULT -> [{"instanceId":"192.168.44.1#8766#DEFAULT#DEFAULT_GROUP@@service-edu","ip":"192.168.44.1","port":8766,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-edu","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2021-01-19 15:21:50.242 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@service-edu@@DEFAULT -> [{"instanceId":"192.168.44.1#8766#DEFAULT#DEFAULT_GROUP@@service-edu","ip":"192.168.44.1","port":8766,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-edu","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
-2021-01-19 15:21:50.260 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"192.168.44.1\",\"port\":8766,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"192.168.44.1#8766#DEFAULT#DEFAULT_GROUP@@service-edu\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@service-edu\",\"ephemeral\":true}],\"dom\":\"DEFAULT_GROUP@@service-edu\",\"name\":\"DEFAULT_GROUP@@service-edu\",\"cacheMillis\":10000,\"lastRefTime\":1611040910371,\"checksum\":\"9f0adb651bb7b089dc8c818e3d8ae6d4\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":142051600871059} from /192.168.160.4
-2021-01-19 15:21:50.548 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-01-19 15:21:50.568 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2021-01-19 15:21:50.612 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-01-19 15:21:50.859 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 14.26 seconds (JVM running for 15.947)
-2021-01-19 15:21:50.863 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.160.4_8848] [subscribe] service-edu+DEFAULT_GROUP
-2021-01-19 15:21:50.864 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.160.4_8848] [add-listener] ok, tenant=, dataId=service-edu, group=DEFAULT_GROUP, cnt=1
-2021-01-19 15:21:50.865 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.160.4_8848] [subscribe] port.yml+DEFAULT_GROUP
-2021-01-19 15:21:50.865 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.160.4_8848] [add-listener] ok, tenant=, dataId=port.yml, group=DEFAULT_GROUP, cnt=1
-2021-01-19 15:21:50.865 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.160.4_8848] [subscribe] service-edu.yml+DEFAULT_GROUP
-2021-01-19 15:21:50.866 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.160.4_8848] [add-listener] ok, tenant=, dataId=service-edu.yml, group=DEFAULT_GROUP, cnt=1
-2021-01-19 15:21:50.866 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.160.4_8848] [subscribe] service-edu-dev.yml+DEFAULT_GROUP
-2021-01-19 15:21:50.866 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.160.4_8848] [add-listener] ok, tenant=, dataId=service-edu-dev.yml, group=DEFAULT_GROUP, cnt=1
-2021-01-19 15:22:09.318 [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.160.4_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.160.4_8848] [polling-resp] config changed. dataId=port.yml, group=DEFAULT_GROUP
-2021-01-19 15:22:09.319 [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.160.4_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - get changedGroupKeys:[port.yml+DEFAULT_GROUP]
-2021-01-19 15:22:09.328 [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.160.4_8848] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.160.4_8848] [data-received] dataId=port.yml, group=DEFAULT_GROUP, tenant=null, md5=bbbf4c24a916855289ea4b45a3c60768, content=server:
-  port: 8767, type=yaml
-2021-01-19 15:22:09.329 [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.160.4_8848] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.160.4_8848] [notify-context] dataId=port.yml, group=DEFAULT_GROUP, md5=bbbf4c24a916855289ea4b45a3c60768
-2021-01-19 15:22:12.116 [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.160.4_8848] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[service-edu] & group[DEFAULT_GROUP]
-2021-01-19 15:22:12.119 [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.160.4_8848] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[service-edu.yml] & group[DEFAULT_GROUP]
-2021-01-19 15:22:12.204 [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.160.4_8848] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.160.4_8848] [notify-ok] dataId=port.yml, group=DEFAULT_GROUP, md5=bbbf4c24a916855289ea4b45a3c60768, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@194058be 
-2021-01-19 15:22:12.204 [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.160.4_8848] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.160.4_8848] [notify-listener] time cost=2875ms in ClientWorker, dataId=port.yml, group=DEFAULT_GROUP, md5=bbbf4c24a916855289ea4b45a3c60768, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@194058be 
+2021-03-03 17:33:31.263 [main] INFO  com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\harry\nacos\config
+2021-03-03 17:33:31.313 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2021-03-03 17:33:31.344 [main] INFO  com.alibaba.nacos.client.config.utils.JvmUtil - isMultiInstance:false
+2021-03-03 17:33:31.376 [main] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[service-edu] & group[DEFAULT_GROUP]
+2021-03-03 17:33:31.380 [main] WARN  com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[service-edu.yml] & group[DEFAULT_GROUP]
+2021-03-03 17:33:31.394 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - The following profiles are active: dev
+2021-03-03 17:33:34.071 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8767"]
+2021-03-03 17:33:34.072 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-03 17:33:34.073 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-03-03 17:33:34.311 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-03 17:33:36.790 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-03 17:33:36.824 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-03-03 17:33:36.825 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-03-03 17:33:36.832 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-03-03 17:33:36.832 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-03-03 17:33:41.886 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2021-03-03 17:33:41.887 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Environment :null
+2021-03-03 17:33:41.888 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from System Property :null
+2021-03-03 17:33:42.077 [main] INFO  com.alibaba.nacos.client.naming - [LISTENER] adding DEFAULT_GROUP@@service-edu with DEFAULT to listener map
+2021-03-03 17:33:42.081 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8767"]
+2021-03-03 17:33:42.120 [main] INFO  com.alibaba.nacos.client.naming - [BEAT] adding beat: BeatInfo{port=8767, ip='192.168.44.1', weight=1.0, serviceName='DEFAULT_GROUP@@service-edu', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2021-03-03 17:33:42.121 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@service-edu with instance: Instance{instanceId='null', ip='192.168.44.1', port=8767, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2021-03-03 17:33:42.128 [main] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.44.1:8767 register finished
+2021-03-03 17:33:43.131 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"192.168.44.1\",\"port\":8767,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"192.168.44.1#8767#DEFAULT#DEFAULT_GROUP@@service-edu\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@service-edu\",\"ephemeral\":true}],\"dom\":\"DEFAULT_GROUP@@service-edu\",\"name\":\"DEFAULT_GROUP@@service-edu\",\"cacheMillis\":10000,\"lastRefTime\":1614764023131,\"checksum\":\"d945670f2905e3feec53f18d31437838\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":43714656643573} from /192.168.160.4
+2021-03-03 17:33:43.146 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming - new ips(1) service: DEFAULT_GROUP@@service-edu@@DEFAULT -> [{"instanceId":"192.168.44.1#8767#DEFAULT#DEFAULT_GROUP@@service-edu","ip":"192.168.44.1","port":8767,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-edu","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2021-03-03 17:33:43.151 [com.alibaba.nacos.client.naming.updater] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@service-edu@@DEFAULT -> [{"instanceId":"192.168.44.1#8767#DEFAULT#DEFAULT_GROUP@@service-edu","ip":"192.168.44.1","port":8767,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-edu","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2021-03-03 17:33:43.531 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-03 17:33:43.611 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-03 17:33:43.674 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-03 17:33:43.983 [main] INFO  com.yzz.service_edu.edu.ServiceEduApplication - Started ServiceEduApplication in 16.542 seconds (JVM running for 18.527)
+2021-03-03 17:33:43.988 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.160.4_8848] [subscribe] service-edu+DEFAULT_GROUP
+2021-03-03 17:33:43.990 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.160.4_8848] [add-listener] ok, tenant=, dataId=service-edu, group=DEFAULT_GROUP, cnt=1
+2021-03-03 17:33:43.991 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.160.4_8848] [subscribe] port.yml+DEFAULT_GROUP
+2021-03-03 17:33:43.991 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.160.4_8848] [add-listener] ok, tenant=, dataId=port.yml, group=DEFAULT_GROUP, cnt=1
+2021-03-03 17:33:43.991 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.160.4_8848] [subscribe] service-edu.yml+DEFAULT_GROUP
+2021-03-03 17:33:43.992 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.160.4_8848] [add-listener] ok, tenant=, dataId=service-edu.yml, group=DEFAULT_GROUP, cnt=1
+2021-03-03 17:33:43.992 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-192.168.160.4_8848] [subscribe] service-edu-dev.yml+DEFAULT_GROUP
+2021-03-03 17:33:43.992 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-192.168.160.4_8848] [add-listener] ok, tenant=, dataId=service-edu-dev.yml, group=DEFAULT_GROUP, cnt=1
+2021-03-03 17:35:27.552 [http-nio-8767-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-03 17:35:27.817 [http-nio-8767-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
+2021-03-03 17:35:28.105 [http-nio-8767-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-03 17:35:29.498 [http-nio-8767-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-03 17:35:29.830 [http-nio-8767-exec-1] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
+2021-03-03 17:35:43.040 [http-nio-8767-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
+2021-03-03 17:35:43.067 [http-nio-8767-exec-4] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
+2021-03-03 17:35:46.397 [http-nio-8767-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
+2021-03-03 17:35:46.406 [http-nio-8767-exec-3] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
+2021-03-03 17:36:01.790 [http-nio-8767-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表
+2021-03-03 17:36:01.800 [http-nio-8767-exec-5] INFO  com.yzz.service_edu.edu.controller.TeacherController - 访问接口：所有讲师列表，结束
+2021-03-03 17:42:15.851 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [LISTENER] removing DEFAULT_GROUP@@service-edu with DEFAULT from listener map
+2021-03-03 17:42:15.852 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2021-03-03 17:42:15.852 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [BEAT] removing beat: DEFAULT_GROUP@@service-edu:192.168.44.1:8767 from beat map.
+2021-03-03 17:42:15.853 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@service-edu with instance: Instance{instanceId='null', ip='192.168.44.1', port=8767, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2021-03-03 17:42:15.855 [SpringContextShutdownHook] INFO  com.alibaba.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2021-03-03 17:42:15.855 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2021-03-03 17:42:16.856 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming - received push data: {"type":"dom","data":"{\"dom\":\"DEFAULT_GROUP@@service-edu\",\"hosts\":[],\"name\":\"DEFAULT_GROUP@@service-edu\",\"cacheMillis\":10000,\"lastRefTime\":1614764536870,\"checksum\":\"5de89877ea2d2b96e39bbad94afc8dc0\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":44228395460356} from /192.168.160.4
+2021-03-03 17:42:16.856 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming - removed ips(1) service: DEFAULT_GROUP@@service-edu@@DEFAULT -> [{"instanceId":"192.168.44.1#8767#DEFAULT#DEFAULT_GROUP@@service-edu","ip":"192.168.44.1","port":8767,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-edu","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2021-03-03 17:42:16.858 [com.alibaba.nacos.naming.push.receiver] INFO  com.alibaba.nacos.client.naming - current ips:(0) service: DEFAULT_GROUP@@service-edu@@DEFAULT -> []
+2021-03-03 17:42:17.763 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2021-03-03 17:42:17.763 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.EventDispatcher do shutdown begin
+2021-03-03 17:42:20.765 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.EventDispatcher do shutdown stop
+2021-03-03 17:42:20.765 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2021-03-03 17:42:23.483 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2021-03-03 17:42:26.486 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2021-03-03 17:42:26.486 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2021-03-03 17:42:26.487 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2021-03-03 17:42:26.487 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2021-03-03 17:42:26.487 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2021-03-03 17:42:26.488 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2021-03-03 17:42:26.488 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2021-03-03 17:42:26.488 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2021-03-03 17:42:26.486 [com.alibaba.nacos.naming.push.receiver] ERROR com.alibaba.nacos.client.naming - [NA] error while receiving push data
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method) ~[?:1.8.0_231]
+	at java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124) ~[?:1.8.0_231]
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143) ~[?:1.8.0_231]
+	at java.net.DatagramSocket.receive(DatagramSocket.java:812) ~[?:1.8.0_231]
+	at com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:83) [nacos-client-1.3.3.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_231]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_231]
+2021-03-03 17:42:26.509 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-03-03 17:42:26.518 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

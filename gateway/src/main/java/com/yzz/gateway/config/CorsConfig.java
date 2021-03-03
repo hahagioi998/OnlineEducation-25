@@ -40,10 +40,7 @@ import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 import org.springframework.web.util.pattern.PathPatternParser;
 
 /**
- * description:
- *
- * @author wangpeng
- * @date 2019/01/02
+ * 网关统一做后端设置跨域
  */
 @Configuration
 public class CorsConfig {
